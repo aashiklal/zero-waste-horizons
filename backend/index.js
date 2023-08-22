@@ -16,7 +16,9 @@ let db = new sqlite3.Database('./mydb.sqlite', (err) => {
 app.use(cors())
 
 app.use(express.static(path.join(__dirname, '../frontend')));
-
+app.get('/test', (req, res) => {
+  res.json({test:123});
+});
 app.listen(port, () => {
   console.log(`Listening http://localhost:${port}`);
 });
