@@ -45,6 +45,15 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: node-app
+          
+      - name: Install dependencies in backend directory
+        run: |
+          cd backend
+          npm install
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.MAINAPP }}
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
