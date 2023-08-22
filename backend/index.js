@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path')
 const app = express();
@@ -12,11 +13,8 @@ let db = new sqlite3.Database('./mydb.sqlite', (err) => {
   }
   console.log('connetced to sql db');
 });
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
+app.use(cors())
+
 app.use(express.static(path.join(__dirname, '../frontend')));
 
 app.listen(port, () => {
