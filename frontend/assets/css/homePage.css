@@ -1,0 +1,13 @@
+@media (max-width: 576px) {
+  header.masthead h1, header.masthead .h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  header.masthead p {
+    font-weight: 300;
+    font-size: 10px;
+  }
+}
+
