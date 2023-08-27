@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar {
@@ -40,16 +40,37 @@ body {
 
 .statistics-backgroud {
     padding: 50px;
-    min-height: 200px;
-
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
 }
 
 .page-name {
-    margin-top: 50px;
-    font-size: xx-large;
+    margin-top: 100px;
+    font-size: xxx-large;
     text-align: center;
 }
 
 .statistics-card {
-    padding: 20px;
+    font-size: large;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.statistic1{
+    min-height: 600px;
+    background-color: #D2691E;
+}
+
+.statistic2{
+    min-height: 600px;
+    background-color: #D2691E;
+}
+
+.statistic3{
+    min-height: 600px;
+    background-color: #D2691E;
 }
