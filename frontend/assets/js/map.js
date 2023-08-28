@@ -23,14 +23,37 @@ d3.json("assets/data/Council.geojson").then(data => {
         .enter()
         .append("path")
         .attr("d", pathGenerator)
-        .attr("fill", "white");
+        .attr("fill", "white") // Set the initial fill color to white
 
-    mapPaths.on("mouseover", function () {
-        d3.select(this)
-            .attr("fill", "blue"); // Change the fill color on mouseover
-    })
+    // Add labels (initially hidden)
+    const labels = svg.selectAll("text")
+        .data(data.features)
+        .enter()
+        .append("text")
+        .text(d => d.properties.LGA_NAME) // Use the LGA_NAME property as the label
+        .attr("x", d => pathGenerator.centroid(d)[0]) // Position the label at the centroid of the path
+        .attr("y", d => pathGenerator.centroid(d)[1])
+        .style("text-anchor", "middle")
+        .style("font-size", "x-larger")
+        .style("font-weight", "bold")
+        .style("fill", "black")
+        .style("display", "none"); // Hide labels by default
+
+    // Add interactivity to show labels on hover
+    mapPaths
+        .on("mouseover", function () {
+            d3.select(this)
+                .attr("fill", "blue"); // Change the fill color on mouseover
+
+            labels.style("display", "none"); // Hide all labels initially
+            const feature = d3.select(this).data()[0];
+            const correspondingLabel = labels.filter(d => d === feature);
+            correspondingLabel.style("display", "block"); // Show the label for the hovered feature
+        })
         .on("mouseout", function () {
             d3.select(this)
                 .attr("fill", "white"); // Change back to white on mouseout
+
+            labels.style("display", "none"); // Hide all labels on mouseout
         });
 });
