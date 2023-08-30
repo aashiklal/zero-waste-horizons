@@ -90,7 +90,87 @@ body {
 .statistic-one-column-two{
     width:25%
 }
+.statistic-one-select {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: flex-start;
+    flex-direction: column;
+}
 
+.statistic-one-label {
+    font-weight: bold;
+}
+
+.year-select,
+.waste-service-type-select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#area {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+}
+
+#councilInput{
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.council-dropdown{
+    position: relative;
+    width: 200px;
+}
+
+.council-dropdown ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    display: none;
+}
+
+.council-dropdown li{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.council-dropdown li:hover{
+    background-color: #f2f2f2;
+}
+
+.statistic-one-select p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    max-width: 200px;
+}
+
+label[for="person-generate"],
+label[for="total-generate"] {
+    font-weight: bold;
+}
+
+.statistic-one-text {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    width: fit-content; /* Adjust as needed */
+    margin-top: 10px;
+}
 
 .statistic-two{
     display: flex;
