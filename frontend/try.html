@@ -4,14 +4,14 @@
     <title>D3 Line Chart with Data Points</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
-        body {
+         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-        }
+            height: 100vh;
+            margin: 0;
+         }
 
         .chart-container {
             display: flex;
@@ -19,6 +19,7 @@
             align-items: center;
             width: 100vw;
             height: 100vh;
+            margin: 0;
         }
 
         .line-chart,
@@ -82,7 +83,7 @@
                 // set the dimensions and margins of the graph
                 const originalWidth = 800;
                 const originalHeight = 400;
-                const scaleFactor = 0.7; // scale the chart to fit the screen
+                const scaleFactor = 0.7; 
 
                 const svgWidth = originalWidth * scaleFactor;
                 const svgHeight = originalHeight * scaleFactor;
@@ -90,20 +91,20 @@
                 const width = svgWidth - margin.left - margin.right;
                 const height = svgHeight - margin.top - margin.bottom;
 
-                // create svg element
-                const svg = d3.select(".line-chart svg") // use the class name to select the svg element
+                
+                const svg = d3.select(".line-chart svg") 
                     .attr("width", svgWidth)
                     .attr("height", svgHeight)
                     .style("display", "block")
                     .style("margin", "auto");
                     
 
-                // create a group element to group the chart elements
+                
                 const g = svg.append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
                 
 
-                // create scales
+                
                 const x = d3.scaleTime()
                     .domain([new Date(2009, 0), new Date(2020, 0)])
                     .range([0, width]);
@@ -114,27 +115,27 @@
                     .range([height, 0]);
 
                 
-                // create axes
+                
                 const xAxis = d3.axisBottom(x);
-                const yAxis = d3.axisLeft(y).tickFormat(d3.format(".2s")); // two decimal places
+                const yAxis = d3.axisLeft(y).tickFormat(d3.format(".2s")); 
 
 
-                // add x axis
+                
                 g.append("g")
                     .attr("transform", "translate(0," + height + ")")
                     .call(xAxis);
 
-                // add y axis
+                
                 g.append("g")
                     .call(yAxis);
 
-                // create a line generator
+                
                 const line = d3.line()
                     .x(d => x(d.Year))
                     .y(d => y(d.totalWaste));
 
 
-                // add line path
+                
                 g.append("path")
                     .datum(formattedData)
                     .attr("fill", "none")
@@ -142,7 +143,7 @@
                     .attr("stroke-width", 5)
                     .attr("d", line);
 
-                // create data points
+                
                 const points = g.selectAll("circle")
                     .data(formattedData)
                     .enter()
@@ -159,14 +160,14 @@
                     .attr("text-anchor", "middle")
                     .text("Total Waste Production (2009-2020)");
 
-                // add x axis label
+                
                 svg.append("text")
                     .attr("x", svgWidth / 2)
                     .attr("y", svgHeight - margin.bottom / 3)
                     .attr("text-anchor", "middle")
                     .text("Year");
 
-                // add y axis label
+                
                 svg.append("text")
                     .attr("transform", "rotate(-90)")
                     .attr("x", -svgHeight / 2)
@@ -174,15 +175,13 @@
                     .attr("text-anchor", "middle")
                     .text("Total Waste (tonnes)");
 
-                // add data point tooltips
+                
                 points.on("mouseover", (event, d) => {
                     const mouseX = event.pageX;
                     const mouseY = event.pageY;
 
-                    // scale mouse coordinates to svg coordinates
                     d3.select(event.target).attr("r", 8);
                     
-                    // add tooltip
                     const tooltip = g.append("text")
                         .attr("class", "tooltip")
                         .attr("x", x(d.Year))
@@ -191,16 +190,16 @@
                         .attr("text-anchor", "middle");
                 })
                 .on("mouseout", () => {
-                    // reset data point size
+
                     d3.select(event.target).attr("r", 5);
-                    // move tooltip off screen
+
                     g.selectAll(".tooltip").remove();
                 });
 
 
             // bubble plot
             d3.csv("assets/data/WasteCollectionMonthly_cleaned.csv").then(function (data) {
-                // filter data
+
                 const filteredData = data.map(function(d) {
                     return {
                         Residential: +d.residential,
@@ -214,7 +213,7 @@
                     };
                 });
 
-                // sum up the data
+
                 let totalData = {};
                 filteredData.forEach(d => {
                     for (const [key, value] of Object.entries(d)) {
@@ -226,15 +225,14 @@
                     return {
                         label: key,
                         value: totalData[key],
-                        x: svgWidth / 2,   // set initial x position
-                        y: svgHeight / 2  // set initial y position
+                        x: svgWidth / 2,   
+                        y: svgHeight / 2  
                     };
                 });
 
-                // create svg element
                 function drawBubbleChart(data) {
-                    const width = svgWidth;  // use the same width as the line chart
-                    const height = svgHeight; // use the same height as the line chart
+                    const width = svgWidth;  
+                    const height = svgHeight; 
 
                     const color = d3.scaleLinear()
                         .domain([d3.min(data, d => d.value), d3.max(data, d => d.value)])
@@ -261,7 +259,7 @@
                         .attr("r", d => radiusScale(d.value))
                         .attr("fill", d => color(d.value));
 
-                    const minValueToShowLabel = 10000; 
+                    const minValueToShowLabel = 10000;  
 
                     bubbles.append("text")
                         .attr("text-anchor", "middle")

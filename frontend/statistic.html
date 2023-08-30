@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/ZeroWaste.png">
     <link rel="stylesheet" href="assets/css/statisticPage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +28,9 @@
 <body>
     <!-- navigation bar -->
     <div class="navbar">
+        <div class="navbar-logo">
+            <img src="assets/img/ZeroWaste.png" alt="Logo">
+        </div>
         <div class="navbar-brand">Full Moon Tech</div>
         <div class="nav-items">
             <a class="nav-link" href="index.html">HOME</a>
@@ -51,17 +55,173 @@
                 <script src="assets/js/map.js"></script>
             </div>
             <div class="statistic-one-column-two">
-                <p>The map is</p>
+                <div class="statistic-one-select">
+                    <label class="statistic-one-label">
+                        Year:
+                    </label>
+                    <select class="year-select" id="yearSelect">
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                    </select>
+
+                    <label class="statistic-one-label" for="councilInput">
+                        Council name (only in VIC):
+                    </label>
+                    <input type="text" id="councilInput" name="council" size="10" oninput="filterCouncils()">
+                    <div class="council-dropdown">
+                        <ul id="councilList">
+                            <!-- City options will be populated here -->
+                        </ul>
+                    </div>
+
+                    <form>
+                        <P>
+                            Please choose total/person waste generate:
+                        </P>
+                        <input type="radio" name="person-or-total" id="person-generate" value="person">
+                        <label for="person-generate">Person</label><br>
+                        <input type="radio" name="person-or-total" id="total-generate" value="total">
+                        <label for="total-generate">Total</label><br>
+                    </form>
+                    <label class="statistic-one-label">
+                        Waste type:
+                    </label>
+                    <select class="waste-service-type-select" id="wasteServiceSelect">
+                        <option value="premises_with_garbage_service_residential">
+                            garbage service
+                        </option>
+                        <option value="premises_with_kerbside_recycling_service_residential">
+                            kerbside recycling service
+                        </option>
+                    </select>
+                </div>
+                <div class="statistic-one-text">
+                    <p>The map is</p>
+                </div>
+
             </div>
-        </div>>
-
+        </div>
     </div>
+
+    <!-- statistic two -->
     <div class="statistic-two">
-
+        <div class="line-chart">
+            <svg id="lineChart"></svg>
+            <script src="assets/js/linechart.js"></script>
+        </div>
     </div>
+
+    <!-- statistic three -->
     <div class="statistic-three">
-
+        <div class="bubble-chart">
+            <svg id="bubbleChart"></svg>
+            <script src="assets/js/bubblechart.js"></script>
+        </div>
     </div>
+
+    <script>
+
+        const yearSelect = document.getElementById('yearSelect');
+        let selectedYear = "";
+        yearSelect.addEventListener('change', () => {
+            selectedYear = yearSelect.value;
+            console.log('Selected Year:', selectedYear);
+        });
+
+        const councilInput = document.getElementById('councilInput');
+        const councilList = document.getElementById('councilList');
+        const allCouncil = ['Alpine Shire', 'Ararat Rural City', 'Ballarat City',
+            'Banyule City', 'Bass Coast Shire', 'Baw Baw Shire',
+            'Bayside City', 'Benalla Rural City', 'Boroondara City',
+            'Brimbank City', 'Buloke Shire', 'Campaspe Shire',
+            'Cardinia Shire', 'Casey City', 'Central Goldfields Shire',
+            'Colac Otway Shire', 'Corangamite Shire', 'Darebin City',
+            'East Gippsland Shire', 'Frankston City', 'Gannawarra Shire',
+            'Glen Eira City', 'Glenelg Shire', 'Golden Plains Shire',
+            'Greater Bendigo City', 'Greater Dandenong City',
+            'Greater Geelong City', 'Greater Shepparton City', 'Hepburn Shire',
+            'Hindmarsh Shire', 'Hobsons Bay City', 'Horsham Rural City',
+            'Hume City', 'Indigo Shire', 'Kingston City', 'Knox City',
+            'Latrobe City', 'Loddon Shire', 'Macedon Ranges Shire',
+            'Manningham City', 'Mansfield Shire', 'Maribyrnong City',
+            'Maroondah City', 'Melbourne City', 'Melton City',
+            'Merri-Bek City', 'Mildura Rural City', 'Mitchell Shire',
+            'Moira Shire', 'Monash City', 'Moonee Valley City',
+            'Moorabool Shire', 'Mornington Peninsula Shire',
+            'Mount Alexander Shire', 'Moyne Shire', 'Murrindindi Shire',
+            'Nillumbik Shire', 'Northern Grampians Shire', 'Port Phillip City',
+            'Pyrenees Shire', 'Queenscliffe Borough', 'South Gippsland Shire',
+            'Southern Grampians Shire', 'Stonnington City',
+            'Strathbogie Shire', 'Surf Coast Shire', 'Swan Hill Rural City',
+            'Towong Shire', 'Wangaratta Rural City', 'Warrnambool City',
+            'Wellington Shire', 'West Wimmera Shire', 'Whitehorse City',
+            'Whittlesea City', 'Wodonga City', 'Wyndham City', 'Yarra City',
+            'Yarra Ranges Shire', 'Yarriambiack Shire'];
+        let councilName="";
+
+        function filterCouncils(){
+            const inputText = councilInput.value.toLowerCase();
+            councilList.innerHTML = '';
+
+            const filteredCouncils = allCouncil.filter(council => council.toLowerCase().includes(inputText));
+
+            filteredCouncils.forEach(council => {
+                const li = document.createElement('li');
+                li.textContent = council;
+                li.addEventListener('click', () => {
+                    councilInput.value = council;
+                    councilName = council;
+                    councilList.style.display = 'none';
+                    console.log('council name:',councilName);
+                });
+                councilList.appendChild(li);
+            });
+            if (filteredCouncils.length > 0) {
+                councilList.style.display = 'block';
+            } else {
+                councilList.style.display = 'none';
+            }
+        }
+        document.addEventListener('click', (event) => {
+            if (!councilList.contains(event.target) && event.target !== councilInput) {
+                councilList.style.display = 'none';
+            }
+        });
+
+        const personGenerateRadio = document.getElementById('person-generate');
+        const totalGenerateRadio = document.getElementById('total-generate');
+        let personOrTotalValue = ''; // Initialize a variable to store the selected value
+
+        personGenerateRadio.addEventListener('change', () => {
+            if (personGenerateRadio.checked) {
+                personOrTotalValue = personGenerateRadio.value;
+                console.log('Selected Value:', personOrTotalValue);
+            }
+        });
+        totalGenerateRadio.addEventListener('change', () => {
+            if (totalGenerateRadio.checked) {
+                personOrTotalValue = totalGenerateRadio.value;
+                console.log('Selected Value:', personOrTotalValue);
+            }
+        });
+
+        const wasteServiceSelect = document.getElementById('wasteServiceSelect');
+        let selectedWasteService = "";
+        wasteServiceSelect.addEventListener('change', () => {
+            selectedWasteService = wasteServiceSelect.value;
+            console.log('Selected Waste Service:', selectedWasteService);
+        });
+
+    </script>
 
 </body>
 
