@@ -53,7 +53,7 @@
             <div class="statistic-one-column-two">
                 <div class="statistic-one-select">
                     <label class="statistic-one-label">
-                        Year Select
+                        Year:
                     </label>
                     <select class="year-select">
                         <option>2010</option>
@@ -69,10 +69,19 @@
                         <option>2020</option>
                     </select>
                     <label class="statistic-one-label" for="area">
-                        Enter City name
+                        City name:
                     </label>
                     <input class="area input" type="text" id="area" name="area" required minlength="4" maxlength="8"
                         size="10">
+                    <form>
+                        <P>
+                            Please choose total/person waste generate
+                        </P>
+                        <input type="radio" name="person-or-total" id="person-generate" value="person-generate">
+                        <label for="person-generate">Person</label><br>
+                        <input type="radio" name="person-or-total" id="total-generate" value="total-generate">
+                        <label for="total-generate">Total</label><br>
+                    </form>
                 </div>
                 <div class="statistic-one-text">
                     <p>The map is</p>
@@ -98,6 +107,35 @@
         </div>
     </div>
 
+    <script>
+        const allCouncil = ['Alpine Shire', 'Ararat Rural City', 'Ballarat City',
+            'Banyule City', 'Bass Coast Shire', 'Baw Baw Shire',
+            'Bayside City', 'Benalla Rural City', 'Boroondara City',
+            'Brimbank City', 'Buloke Shire', 'Campaspe Shire',
+            'Cardinia Shire', 'Casey City', 'Central Goldfields Shire',
+            'Colac Otway Shire', 'Corangamite Shire', 'Darebin City',
+            'East Gippsland Shire', 'Frankston City', 'Gannawarra Shire',
+            'Glen Eira City', 'Glenelg Shire', 'Golden Plains Shire',
+            'Greater Bendigo City', 'Greater Dandenong City',
+            'Greater Geelong City', 'Greater Shepparton City', 'Hepburn Shire',
+            'Hindmarsh Shire', 'Hobsons Bay City', 'Horsham Rural City',
+            'Hume City', 'Indigo Shire', 'Kingston City', 'Knox City',
+            'Latrobe City', 'Loddon Shire', 'Macedon Ranges Shire',
+            'Manningham City', 'Mansfield Shire', 'Maribyrnong City',
+            'Maroondah City', 'Melbourne City', 'Melton City',
+            'Merri-Bek City', 'Mildura Rural City', 'Mitchell Shire',
+            'Moira Shire', 'Monash City', 'Moonee Valley City',
+            'Moorabool Shire', 'Mornington Peninsula Shire',
+            'Mount Alexander Shire', 'Moyne Shire', 'Murrindindi Shire',
+            'Nillumbik Shire', 'Northern Grampians Shire', 'Port Phillip City',
+            'Pyrenees Shire', 'Queenscliffe Borough', 'South Gippsland Shire',
+            'Southern Grampians Shire', 'Stonnington City',
+            'Strathbogie Shire', 'Surf Coast Shire', 'Swan Hill Rural City',
+            'Towong Shire', 'Wangaratta Rural City', 'Warrnambool City',
+            'Wellington Shire', 'West Wimmera Shire', 'Whitehorse City',
+            'Whittlesea City', 'Wodonga City', 'Wyndham City', 'Yarra City',
+            'Yarra Ranges Shire', 'Yarriambiack Shire']
+    </script>
 
 
 </body>
