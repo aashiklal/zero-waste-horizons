@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>D3 Line Chart with Data Points</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
-         body {
+        body {
             font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-         }
+        }
 
         .chart-container {
             display: flex;
@@ -26,8 +27,10 @@
         .bubble-chart {
             flex: 1;
             /* Specify a fixed height and width for the charts */
-            width: 300px;  /* Adjust as necessary */
-            height: 300px; /* Adjust as necessary */
+            width: 300px;
+            /* Adjust as necessary */
+            height: 300px;
+            /* Adjust as necessary */
             padding: 20px;
         }
 
@@ -43,9 +46,9 @@
             margin: auto;
             display: block;
         }
-
     </style>
 </head>
+
 <body>
     <div class="chart-container">
         <div class="line-chart">
@@ -64,11 +67,11 @@
         </select>
     </div>
 
-    <script type="text/javascript">   
+    <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function () {
-            d3.csv("WasteCollectionMonthly_cleaned.csv").then(function (data) {
+            d3.csv("assets/data/WasteCollectionMonthly_cleaned.csv").then(function (data) {
                 // 筛选需要的列并计算每行总和
-                const filteredData = data.map(function(d) {
+                const filteredData = data.map(function (d) {
                     return {
                         Year: d.date.slice(0, 4),
                         mattresses: +d.mattresses,
@@ -107,12 +110,12 @@
                     .attr("height", svgHeight)
                     .style("display", "block")
                     .style("margin", "auto");
-                    
+
 
                 // 在 SVG 中创建一个包含图表的 g 元素
                 const g = svg.append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-                
+
 
                 // 创建 x 比例尺和 y 比例尺
                 const x = d3.scaleTime()
@@ -121,7 +124,7 @@
 
                 const y = d3.scaleLinear().nice().range([height, 0]);
 
-                
+
                 // 创建 x 轴和 y 轴
                 const xAxis = d3.axisBottom(x);
                 const yAxis = d3.axisLeft(y).tickFormat(d3.format(".2s")); // 格式化为 2 位数，例如 55k
@@ -189,7 +192,7 @@
 
                     // 放大点半径
                     d3.select(event.target).attr("r", 8);
-                    
+
                     // 添加一个提示框显示数值
                     const tooltip = g.append("text")
                         .attr("class", "tooltip")
@@ -198,15 +201,15 @@
                         .text(d.totalWaste)
                         .attr("text-anchor", "middle");
                 })
-                .on("mouseout", () => {
-                    // 恢复点的半径
-                    d3.select(event.target).attr("r", 5);
-                    // 鼠标离开时移除提示框
-                    g.selectAll(".tooltip").remove();
-                });
+                    .on("mouseout", () => {
+                        // 恢复点的半径
+                        d3.select(event.target).attr("r", 5);
+                        // 鼠标离开时移除提示框
+                        g.selectAll(".tooltip").remove();
+                    });
 
                 function updateLineChart(dataType) {
-                // 清除已有的图表内容
+                    // 清除已有的图表内容
                     g.selectAll("*").remove();
 
                     // 根据dataType计算绘图数据
@@ -248,136 +251,136 @@
                         .attr("cy", d => y(d.value))
                         .attr("r", 5)
                         .attr("fill", "steelblue")
-                    
-                        svg.append("text")
-                    .attr("x", svgWidth / 2)
-                    .attr("y", margin.top / 2)
-                    .attr("text-anchor", "middle")
-                    .text("Total Waste Production (2009-2020)");
 
-                // 添加 x 轴标签
-                svg.append("text")
-                    .attr("x", svgWidth / 2)
-                    .attr("y", svgHeight - margin.bottom / 3)
-                    .attr("text-anchor", "middle")
-                    .text("Year");
-
-                // 添加 y 轴标签
-                svg.append("text")
-                    .attr("transform", "rotate(-90)")
-                    .attr("x", -svgHeight / 2)
-                    .attr("y", margin.left / 2)
-                    .attr("text-anchor", "middle")
-                    .text("Total Waste (tonnes)");
-
-                // 添加鼠标交互和数值显示
-                points.on("mouseover", (event, d) => {
-                    const mouseX = event.pageX;
-                    const mouseY = event.pageY;
-
-                    // 放大点半径
-                    d3.select(event.target).attr("r", 8);
-                    
-                    // 添加一个提示框显示数值
-                    const tooltip = g.append("text")
-                        .attr("class", "tooltip")
-                        .attr("x", x(d.Year))
-                        .attr("y", y(d.totalWaste) - 10)
-                        .text(d.totalWaste)
-                        .attr("text-anchor", "middle");
-                })
-                .on("mouseout", () => {
-                    // 恢复点的半径
-                    d3.select(event.target).attr("r", 5);
-                    // 鼠标离开时移除提示框
-                    g.selectAll(".tooltip").remove();
-                });
-                }
-        document.getElementById("data-selector").addEventListener("change", function(event) {
-            // 获取当前选择的值
-            const selectedValue = event.target.value;
-            
-            // 根据选择更新折线图
-            updateLineChart(selectedValue);
-        });
-
-            // 甜甜圈图部分的代码
-            d3.csv("WasteCollectionMonthly_cleaned.csv").then(function (data) {
-                // 筛选需要的列和计算总量
-                const filteredData = data.map(function(d) {
-                    return {
-                        residential: +d.residential,
-                        public_litter_bins: +d.public_litter_bins,
-                        dumped_rubbish: +d.dumped_rubbish,
-                        street_sweepings: +d.street_sweepings,
-                        commingled_recycling: +d.commingled_recycling,
-                        cardboard: +d.cardboard,
-                        hardwaste_total: +d.hardwaste_total,
-                        green_waste: +d.green_waste
-                    };
-                });
-
-                // 累加每种垃圾的总量
-                let totalData = {};
-                filteredData.forEach(d => {
-                    for (const [key, value] of Object.entries(d)) {
-                        totalData[key] = (totalData[key] || 0) + value;
-                    }
-                });
-
-                const bubbleData = Object.keys(totalData).map(key => {
-                    return {
-                        label: key,
-                        value: totalData[key]
-                    };
-                });
-
-                // 创建气泡图绘制函数
-                function drawBubbleChart(data) {
-                    const width = svgWidth;  // 使用折线图的缩放宽度
-                    const height = svgHeight; // 根据需要调整高度
-
-                    const color = d3.scaleOrdinal()
-                        .domain(data.map(d => d.label))
-                        .range(d3.schemeCategory10);
-
-                    const radiusScale = d3.scaleSqrt()
-                        .domain([0, d3.max(data, d => d.value)])
-                        .range([10, 60]);  // 调整最小和最大的气泡大小
-
-                    const simulation = d3.forceSimulation(data)
-                        .force("x", d3.forceX(width / 2).strength(0.05))
-                        .force("y", d3.forceY(height / 2).strength(0.05))
-                        .force("collide", d3.forceCollide(d => radiusScale(d.value) + 1));
-
-                    const svg = d3.select(".bubble-chart svg")
-                        .attr("width", svgWidth)
-                        .attr("height", svgHeight);
-
-                    const bubbles = svg.selectAll(".bubble")
-                        .data(data)
-                        .enter().append("g");
-
-                    bubbles.append("circle")
-                        .attr("r", d => radiusScale(d.value))
-                        .attr("fill", d => color(d.label));
-
-                    bubbles.append("text")
+                    svg.append("text")
+                        .attr("x", svgWidth / 2)
+                        .attr("y", margin.top / 2)
                         .attr("text-anchor", "middle")
-                        .attr("dy", ".3em")
-                        .text(d => d.label);
+                        .text("Total Waste Production (2009-2020)");
 
-                    simulation.nodes(data)
-                        .on('tick', ticked);
+                    // 添加 x 轴标签
+                    svg.append("text")
+                        .attr("x", svgWidth / 2)
+                        .attr("y", svgHeight - margin.bottom / 3)
+                        .attr("text-anchor", "middle")
+                        .text("Year");
 
-                    function ticked() {
-                        bubbles
-                            .attr("transform", d => `translate(${d.x}, ${d.y})`);
-                    }
+                    // 添加 y 轴标签
+                    svg.append("text")
+                        .attr("transform", "rotate(-90)")
+                        .attr("x", -svgHeight / 2)
+                        .attr("y", margin.left / 2)
+                        .attr("text-anchor", "middle")
+                        .text("Total Waste (tonnes)");
+
+                    // 添加鼠标交互和数值显示
+                    points.on("mouseover", (event, d) => {
+                        const mouseX = event.pageX;
+                        const mouseY = event.pageY;
+
+                        // 放大点半径
+                        d3.select(event.target).attr("r", 8);
+
+                        // 添加一个提示框显示数值
+                        const tooltip = g.append("text")
+                            .attr("class", "tooltip")
+                            .attr("x", x(d.Year))
+                            .attr("y", y(d.totalWaste) - 10)
+                            .text(d.totalWaste)
+                            .attr("text-anchor", "middle");
+                    })
+                        .on("mouseout", () => {
+                            // 恢复点的半径
+                            d3.select(event.target).attr("r", 5);
+                            // 鼠标离开时移除提示框
+                            g.selectAll(".tooltip").remove();
+                        });
                 }
+                document.getElementById("data-selector").addEventListener("change", function (event) {
+                    // 获取当前选择的值
+                    const selectedValue = event.target.value;
 
-                drawBubbleChart(bubbleData);
-            });
+                    // 根据选择更新折线图
+                    updateLineChart(selectedValue);
+                });
+
+                // 甜甜圈图部分的代码
+                d3.csv("WasteCollectionMonthly_cleaned.csv").then(function (data) {
+                    // 筛选需要的列和计算总量
+                    const filteredData = data.map(function (d) {
+                        return {
+                            residential: +d.residential,
+                            public_litter_bins: +d.public_litter_bins,
+                            dumped_rubbish: +d.dumped_rubbish,
+                            street_sweepings: +d.street_sweepings,
+                            commingled_recycling: +d.commingled_recycling,
+                            cardboard: +d.cardboard,
+                            hardwaste_total: +d.hardwaste_total,
+                            green_waste: +d.green_waste
+                        };
+                    });
+
+                    // 累加每种垃圾的总量
+                    let totalData = {};
+                    filteredData.forEach(d => {
+                        for (const [key, value] of Object.entries(d)) {
+                            totalData[key] = (totalData[key] || 0) + value;
+                        }
+                    });
+
+                    const bubbleData = Object.keys(totalData).map(key => {
+                        return {
+                            label: key,
+                            value: totalData[key]
+                        };
+                    });
+
+                    // 创建气泡图绘制函数
+                    function drawBubbleChart(data) {
+                        const width = svgWidth;  // 使用折线图的缩放宽度
+                        const height = svgHeight; // 根据需要调整高度
+
+                        const color = d3.scaleOrdinal()
+                            .domain(data.map(d => d.label))
+                            .range(d3.schemeCategory10);
+
+                        const radiusScale = d3.scaleSqrt()
+                            .domain([0, d3.max(data, d => d.value)])
+                            .range([10, 60]);  // 调整最小和最大的气泡大小
+
+                        const simulation = d3.forceSimulation(data)
+                            .force("x", d3.forceX(width / 2).strength(0.05))
+                            .force("y", d3.forceY(height / 2).strength(0.05))
+                            .force("collide", d3.forceCollide(d => radiusScale(d.value) + 1));
+
+                        const svg = d3.select(".bubble-chart svg")
+                            .attr("width", svgWidth)
+                            .attr("height", svgHeight);
+
+                        const bubbles = svg.selectAll(".bubble")
+                            .data(data)
+                            .enter().append("g");
+
+                        bubbles.append("circle")
+                            .attr("r", d => radiusScale(d.value))
+                            .attr("fill", d => color(d.label));
+
+                        bubbles.append("text")
+                            .attr("text-anchor", "middle")
+                            .attr("dy", ".3em")
+                            .text(d => d.label);
+
+                        simulation.nodes(data)
+                            .on('tick', ticked);
+
+                        function ticked() {
+                            bubbles
+                                .attr("transform", d => `translate(${d.x}, ${d.y})`);
+                        }
+                    }
+
+                    drawBubbleChart(bubbleData);
+                });
 
 
 
@@ -385,4 +388,5 @@
         });
     </script>
 </body>
+
 </html>
