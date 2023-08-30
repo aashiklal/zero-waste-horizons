@@ -64,10 +64,54 @@ body {
     min-height: 600px;
     background-color: #D2691E;
 }
+.s1{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.s1title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+.s1c1{
+    padding-left: 10%;
+    width: 75%;
+    height: auto;
+}
+.s1c2{
+    width:25%
+}
+
 
 .statistic2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;   /* 你可以选择保留或去掉这一行，根据你的实际需求 */
     min-height: 600px;
     background-color: whitesmoke;
+    margin: 0;
+}
+.statistic2 .line-chart,
+.statistic2 .donut-chart {
+    flex: 1;
+    height: 100%;
+    padding: 20px;
+}
+
+.statistic2 .line-chart {
+    background-color: #f7f7f7;
+}
+
+.statistic2 .donut-chart {
+    background-color: #f3f3f3;
+}
+.line-chart svg, .donut-chart svg {
+    width: 100%;
+    height: 100%;
 }
 
 .statistic3{
