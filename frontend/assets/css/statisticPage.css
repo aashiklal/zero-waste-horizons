@@ -60,32 +60,32 @@ body {
     margin-right: 10%;
 }
 
-.statistic1{
+.statistic-one{
     min-height: 600px;
     background-color: #D2691E;
 }
-.s1{
+.statistic-one-container{
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
 }
-.s1title{
+.statistic-one-title{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     font-size: xx-large;
 }
-.s1c1{
+.statistic-one-column-one{
     padding-left: 10%;
     width: 75%;
     height: auto;
 }
-.s1c2{
+.statistic-one-column-two{
     width:25%
 }
 
 
-.statistic2{
+.statistic-two{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@ body {
     height: 100%;
 }
 
-.statistic3{
+.statistic-three{
     min-height: 600px;
     background-color: blue;
 }
