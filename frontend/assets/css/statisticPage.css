@@ -89,8 +89,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;   /* 你可以选择保留或去掉这一行，根据你的实际需求 */
     min-height: 600px;
     background-color: whitesmoke;
     margin: 0;
