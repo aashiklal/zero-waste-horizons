@@ -18,18 +18,25 @@ body {
     z-index: 1000;
 }
 
+.navbar-logo img{
+    max-height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
 .navbar-brand {
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
-    margin-left: 5%;
+    margin-left: 10px;
 }
 
 .nav-items {
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-right: 5%;
+    margin-right: 20px;
+    margin-left: auto;
 }
 
 .nav-link {
