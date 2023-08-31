@@ -2,6 +2,9 @@ const width = 800;
 const height = 600;
 const margin = { top: 20, right: 20, bottom: 20, left: 20 };
 
+// import { councilName } from './map-select';
+// import { wasteGenerateData } from './map-select';
+
 const svg = d3.select("#map")
     .append("svg")
     .attr("width", width)
@@ -57,3 +60,4 @@ d3.json("assets/data/Council.geojson").then(data => {
             labels.style("display", "none"); // Hide all labels on mouseout
         });
 });
+
