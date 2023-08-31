@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     node
       .append("image")
       .attr("xlink:href", iconPath)
-      .attr("x", -10) // 这些数值可以根据需要进行调整
+      .attr("x", -10) 
       .attr("y", -10)
       .attr("width", 20)
       .attr("height", 20);
