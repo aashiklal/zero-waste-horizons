@@ -16,9 +16,45 @@ let db = new sqlite3.Database('./mydb.sqlite', (err) => {
 app.use(cors())
 
 app.use(express.static(path.join(__dirname, '../frontend')));
-app.get('/test', (req, res) => {
-  res.json({test:123});
+
+app.get('/person', (req, res) => {
+  const { year, council, wasteService } = req.query;
+  const query = `
+    SELECT ${wasteService}, Population 
+    FROM VLGAS 
+    WHERE financial_year = ? AND council = ?`;
+
+  db.get(query, [year, council], (err, row) => {
+    if (err) {
+      return res.status(500).json({ error: err.message });
+    }
+    if (!row) {
+      return res.status(404).json({ error: 'Not Found' });
+    }
+    const value = row[wasteService] / row['Population'];
+    res.json({ value });
+  });
 });
+
+app.get('/total', (req, res) => {
+  const { year, council, wasteService } = req.query;
+  const query = `
+    SELECT ${wasteService} 
+    FROM VLGAS 
+    WHERE financial_year = ? AND council = ?`;
+
+  db.get(query, [year, council], (err, row) => {
+    if (err) {
+      return res.status(500).json({ error: err.message });
+    }
+    if (!row) {
+      return res.status(404).json({ error: 'Not Found' });
+    }
+    const value = row[wasteService];
+    res.json({ value });
+  });
+});
+
 app.listen(port, () => {
   console.log(`Listening http://localhost:${port}`);
 });
