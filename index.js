@@ -72,6 +72,27 @@ app.get('/total', (req, res) => {
     res.json({ value });
   });
 });
+// API endpoint to get selected columns from WasteCollectionMonthly_cleaned
+app.get('/api/wastecollection/details', (req, res) => {
+  const sql = `
+    SELECT 
+      residential, 
+      public_litter_bins, 
+      dumped_rubbish, 
+      street_sweepings, 
+      commingled_recycling, 
+      cardboard, 
+      hardwaste_total, 
+      green_waste 
+    FROM WasteCollectionMonthly_cleaned
+  `;
+  db.all(sql, [], (err, rows) => {
+    if (err) {
+      return console.error(err.message);
+    }
+    res.json(rows);
+  });
+});
 
 app.listen(port, () => {
   console.log(`Listening http://localhost:${port}`);
