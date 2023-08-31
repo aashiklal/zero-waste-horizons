@@ -1,8 +1,9 @@
 const yearSelect = document.getElementById('yearSelect');
-let selectedYear = "";
+let selectedYear = "2010";
 yearSelect.addEventListener('change', () => {
     selectedYear = yearSelect.value;
     console.log('Selected Year:', selectedYear);
+    makeApiRequest()
 });
 
 const councilInput = document.getElementById('councilInput');
@@ -77,12 +78,14 @@ personGenerateRadio.addEventListener('change', () => {
     if (personGenerateRadio.checked) {
         personOrTotalValue = personGenerateRadio.value;
         console.log('Selected Value:', personOrTotalValue);
+        makeApiRequest()
     }
 });
 totalGenerateRadio.addEventListener('change', () => {
     if (totalGenerateRadio.checked) {
         personOrTotalValue = totalGenerateRadio.value;
         console.log('Selected Value:', personOrTotalValue);
+        makeApiRequest()
     }
 });
 
@@ -91,6 +94,7 @@ let selectedWasteService = "";
 wasteServiceSelect.addEventListener('change', () => {
     selectedWasteService = wasteServiceSelect.value;
     console.log('Selected Waste Service:', selectedWasteService);
+    makeApiRequest()
 });
 
 window.filterCouncils = filterCouncils;
@@ -102,24 +106,29 @@ export let wasteGenerateData = 0;
 
 // Function to make the API request
 function makeApiRequest() {
+    console.log(selectedYear , councilName , selectedWasteService)
     // Check if all necessary variables are not empty
     if (selectedYear && councilName && selectedWasteService) {
-        let apiUrl = 'your_api_url_here'; // Replace with your actual API URL
+        let apiUrl = 'https://fullmoontech.me'; // Replace with your actual API URL
 
         // Check if personOrTotalValue is "Person" and add it to the API URL
-        if (personOrTotalValue === "Person") {
+        if (personOrTotalValue === "person") {
             apiUrl += `/person/?year=${selectedYear}&council=${councilName}&wasteService=${selectedWasteService}`;
-        } else if (personOrTotalValue === "Total") {
+        } else if (personOrTotalValue === "total") {
             apiUrl += `/total/?year=${selectedYear}&council=${councilName}&wasteService=${selectedWasteService}`;
         }
-
         // Make the API request using fetch or any other method you prefer
-        fetch(apiUrl)
-            .then(response => response.json())
+        fetch(apiUrl,{
+            mode: 'cors'  // no-cors, cors, same-origin
+          })
+            .then(response => { 
+                console.log(response)
+                return response.json()})
             .then(data => {
                 // Handle the API response data here
-                wasteGenerateData = data
                 console.log(data);
+                
+                wasteGenerateData = data
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
@@ -129,6 +138,3 @@ function makeApiRequest() {
 
 // Add an event listener to detect changes and make the API request
 window.addEventListener('councilNameChange', makeApiRequest);
-personGenerateRadio.addEventListener('change', makeApiRequest);
-totalGenerateRadio.addEventListener('change', makeApiRequest);
-wasteServiceSelect.addEventListener('change', makeApiRequest);

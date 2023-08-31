@@ -15,7 +15,7 @@ let db = new sqlite3.Database('./mydb.sqlite', (err) => {
 });
 app.use(cors())
 
-app.use(express.static(path.join(__dirname, '../frontend')));
+app.use(express.static(path.join(__dirname, './frontend')));
 
 app.get('/person', (req, res) => {
   const { year, council, wasteService } = req.query;
