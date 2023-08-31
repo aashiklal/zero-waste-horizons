@@ -183,6 +183,11 @@ label[for="total-generate"] {
     padding: 20px;
 }
 
+.charts-container{
+    display: inline-flex;
+    align-items: baseline;
+}
+
 .line-chart,
 .bubble-chart {
     display: flex;
@@ -204,6 +209,10 @@ label[for="total-generate"] {
     background-color: #f2d95c;
 }
 
+.chart-with-description{
+    padding: 10px;
+}
+
 .bubble-chart svg {
     margin: auto;
     display: block;
@@ -216,7 +225,7 @@ label[for="total-generate"] {
 
 .statistic-three .tree-diagram-container {
     width: 1000px;  
-    height: 600px;
+    min-height: 600px;
     margin: auto;  
 }
 
