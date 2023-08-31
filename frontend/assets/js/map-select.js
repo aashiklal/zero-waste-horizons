@@ -108,9 +108,9 @@ function makeApiRequest() {
 
         // Check if personOrTotalValue is "Person" and add it to the API URL
         if (personOrTotalValue === "Person") {
-            apiUrl += `?year=${selectedYear}&council=${councilName}&wasteService=${selectedWasteService}&value=${wasteGenerateData}`;
+            apiUrl += `/person/?year=${selectedYear}&council=${councilName}&wasteService=${selectedWasteService}`;
         } else if (personOrTotalValue === "Total") {
-            apiUrl += `?year=${selectedYear}&council=${councilName}&wasteService=${selectedWasteService}`;
+            apiUrl += `/total/?year=${selectedYear}&council=${councilName}&wasteService=${selectedWasteService}`;
         }
 
         // Make the API request using fetch or any other method you prefer
