@@ -172,39 +172,42 @@ label[for="total-generate"] {
     margin-top: 10px;
 }
 
-.statistic-two{
-    min-height: 600px;
-    background-color: #f2d95c;
-
-    /* 以下是你为body设置的样式 */
-    font-family: Arial, sans-serif;
+/* Statistics Two*/
+.statistic-two {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-
-    .chart-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
-    }
-
-    .line-chart {
-        flex: 1;
-        width: 600px;
-        height: 600px;
-        padding: 20px;
-    }
-
-    .line-chart {
-        background-color: #f2d95c;
-    }
+    flex-wrap: wrap;
+    min-height: 600px;
+    background-color: #f2d95c;
+    padding: 20px;
 }
 
+.line-chart,
+.bubble-chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    flex: 1; 
+    max-width: 500;  
+    height: 500; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.line-chart {
+    background-color: #f2d95c;
+}
+
+.bubble-chart {
+    background-color: #f2d95c;
+}
+
+.bubble-chart svg {
+    margin: auto;
+    display: block;
+}
 
 .statistic-three {
     min-height: 800px;
