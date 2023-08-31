@@ -109,7 +109,7 @@ function makeApiRequest() {
     console.log(selectedYear , councilName , selectedWasteService)
     // Check if all necessary variables are not empty
     if (selectedYear && councilName && selectedWasteService) {
-        let apiUrl = 'https://fullmoontech.me'; // Replace with your actual API URL
+        let apiUrl = 'https://fullmoon.azurewebsites.net'; // Replace with your actual API URL
 
         // Check if personOrTotalValue is "Person" and add it to the API URL
         if (personOrTotalValue === "person") {
@@ -121,14 +121,10 @@ function makeApiRequest() {
         fetch(apiUrl,{
             mode: 'cors'  // no-cors, cors, same-origin
           })
-            .then(response => { 
-                console.log(response)
-                return response.json()})
+            .then(response =>  response.json())
             .then(data => {
                 // Handle the API response data here
-                console.log(data);
-                
-                wasteGenerateData = data
+                wasteGenerateData = data.value
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
