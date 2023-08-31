@@ -3,7 +3,7 @@
 *.out
 
 # Ignore dependencies
-/backend/node_modules
+/node_modules
 
 # Ignore build artifacts
 /build
