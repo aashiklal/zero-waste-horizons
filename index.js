@@ -35,6 +35,24 @@ app.get('/person', (req, res) => {
     res.json({ value });
   });
 });
+app.get('/api/classification', (req, res) => {
+  const sql = "SELECT * FROM Classification_cleaned";
+  db.all(sql, [], (err, rows) => {
+    if (err) {
+      return console.error(err.message);
+    }
+    res.json(rows);
+  });
+});
+app.get('/api/wastecollection', (req, res) => {
+  const sql = "SELECT substr(date, 1, 4) as year, total_waste FROM WasteCollectionMonthly_cleaned";
+  db.all(sql, [], (err, rows) => {
+    if (err) {
+      return console.error(err.message);
+    }
+    res.json(rows);
+  });
+});
 
 app.get('/total', (req, res) => {
   const { year, council, wasteService } = req.query;
