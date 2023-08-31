@@ -2,8 +2,8 @@ const width = 800;
 const height = 600;
 const margin = { top: 20, right: 20, bottom: 20, left: 20 };
 
-// import { councilName } from './map-select';
-// import { wasteGenerateData } from './map-select';
+import { councilName } from './map-select.js';
+import { wasteGenerateData } from './map-select.js';
 
 const svg = d3.select("#map")
     .append("svg")
@@ -26,7 +26,8 @@ d3.json("assets/data/Council.geojson").then(data => {
         .enter()
         .append("path")
         .attr("d", pathGenerator)
-        .attr("fill", "white") // Set the initial fill color to white
+        .attr("fill", d => d.properties.LGA_NAME === councilName ? "red" : "white") // Change fill color conditionally
+        .attr("opacity", d => d.properties.LGA_NAME === councilName ? 0.7 : 1) // Set opacity conditionally
 
     // Add labels (initially hidden)
     const labels = svg.selectAll("text")
@@ -59,5 +60,31 @@ d3.json("assets/data/Council.geojson").then(data => {
 
             labels.style("display", "none"); // Hide all labels on mouseout
         });
+
+    // Update mapPaths on councilName change
+    function updateMap() {
+        mapPaths
+            .attr("fill", d => d.properties.LGA_NAME === councilName ? "red" : "white")
+            .attr("opacity", d => d.properties.LGA_NAME === councilName ? 0.7 : 1);
+
+        // Display LGA-NAME and wasteGenerateData
+        if (councilName !== "") {
+            labels.style("display", "none");
+            const matchingFeature = data.features.find(feature => feature.properties.LGA_NAME === councilName);
+            if (matchingFeature) {
+                const correspondingLabel = labels.filter(d => d === matchingFeature);
+                correspondingLabel.style("display", "block");
+
+                // Here you can use wasteGenerateData to display the data
+                // For example, you can append it to the correspondingLabel
+                correspondingLabel.text(d => `${d.properties.LGA_NAME}: ${wasteGenerateData}`);
+            }
+        } else {
+            labels.style("display", "none");
+        }
+    }
+
+    // Call the updateMap function when councilName changes
+    window.addEventListener('councilNameChange', updateMap);
 });
 
