@@ -34,7 +34,7 @@ const allCouncil = ['Alpine Shire', 'Ararat Rural City', 'Ballarat City',
     'Wellington Shire', 'West Wimmera Shire', 'Whitehorse City',
     'Whittlesea City', 'Wodonga City', 'Wyndham City', 'Yarra City',
     'Yarra Ranges Shire', 'Yarriambiack Shire'];
-let councilName = "";
+export let councilName = "";
 
 function filterCouncils() {
     const inputText = councilInput.value.toLowerCase();
@@ -58,12 +58,15 @@ function filterCouncils() {
     } else {
         councilList.style.display = 'none';
     }
+    const event = new Event('councilNameChange');
+    window.dispatchEvent(event);
 }
 document.addEventListener('click', (event) => {
     if (!councilList.contains(event.target) && event.target !== councilInput) {
         councilList.style.display = 'none';
     }
 });
+export { filterCouncils };
 
 
 const personGenerateRadio = document.getElementById('person-generate');
@@ -90,4 +93,9 @@ wasteServiceSelect.addEventListener('change', () => {
     console.log('Selected Waste Service:', selectedWasteService);
 });
 
-let wasteGenerateData = 20; 
+window.filterCouncils = filterCouncils;
+
+// 当 selectedYear，councilName，  personOrTotalValue， selectedWasteService 都不是空的时候请求数据
+// 要selectedYear 和councilName 相同的值， selectedWasteService的值是列的名字，如果personOrTotalValue 是Person就要除人口那一列的值
+// 如果是totlal，就直接返回值就行
+export let wasteGenerateData = 20;
