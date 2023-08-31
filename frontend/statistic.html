@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Zero Waste Horizons</title>
-    <style></style>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
     <script>
         window.onload = function () {
             const navbarBrand = document.querySelector('.navbar-brand');
@@ -21,7 +22,7 @@
                 });
             });
         };
-    </script>
+    </script>    
     <script src="https://d3js.org/d3.v7.js"></script>
 </head>
 
@@ -32,17 +33,18 @@
             waste.</p>
     </div>
     <!-- navigation bar -->
-    <div class="navbar">
-        <div class="navbar-logo">
-            <img src="assets/img/ZeroWaste.png" alt="Logo">
+    <nav class="navbar navbar-expand-md fixed-top bg-dark py-3" data-bs-theme="dark">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><img src="assets/img/favicon.png" width="35" height="35"></span><span>Zero Waste Horizons</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-5">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" id="home" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" id="dashboard" href="statistic.html">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Feature2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Feature3</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="navbar-brand">Zero Waste Horizons</div>
-        <div class="nav-items">
-            <a class="nav-link" href="index.html">HOME</a>
-            <a class="nav-link" href="#">ABOUT</a>
-            <a class="nav-link" href="#">SERVICES</a>
-        </div>
-    </div>
+    </nav>
     <!-- background part -->
     <div class="statistics-backgroud" style="background-image: url('assets/img/statistics-background.jpg');">
         <h1 class="page-name">Waste Management Visualization</h1>
@@ -188,7 +190,7 @@
             classification of waste in different categories and obtain their corresponding conversion rates by
             clicking on the small trash bin icons in the tree map.</p>
     </div>
-
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
