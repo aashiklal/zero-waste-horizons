@@ -86,5 +86,8 @@ d3.json("assets/data/Council.geojson").then(data => {
 
     // Call the updateMap function when councilName changes
     window.addEventListener('councilNameChange', updateMap);
+
+    const loadingOverlay = document.querySelector('.loading-overlay');
+    loadingOverlay.style.display = 'none';
 });
 
