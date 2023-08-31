@@ -1,0 +1,489 @@
+financial_year,wpm_material_type,wpm_material_name,waste_stream,recycled,export_interstate,export_international,disposal,recovery_rate
+2005,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,9998.0,0.0,0.0,0.0,1.0
+2005,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,16752.0,0.0,0.0,0.0,1.0
+2005,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,4.0,0.0,0.0,0.0,1.0
+2005,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,476.0,0.0,0.0,0.0,1.0
+2005,Glass,Container glass,Municipal Solid Waste,97642.0,0.0,0.0,0.0,1.0
+2005,Metals,Aluminium,Municipal Solid Waste,1491.0,0.0,0.0,0.0,1.0
+2005,Metals,Ferrous,Municipal Solid Waste,112422.0,0.0,0.0,0.0,1.0
+2005,Metals,Other metals,Municipal Solid Waste,2086.0,0.0,0.0,0.0,1.0
+2005,Organics,Food organics,Municipal Solid Waste,3500.0,0.0,0.0,0.0,1.0
+2005,Organics,Garden organics,Municipal Solid Waste,199956.0,0.0,0.0,0.0,1.0
+2005,Organics,Other organics,Municipal Solid Waste,358.0,0.0,0.0,0.0,1.0
+2005,Organics,Wood /timber,Municipal Solid Waste,1438.0,0.0,0.0,0.0,1.0
+2005,Paper and cardboard,Cardboard,Municipal Solid Waste,61253.0,0.0,0.0,0.0,1.0
+2005,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,113451.0,0.0,0.0,0.0,1.0
+2005,Paper and cardboard,Other paper,Municipal Solid Waste,10004.0,0.0,0.0,0.0,1.0
+2005,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,52420.0,0.0,0.0,0.0,1.0
+2005,Textiles,Clothing,Municipal Solid Waste,5000.0,0.0,0.0,0.0,1.0
+2005,Tyres and rubber,Passenger tyres,Municipal Solid Waste,200.0,0.0,0.0,0.0,1.0
+2005,Tyres and rubber,Truck tyres,Municipal Solid Waste,221.0,0.0,0.0,0.0,1.0
+2006,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,64565.0,0.0,0.0,0.0,1.0
+2006,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,11090.0,0.0,0.0,0.0,1.0
+2006,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,49488.0,0.0,0.0,0.0,1.0
+2006,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,1708.0,0.0,0.0,0.0,1.0
+2006,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,7392.0,0.0,0.0,0.0,1.0
+2006,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,2777.0,0.0,0.0,0.0,1.0
+2006,Glass,Container glass,Municipal Solid Waste,160191.0,0.0,0.0,0.0,1.0
+2006,Glass,Other glass,Municipal Solid Waste,703.0,0.0,0.0,0.0,1.0
+2006,Metals,Aluminium,Municipal Solid Waste,7978.0,0.0,0.0,0.0,1.0
+2006,Metals,Ferrous,Municipal Solid Waste,148842.2,0.0,0.0,0.0,1.0
+2006,Metals,Other metals,Municipal Solid Waste,3452.0,0.0,0.0,0.0,1.0
+2006,Organics,Food organics,Municipal Solid Waste,95.0,0.0,0.0,0.0,1.0
+2006,Organics,Garden organics,Municipal Solid Waste,248900.0,0.0,0.0,0.0,1.0
+2006,Organics,Wood /timber,Municipal Solid Waste,5036.5,0.0,0.0,0.0,1.0
+2006,Paper and cardboard,Cardboard,Municipal Solid Waste,23831.7,0.0,0.0,0.0,1.0
+2006,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,21879.0,0.0,0.0,0.0,1.0
+2006,Paper and cardboard,Other paper,Municipal Solid Waste,135379.0,0.0,0.0,0.0,1.0
+2006,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,152.0,0.0,0.0,0.0,1.0
+2006,Textiles,Other textiles,Municipal Solid Waste,2194.0,0.0,0.0,0.0,1.0
+2006,Tyres and rubber,Offroad tyres,Municipal Solid Waste,138.0,0.0,0.0,0.0,1.0
+2006,Tyres and rubber,Passenger tyres,Municipal Solid Waste,80.0,0.0,0.0,0.0,1.0
+2006,Tyres and rubber,Truck tyres,Municipal Solid Waste,782.0,0.0,0.0,0.0,1.0
+2007,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,25503.0,0.0,0.0,770.327661,0.97068
+2007,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,8407.0,0.0,0.0,50597.899365,0.142479
+2007,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,107669.0,0.0,0.0,410.802056,0.996199
+2007,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,775.0,0.0,0.0,4562.767118,0.145191
+2007,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,5130.0,0.0,0.0,3082.106967,0.624687
+2007,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,13269.0,0.0,0.0,16060.744447,0.452407
+2007,Glass,Container glass,Municipal Solid Waste,155330.0,0.0,0.0,40382.404132,0.793664
+2007,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,39988.057488,0.0
+2007,Metals,Aluminium,Municipal Solid Waste,1903.0,0.0,0.0,21799.925475,0.080285
+2007,Metals,Ferrous,Municipal Solid Waste,64686.2,0.0,0.0,36619.473596,0.638524
+2007,Metals,Other metals,Municipal Solid Waste,35859.0,0.0,0.0,0.0,1.0
+2007,Organics,Food organics,Municipal Solid Waste,1103.0,0.0,0.0,662478.657819,0.001662
+2007,Organics,Garden organics,Municipal Solid Waste,286762.0,0.0,0.0,104974.430008,0.732027
+2007,Organics,Other organics,Municipal Solid Waste,0.0,0.0,0.0,104706.550936,0.0
+2007,Organics,Wood /timber,Municipal Solid Waste,14313.5,0.0,0.0,29298.803915,0.328198
+2007,Paper and cardboard,Cardboard,Municipal Solid Waste,3983.7,0.0,0.0,38482.424618,0.093808
+2007,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,12.0,0.0,0.0,29218.66039,0.00041
+2007,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,8316.0,0.0,0.0,0.0,1.0
+2007,Paper and cardboard,Other paper,Municipal Solid Waste,155090.0,0.0,0.0,131479.270164,0.541195
+2007,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,159.0,0.0,0.0,87773.117369,0.001808
+2007,Plastic,HDPE (2),Municipal Solid Waste,0.0,0.0,0.0,74795.770612,0.0
+2007,Plastic,LDPE (4),Municipal Solid Waste,0.0,0.0,0.0,35675.898426,0.0
+2007,Plastic,Other plastics (7),Municipal Solid Waste,0.0,0.0,0.0,88206.618519,0.0
+2007,Plastic,PET (1),Municipal Solid Waste,0.0,0.0,0.0,49910.77446,0.0
+2007,Plastic,PP (5),Municipal Solid Waste,0.0,0.0,0.0,38266.885463,0.0
+2007,Plastic,PS (6),Municipal Solid Waste,0.0,0.0,0.0,9965.334757,0.0
+2007,Plastic,PVC (3),Municipal Solid Waste,0.0,0.0,0.0,25112.643584,0.0
+2007,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,65175.878481,0.0
+2007,Textiles,Other textiles,Municipal Solid Waste,414.0,0.0,0.0,21341.994479,0.019029
+2007,Tyres and rubber,Offroad tyres,Municipal Solid Waste,967.0,0.0,0.0,0.0,1.0
+2007,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,0.0,2560.56334,0.0
+2007,Tyres and rubber,Passenger tyres,Municipal Solid Waste,338.0,0.0,0.0,0.0,1.0
+2007,Tyres and rubber,Truck tyres,Municipal Solid Waste,243.0,0.0,0.0,0.0,1.0
+2008,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,27631.0,0.0,0.0,763.084192,0.973125
+2008,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,5374.0,0.0,0.0,50122.122194,0.096835
+2008,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,81091.0,0.0,0.0,406.939243,0.995006
+2008,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,32.0,0.0,0.0,4519.862957,0.00703
+2008,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,0.0,0.0,0.0,3053.125603,0.0
+2008,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,2207.0,0.0,0.0,15909.723641,0.121821
+2008,Glass,Container glass,Municipal Solid Waste,161343.0,0.0,0.0,40002.684297,0.801323
+2008,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,39612.045735,0.0
+2008,Metals,Aluminium,Municipal Solid Waste,946.0,0.0,0.0,21594.938568,0.041968
+2008,Metals,Ferrous,Municipal Solid Waste,170322.88,0.0,0.0,36275.136978,0.824416
+2008,Metals,Other metals,Municipal Solid Waste,11749.0,0.0,0.0,0.0,1.0
+2008,Organics,Food organics,Municipal Solid Waste,0.0,0.0,0.0,656249.303917,0.0
+2008,Organics,Garden organics,Municipal Solid Waste,312070.0,0.0,0.0,103987.344813,0.750064
+2008,Organics,Other organics,Municipal Solid Waste,35088.0,0.0,0.0,103721.984635,0.252777
+2008,Organics,Wood /timber,Municipal Solid Waste,35922.9,0.0,0.0,29023.304295,0.553117
+2008,Paper and cardboard,Cardboard,Municipal Solid Waste,172247.78,0.0,0.0,38120.570483,0.818791
+2008,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,2.0,0.0,0.0,28943.914368,6.9e-05
+2008,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,13404.0,0.0,0.0,0.0,1.0
+2008,Paper and cardboard,Other paper,Municipal Solid Waste,24768.0,0.0,0.0,130242.957274,0.159782
+2008,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,1288.0,0.0,0.0,86947.777859,0.014597
+2008,Plastic,HDPE (2),Municipal Solid Waste,0.0,0.0,0.0,74092.458408,0.0
+2008,Plastic,LDPE (4),Municipal Solid Waste,0.0,0.0,0.0,35340.434342,0.0
+2008,Plastic,Other plastics (7),Municipal Solid Waste,0.0,0.0,0.0,87377.202753,0.0
+2008,Plastic,PET (1),Municipal Solid Waste,0.0,0.0,0.0,49441.458393,0.0
+2008,Plastic,PP (5),Municipal Solid Waste,0.0,0.0,0.0,37907.058065,0.0
+2008,Plastic,PS (6),Municipal Solid Waste,0.0,0.0,0.0,9871.629706,0.0
+2008,Plastic,PVC (3),Municipal Solid Waste,0.0,0.0,0.0,24876.506855,0.0
+2008,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,64563.023096,0.0
+2008,Textiles,Other textiles,Municipal Solid Waste,355.6,0.0,0.0,21141.313543,0.016541
+2008,Tyres and rubber,Offroad tyres,Municipal Solid Waste,1028.0,0.0,0.0,0.0,1.0
+2008,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,0.0,2536.486103,0.0
+2008,Tyres and rubber,Passenger tyres,Municipal Solid Waste,198.0,0.0,0.0,0.0,1.0
+2008,Tyres and rubber,Truck tyres,Municipal Solid Waste,161.0,0.0,0.0,0.0,1.0
+2009,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,12000.0,0.0,0.0,814.438054,0.936443
+2009,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,4083.0,0.0,0.0,53495.229073,0.070912
+2009,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,188152.0,0.0,0.0,434.325345,0.997696
+2009,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,0.0,0.0,0.0,4824.039639,0.0
+2009,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,0.0,0.0,0.0,3258.594137,0.0
+2009,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,2000.0,0.0,0.0,16980.412509,0.105371
+2009,Glass,Container glass,Municipal Solid Waste,108748.0,0.0,0.0,42694.775607,0.718079
+2009,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,42277.847941,0.0
+2009,Metals,Aluminium,Municipal Solid Waste,454.0,0.0,0.0,23048.229702,0.019317
+2009,Metals,Ferrous,Municipal Solid Waste,255333.32,0.0,0.0,38716.372678,0.868333
+2009,Metals,Other metals,Municipal Solid Waste,9671.0,0.0,0.0,0.0,1.0
+2009,Organics,Food organics,Municipal Solid Waste,0.0,0.0,0.0,700413.416378,0.0
+2009,Organics,Garden organics,Municipal Solid Waste,340432.0,0.0,0.0,110985.460869,0.75414
+2009,Organics,Other organics,Municipal Solid Waste,35505.0,0.0,0.0,110702.242544,0.24284
+2009,Organics,Wood /timber,Municipal Solid Waste,30459.6,0.0,0.0,30976.507852,0.495793
+2009,Paper and cardboard,Cardboard,Municipal Solid Waste,61298.92,0.0,0.0,40685.999734,0.601058
+2009,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,30891.77516,0.0
+2009,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,30751.0,0.0,0.0,0.0,1.0
+2009,Paper and cardboard,Other paper,Municipal Solid Waste,177554.0,0.0,0.0,139008.017409,0.560882
+2009,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,981.0,0.0,0.0,92799.169116,0.01046
+2009,Plastic,HDPE (2),Municipal Solid Waste,0.0,0.0,0.0,79078.715378,0.0
+2009,Plastic,LDPE (4),Municipal Solid Waste,0.0,0.0,0.0,37718.766641,0.0
+2009,Plastic,Other plastics (7),Municipal Solid Waste,0.0,0.0,0.0,93257.493347,0.0
+2009,Plastic,PET (1),Municipal Solid Waste,0.0,0.0,0.0,52768.758119,0.0
+2009,Plastic,PP (5),Municipal Solid Waste,0.0,0.0,0.0,40458.118409,0.0
+2009,Plastic,PS (6),Municipal Solid Waste,0.0,0.0,0.0,10535.968336,0.0
+2009,Plastic,PVC (3),Municipal Solid Waste,0.0,0.0,0.0,26550.640206,0.0
+2009,Textiles,Clothing,Municipal Solid Waste,500.0,0.0,0.0,68907.970353,0.007203
+2009,Textiles,Other textiles,Municipal Solid Waste,678.4,0.0,0.0,22564.076727,0.029187
+2009,Tyres and rubber,Offroad tyres,Municipal Solid Waste,962.0,0.0,0.0,0.0,1.0
+2009,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,0.0,2707.185953,0.0
+2009,Tyres and rubber,Passenger tyres,Municipal Solid Waste,481.0,0.0,0.0,0.0,1.0
+2009,Tyres and rubber,Truck tyres,Municipal Solid Waste,981.0,0.0,0.0,0.0,1.0
+2010,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,3394.0,0.0,0.0,814.927222,0.806381
+2010,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,2216.0,0.0,0.0,53527.359358,0.039753
+2010,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,171552.0,0.0,0.0,434.586209,0.997473
+2010,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,234.0,0.0,0.0,4826.937052,0.046236
+2010,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,0.0,0.0,0.0,3260.551314,0.0
+2010,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,546.0,0.0,0.0,16990.611278,0.031134
+2010,Glass,Container glass,Municipal Solid Waste,113422.0,0.0,0.0,42720.418928,0.7264
+2010,Glass,Other glass,Municipal Solid Waste,2518.0,0.0,0.0,42303.240847,0.056178
+2010,Metals,Aluminium,Municipal Solid Waste,6530.0,0.0,0.0,23062.072921,0.220667
+2010,Metals,Ferrous,Municipal Solid Waste,152270.32,0.0,0.0,38739.626492,0.797185
+2010,Metals,Other metals,Municipal Solid Waste,12882.0,0.0,0.0,0.0,1.0
+2010,Organics,Food organics,Municipal Solid Waste,0.0,0.0,0.0,700834.098436,0.0
+2010,Organics,Garden organics,Municipal Solid Waste,348527.0,0.0,0.0,111052.120918,0.758361
+2010,Organics,Other organics,Municipal Solid Waste,12879.0,0.0,0.0,110768.732485,0.104158
+2010,Organics,Wood /timber,Municipal Solid Waste,16269.6,0.0,0.0,30995.11295,0.344222
+2010,Paper and cardboard,Cardboard,Municipal Solid Waste,27589.92,0.0,0.0,40710.436546,0.403949
+2010,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,30910.329367,0.0
+2010,Paper and cardboard,Other paper,Municipal Solid Waste,187015.0,0.0,0.0,139091.508355,0.573478
+2010,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,8297.0,0.0,0.0,92854.90612,0.082025
+2010,Plastic,HDPE (2),Municipal Solid Waste,0.0,0.0,0.0,79126.211607,0.0
+2010,Plastic,LDPE (4),Municipal Solid Waste,0.0,0.0,0.0,37741.421274,0.0
+2010,Plastic,Other plastics (7),Municipal Solid Waste,0.0,0.0,0.0,93313.505628,0.0
+2010,Plastic,PET (1),Municipal Solid Waste,0.0,0.0,0.0,52800.452071,0.0
+2010,Plastic,PP (5),Municipal Solid Waste,0.0,0.0,0.0,40482.418349,0.0
+2010,Plastic,PS (6),Municipal Solid Waste,0.0,0.0,0.0,10542.296445,0.0
+2010,Plastic,PVC (3),Municipal Solid Waste,0.0,0.0,0.0,26566.587042,0.0
+2010,Textiles,Clothing,Municipal Solid Waste,500.0,0.0,0.0,68949.357834,0.007199
+2010,Textiles,Other textiles,Municipal Solid Waste,678.4,0.0,0.0,22577.629155,0.02917
+2010,Tyres and rubber,Offroad tyres,Municipal Solid Waste,977.0,0.0,0.0,0.0,1.0
+2010,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,0.0,2708.811942,0.0
+2010,Tyres and rubber,Passenger tyres,Municipal Solid Waste,663.0,0.0,0.0,0.0,1.0
+2010,Tyres and rubber,Truck tyres,Municipal Solid Waste,700.0,0.0,0.0,0.0,1.0
+2011,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,22695.0,0.0,0.0,771.713704,0.967114
+2011,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,2625.0,0.0,0.0,50688.939644,0.049236
+2011,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,23413.0,0.0,0.0,411.541208,0.982726
+2011,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,58.0,0.0,0.0,4570.976858,0.012529
+2011,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,0.0,0.0,0.0,3087.652571,0.0
+2011,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,25121.0,0.0,0.0,16089.642379,0.609575
+2011,Glass,Container glass,Municipal Solid Waste,136249.0,0.0,0.0,40455.063776,0.771057
+2011,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,40060.007589,0.0
+2011,Metals,Aluminium,Municipal Solid Waste,0.0,0.0,0.0,21839.149856,0.0
+2011,Metals,Ferrous,Municipal Solid Waste,149734.2,0.0,0.0,36685.362639,0.80321
+2011,Metals,Other metals,Municipal Solid Waste,13271.0,0.0,0.0,0.0,1.0
+2011,Organics,Food organics,Municipal Solid Waste,0.0,0.0,0.0,663670.648843,0.0
+2011,Organics,Garden organics,Municipal Solid Waste,456732.0,0.0,0.0,105163.309417,0.812841
+2011,Organics,Other organics,Municipal Solid Waste,70331.0,0.0,0.0,104894.948354,0.401373
+2011,Organics,Wood /timber,Municipal Solid Waste,20391.0,0.0,0.0,29351.520951,0.40993
+2011,Paper and cardboard,Cardboard,Municipal Solid Waste,22771.2,0.0,0.0,38551.665647,0.371332
+2011,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,29271.233225,0.0
+2011,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,9381.0,0.0,0.0,0.0,1.0
+2011,Paper and cardboard,Other paper,Municipal Solid Waste,259023.0,0.0,0.0,131715.839461,0.662905
+2011,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,0.0,0.0,0.0,87931.046635,0.0
+2011,Plastic,HDPE (2),Municipal Solid Waste,32418.1372870974,384.471196712348,0.0,74930.349871,0.30448
+2011,Plastic,LDPE (4),Municipal Solid Waste,19321.7434164955,83.6183862457742,0.0,35740.089703,0.351894
+2011,Plastic,Other plastics (7),Municipal Solid Waste,2307.6123851174,0.0,0.0,88365.327779,0.025449
+2011,Plastic,PET (1),Municipal Solid Waste,25874.6048138289,0.0,0.0,50000.578401,0.341015
+2011,Plastic,PP (5),Municipal Solid Waste,10993.1846573387,97.6881998160228,0.0,38335.738676,0.22439
+2011,Plastic,PS (6),Municipal Solid Waste,2684.23828276438,286.760858705499,0.0,9983.265281,0.229345
+2011,Plastic,PVC (3),Municipal Solid Waste,1704.03321311105,0.0,0.0,25157.828506,0.063436
+2011,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,65293.148768,0.0
+2011,Textiles,Other textiles,Municipal Solid Waste,1184.0,0.0,0.0,21380.39491,0.052472
+2011,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,0.0,2565.170535,0.0
+2011,Tyres and rubber,Passenger tyres,Municipal Solid Waste,1343.0,0.0,0.0,0.0,1.0
+2012,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,2395.0,0.0,0.0,724.487619,0.767754
+2012,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,2083.0,0.0,0.0,47586.960068,0.041936
+2012,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,17528.0,0.0,0.0,386.356376,0.978433
+2012,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,0.0,0.0,0.0,4291.249624,0.0
+2012,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,0.0,0.0,0.0,2898.699413,0.0
+2012,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,546.0,0.0,0.0,15105.014521,0.034885
+2012,Glass,Container glass,Municipal Solid Waste,110078.0,0.0,0.0,37979.360349,0.743482
+2012,Glass,Other glass,Municipal Solid Waste,5300.0,0.0,0.0,37608.480169,0.123518
+2012,Metals,Aluminium,Municipal Solid Waste,2500.0,0.0,0.0,20502.672958,0.108683
+2012,Metals,Ferrous,Municipal Solid Waste,191190.44,0.0,0.0,34440.351271,0.847359
+2012,Metals,Other metals,Municipal Solid Waste,7895.0,0.0,0.0,0.0,1.0
+2012,Organics,Food organics,Municipal Solid Waste,0.0,0.0,0.0,623056.408094,0.0
+2012,Organics,Garden organics,Municipal Solid Waste,378574.0,0.0,0.0,98727.695647,0.793154
+2012,Organics,Other organics,Municipal Solid Waste,12509.0,0.0,0.0,98475.757309,0.112709
+2012,Organics,Wood /timber,Municipal Solid Waste,18603.7,0.0,0.0,27555.314142,0.403035
+2012,Paper and cardboard,Cardboard,Municipal Solid Waste,149927.14,0.0,0.0,36192.443295,0.805541
+2012,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,27479.939734,0.0
+2012,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,31040.0,0.0,0.0,0.0,1.0
+2012,Paper and cardboard,Other paper,Municipal Solid Waste,51076.0,0.0,0.0,123655.306991,0.292311
+2012,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,178.0,0.0,0.0,82549.984954,0.002151
+2012,Plastic,HDPE (2),Municipal Solid Waste,32310.4738950825,995.928273022179,0.0,70344.883762,0.321331
+2012,Plastic,LDPE (4),Municipal Solid Waste,19552.7179903339,243.015935026781,0.0,33552.925618,0.371063
+2012,Plastic,Other plastics (7),Municipal Solid Waste,2384.32086164699,0.0,0.0,82957.689664,0.027938
+2012,Plastic,PET (1),Municipal Solid Waste,25903.0618359762,0.0,0.0,46940.724042,0.355597
+2012,Plastic,PP (5),Municipal Solid Waste,12914.702668948,223.054722913252,0.0,35989.730273,0.267421
+2012,Plastic,PS (6),Municipal Solid Waste,3002.1434688845,134.207859684198,0.0,9372.325592,0.250734
+2012,Plastic,PVC (3),Municipal Solid Waste,1350.36009392936,0.0,0.0,23618.260491,0.054082
+2012,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,61297.444471,0.0
+2012,Textiles,Other textiles,Municipal Solid Waste,502.8,0.0,0.0,20071.992153,0.024437
+2012,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,0.0,2408.191386,0.0
+2012,Tyres and rubber,Passenger tyres,Municipal Solid Waste,610.0,0.0,0.0,0.0,1.0
+2013,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,4896.0,0.0,0.0,757.365664,0.866032
+2013,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,2161.0,0.0,0.0,49746.508652,0.041631
+2013,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,16844.0,0.0,0.0,403.889653,0.976583
+2013,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,0.0,0.0,0.0,4485.991252,0.0
+2013,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,475.0,0.0,0.0,3030.24558,0.135511
+2013,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,546.0,0.0,0.0,15790.496693,0.033422
+2013,Glass,Container glass,Municipal Solid Waste,108743.0,0.0,574.315697,39702.905491,0.733573
+2013,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,39315.194361,0.0
+2013,Metals,Aluminium,Municipal Solid Waste,0.0,0.0,19.677219,21433.106805,0.000917
+2013,Metals,Ferrous,Municipal Solid Waste,224738.44,0.0,150154.874124,36003.29229,0.912378
+2013,Metals,Other metals,Municipal Solid Waste,12580.0,0.0,1298.498115,0.0,1.0
+2013,Organics,Food organics,Municipal Solid Waste,0.0,0.0,5640.100362,651331.393132,0.008585
+2013,Organics,Garden organics,Municipal Solid Waste,329680.0,0.0,0.0,103208.067057,0.761582
+2013,Organics,Other organics,Municipal Solid Waste,41114.0,0.0,26.106095,102944.695479,0.285527
+2013,Organics,Wood /timber,Municipal Solid Waste,17728.7,0.0,0.998531,28805.804602,0.380992
+2013,Paper and cardboard,Cardboard,Municipal Solid Waste,69218.14,0.0,10946.51345,37834.896175,0.679364
+2013,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,28727.009622,0.0
+2013,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,14753.0,0.0,36920.37325,0.0,1.0
+2013,Paper and cardboard,Other paper,Municipal Solid Waste,2526.0,0.0,74198.327265,129266.920819,0.372464
+2013,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,0.0,0.0,0.0,86296.19406,0.0
+2013,Plastic,HDPE (2),Municipal Solid Waste,7931.585658,902.947648530695,25616.170084,73537.211952,0.319023
+2013,Plastic,LDPE (4),Municipal Solid Waste,14103.94828,214.374706597044,2230.35865,35075.594284,0.32056
+2013,Plastic,Other plastics (7),Municipal Solid Waste,2143.322583,0.0,44.4286,86722.40086,0.024606
+2013,Plastic,PET (1),Municipal Solid Waste,0.0,26.7899700510258,29888.986955,46048.945198,0.393811
+2013,Plastic,PP (5),Municipal Solid Waste,11881.786227,240.328995537394,3282.497878,37622.983814,0.290501
+2013,Plastic,PS (6),Municipal Solid Waste,1220.64008,147.079918179707,1222.935793,9797.652035,0.209121
+2013,Plastic,PVC (3),Municipal Solid Waste,586.036356,0.0,647.48745,24690.083128,0.047583
+2013,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,64079.189916,0.0
+2013,Textiles,Other textiles,Municipal Solid Waste,1742.8,0.0,11.568989,20982.881233,0.077158
+2013,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,2953.63832,2517.477759,0.53986
+2013,Tyres and rubber,Passenger tyres,Municipal Solid Waste,289.0,0.0,3093.461938,0.0,1.0
+2014,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,0.0,0.0,0.0,754.608838,0.0
+2014,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,15.0,0.0,0.0,49565.430335,0.000302
+2014,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,1440.0,0.0,0.0,402.419487,0.78158
+2014,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,1.0,0.0,0.0,4469.662151,0.000223
+2014,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,36.0,0.0,0.0,3019.215424,0.011783
+2014,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,0.0,0.0,0.0,15733.01896,0.0
+2014,Glass,Container glass,Municipal Solid Waste,165753.0,0.0,746.552746,39558.386097,0.808022
+2014,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,39172.086244,0.0
+2014,Metals,Aluminium,Municipal Solid Waste,0.0,0.0,203.193886,21355.089854,0.009425
+2014,Metals,Ferrous,Municipal Solid Waste,101802.0,0.0,131979.732674,35872.239563,0.866969
+2014,Metals,Other metals,Municipal Solid Waste,130001.0,0.0,1753.836941,0.0,1.0
+2014,Organics,Food organics,Municipal Solid Waste,12756.0,0.0,6193.908814,648960.533431,0.028371
+2014,Organics,Garden organics,Municipal Solid Waste,373405.0,0.0,0.0,102832.387566,0.784073
+2014,Organics,Other organics,Municipal Solid Waste,18452.0,0.0,24.451787,102569.974665,0.152639
+2014,Organics,Wood /timber,Municipal Solid Waste,18069.5,0.0,0.0,28700.950882,0.386344
+2014,Paper and cardboard,Cardboard,Municipal Solid Waste,1245.5,0.0,9754.122,37697.176373,0.225879
+2014,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,28622.442714,0.0
+2014,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,0.0,0.0,36007.76,0.0,1.0
+2014,Paper and cardboard,Other paper,Municipal Solid Waste,91014.0,0.0,91970.31035,128796.386562,0.5869
+2014,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,0.0,0.0,0.0,85982.074134,0.0
+2014,Plastic,HDPE (2),Municipal Solid Waste,5328.964582,1263.57937534885,32671.279477,73269.534984,0.348908
+2014,Plastic,LDPE (4),Municipal Solid Waste,11800.433736,221.066108637266,2799.305825,34947.918398,0.297793
+2014,Plastic,Other plastics (7),Municipal Solid Waste,550.233955,0.0,58.64659,86406.729532,0.006997
+2014,Plastic,PET (1),Municipal Solid Waste,796.447916,4937.387580845089,36726.216593,48892.326471,0.464794
+2014,Plastic,PP (5),Municipal Solid Waste,11965.713651,423.858244757299,4047.598893,37486.035376,0.304825
+2014,Plastic,PS (6),Municipal Solid Waste,34.441256,333.274231913211,1936.323563,9761.98838,0.190952
+2014,Plastic,PVC (3),Municipal Solid Waste,435.192617,10.4394839558772,852.891362,24600.210715,0.050138
+2014,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,63845.940343,0.0
+2014,Textiles,Other textiles,Municipal Solid Waste,210.0,0.0,8.487639,20906.503112,0.010342
+2014,Tyres and rubber,Offroad tyres,Municipal Solid Waste,17.0,0.0,0.0,0.0,1.0
+2014,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,878.369524,2508.314089,0.259359
+2014,Tyres and rubber,Passenger tyres,Municipal Solid Waste,138.0,0.0,3419.108209,0.0,1.0
+2014,Tyres and rubber,Truck tyres,Municipal Solid Waste,56.0,0.0,0.0,0.0,1.0
+2015,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,8436.0,0.0,0.0,739.857782,0.919369
+2015,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,2000.0,0.0,0.0,48596.527806,0.039528
+2015,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,33668.0,0.0,0.0,394.553011,0.988416
+2015,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,623.0,0.0,0.0,4382.289421,0.124468
+2015,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,0.0,0.0,0.0,2960.195953,0.0
+2015,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,800.0,0.0,0.0,15425.4707,0.049305
+2015,Glass,Container glass,Municipal Solid Waste,161095.0,0.0,3046.964235,38785.100763,0.808871
+2015,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,38406.35228,0.0
+2015,Metals,Aluminium,Municipal Solid Waste,1667.0,0.0,6.498868,20937.641636,0.074012
+2015,Metals,Ferrous,Municipal Solid Waste,126015.7,0.0,84990.450044,35171.010836,0.857131
+2015,Metals,Other metals,Municipal Solid Waste,136602.0,0.0,1401.437106,0.0,1.0
+2015,Organics,Food organics,Municipal Solid Waste,4852.23,0.0,6629.584674,636274.685699,0.017725
+2015,Organics,Garden organics,Municipal Solid Waste,266803.77,0.0,0.0,100822.225247,0.725747
+2015,Organics,Other organics,Municipal Solid Waste,12979.0,0.0,6.13132,100564.941981,0.114355
+2015,Organics,Wood /timber,Municipal Solid Waste,23278.75,0.0,7.572195,28139.906142,0.45281
+2015,Paper and cardboard,Cardboard,Municipal Solid Waste,1158.95,0.0,11272.49185,36960.273873,0.25169
+2015,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,28062.932649,0.0
+2015,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,0.0,0.0,32808.26225,0.0,1.0
+2015,Paper and cardboard,Other paper,Municipal Solid Waste,127137.0,0.0,115366.859033,126278.681302,0.657579
+2015,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,0.0,0.0,0.0,84301.300891,0.0
+2015,Plastic,HDPE (2),Municipal Solid Waste,4132.44373,1422.91311167868,31976.284093,71837.265814,0.343165
+2015,Plastic,LDPE (4),Municipal Solid Waste,13509.352968,395.88079738233694,2774.07375,34264.758254,0.327404
+2015,Plastic,Other plastics (7),Municipal Solid Waste,209.067565,0.0,55.898895,84717.655145,0.003117
+2015,Plastic,PET (1),Municipal Solid Waste,0.0,2890.93523038205,37000.771885,44416.631275,0.473164
+2015,Plastic,PP (5),Municipal Solid Waste,8067.693303,518.290171246121,4066.687094,36753.26025,0.256096
+2015,Plastic,PS (6),Municipal Solid Waste,2230.097862,189.314247133094,1534.498137,9571.161524,0.292339
+2015,Plastic,PVC (3),Municipal Solid Waste,227.72163,0.0,817.187416,24119.32704,0.041523
+2015,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,62597.883126,0.0
+2015,Textiles,Other textiles,Municipal Solid Waste,319.0,0.0,2.399041,20497.823845,0.015437
+2015,Tyres and rubber,Offroad tyres,Municipal Solid Waste,56.0,0.0,0.0,0.0,1.0
+2015,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,192.460528,2459.281691,0.072578
+2015,Tyres and rubber,Passenger tyres,Municipal Solid Waste,1324.0,0.0,2535.59527,0.0,1.0
+2015,Tyres and rubber,Truck tyres,Municipal Solid Waste,250.0,0.0,0.0,0.0,1.0
+2016,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,2000.0,0.0,0.0,765.343985,0.723237
+2016,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,2000.0,0.0,0.0,50270.553505,0.038262
+2016,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,30000.0,0.0,0.0,408.14435,0.986577
+2016,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,0.0,0.0,0.0,4533.248048,0.0
+2016,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,0.0,0.0,0.0,3062.167109,0.0
+2016,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,800.0,0.0,0.0,15956.838588,0.047741
+2016,Glass,Container glass,Municipal Solid Waste,134895.0,0.0,2712.30973,40121.147974,0.774255
+2016,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,39729.352576,0.0
+2016,Metals,Aluminium,Municipal Solid Waste,1445.0,0.0,0.335775,21658.889672,0.062557
+2016,Metals,Ferrous,Municipal Solid Waste,285189.98,0.0,108308.096397,36382.561921,0.915365
+2016,Metals,Other metals,Municipal Solid Waste,8566.0,0.0,1164.38492,0.0,1.0
+2016,Organics,Food organics,Municipal Solid Waste,7555.04,0.0,6588.079652,658192.716133,0.021035
+2016,Organics,Garden organics,Municipal Solid Waste,360402.96,0.0,0.0,104295.292227,0.775563
+2016,Organics,Other organics,Municipal Solid Waste,14578.0,0.0,12.655436,104029.146213,0.123003
+2016,Organics,Wood /timber,Municipal Solid Waste,19024.65,0.0,0.222589,29109.253709,0.395247
+2016,Paper and cardboard,Cardboard,Municipal Solid Waste,55.13,0.0,15790.8707,38233.460479,0.293013
+2016,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,29029.628679,0.0
+2016,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,359.0,0.0,16799.2975,0.0,1.0
+2016,Paper and cardboard,Other paper,Municipal Solid Waste,118886.0,0.0,91088.505116,130628.657879,0.616478
+2016,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,0.0,0.0,0.0,87205.264415,0.0
+2016,Plastic,HDPE (2),Municipal Solid Waste,4152.68938,769.441328164285,26642.48124,74311.875309,0.298126
+2016,Plastic,LDPE (4),Municipal Solid Waste,1833.379321,398.797342872544,852.349777,35445.091262,0.080055
+2016,Plastic,Other plastics (7),Municipal Solid Waste,839.481665,0.0,45.931782,87635.961006,0.010002
+2016,Plastic,PET (1),Municipal Solid Waste,0.0,1764.61698433674,32362.058818,41488.437348,0.45132
+2016,Plastic,PP (5),Municipal Solid Waste,3151.365349,466.777869586444,3546.479733,38019.315768,0.158565
+2016,Plastic,PS (6),Municipal Solid Waste,1595.26378,52.3633058678999,1798.694302,9900.863482,0.258205
+2016,Plastic,PVC (3),Municipal Solid Waste,231.632993,7.04253275652589,694.777969,24950.175972,0.036063
+2016,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,64754.219592,0.0
+2016,Textiles,Other textiles,Municipal Solid Waste,582.6,0.0,0.748572,21203.921285,0.026774
+2016,Tyres and rubber,Offroad tyres,Municipal Solid Waste,4745.0,0.0,0.0,0.0,1.0
+2016,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,387.290952,2543.997636,0.132123
+2016,Tyres and rubber,Passenger tyres,Municipal Solid Waste,1894.0,0.0,2172.956615,0.0,1.0
+2016,Tyres and rubber,Truck tyres,Municipal Solid Waste,7880.0,0.0,0.0,0.0,1.0
+2017,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,0.0,0.0,0.0,715.838241,0.0
+2017,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,250.0,0.0,0.0,47018.837679,0.005288
+2017,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,300.0,0.0,0.0,381.743816,0.440047
+2017,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,0.0,0.0,0.0,4240.018048,0.0
+2017,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,0.0,0.0,0.0,2864.092957,0.0
+2017,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,10.0,0.0,0.0,14924.681571,0.000669
+2017,Glass,Container glass,Municipal Solid Waste,218376.0,0.0,11187.050788,37525.939393,0.8595
+2017,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,37159.487009,0.0
+2017,Metals,Aluminium,Municipal Solid Waste,0.0,0.0,23743.132832,20257.899442,0.539603
+2017,Metals,Ferrous,Municipal Solid Waste,221810.0,0.0,130799.60349,34029.181182,0.911987
+2017,Metals,Other metals,Municipal Solid Waste,15795.0,0.0,3099.681796,0.0,1.0
+2017,Organics,Food organics,Municipal Solid Waste,3604.3,0.0,6844.862976,615617.977596,0.01669
+2017,Organics,Garden organics,Municipal Solid Waste,257727.7,0.0,0.0,97549.023712,0.725428
+2017,Organics,Other organics,Municipal Solid Waste,106207.0,0.0,0.19176,97300.093169,0.521883
+2017,Organics,Wood /timber,Municipal Solid Waste,15915.0,0.0,0.0,27226.341861,0.368903
+2017,Paper and cardboard,Cardboard,Municipal Solid Waste,0.0,0.0,21083.21175,35760.355652,0.370898
+2017,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,27151.867317,0.0
+2017,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,31546.0,0.0,13330.978065,0.0,1.0
+2017,Paper and cardboard,Other paper,Municipal Solid Waste,27158.0,0.0,48578.831632,122179.033904,0.382671
+2017,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,0.0,0.0,0.0,81564.452476,0.0
+2017,Plastic,HDPE (2),Municipal Solid Waste,7363.560284,518.530584821949,26151.113354,69505.063287,0.328701
+2017,Plastic,LDPE (4),Municipal Solid Waste,980.3538,8.81465630389458,442.617169,33152.350162,0.0414
+2017,Plastic,Other plastics (7),Municipal Solid Waste,0.0,0.0,0.0,81967.289757,0.0
+2017,Plastic,PET (1),Municipal Solid Waste,0.0,388.569449574162,25957.374115,44832.684675,0.370138
+2017,Plastic,PP (5),Municipal Solid Waste,8998.113814,0.0,6284.468392,35560.062744,0.300585
+2017,Plastic,PS (6),Municipal Solid Waste,1678.462286,108.433589142378,1173.913431,9260.433006,0.242267
+2017,Plastic,PVC (3),Municipal Solid Waste,316.04368,12.0232978559291,465.026449,23336.291175,0.032868
+2017,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,60565.637889,0.0
+2017,Textiles,Other textiles,Municipal Solid Waste,0.0,0.0,0.374149,19832.36037,1.8e-05
+2017,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,2299.577301,2379.440916,0.491465
+2017,Tyres and rubber,Passenger tyres,Municipal Solid Waste,9379.0,0.0,1537.964184,0.0,1.0
+2018,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,25000.0,0.0,0.0,700.126113,0.972757
+2018,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,0.0,0.0,0.0,45986.808463,0.0
+2018,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,0.0,0.0,0.0,373.364818,0.0
+2018,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,0.0,0.0,0.0,4146.952742,0.0
+2018,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,0.0,0.0,0.0,2801.228204,0.0
+2018,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,25000.0,0.0,0.0,14597.095688,0.631359
+2018,Glass,Container glass,Municipal Solid Waste,163268.0,0.0,13845.811109,36702.272375,0.828346
+2018,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,36343.863354,0.0
+2018,Metals,Aluminium,Municipal Solid Waste,0.0,0.0,21278.552083,19813.253315,0.517829
+2018,Metals,Ferrous,Municipal Solid Waste,200758.0,0.0,134705.299669,33282.265459,0.909741
+2018,Metals,Other metals,Municipal Solid Waste,14386.0,0.0,2528.955438,0.0,1.0
+2018,Organics,Food organics,Municipal Solid Waste,39794.83,0.0,6727.250321,602105.611706,0.071723
+2018,Organics,Garden organics,Municipal Solid Waste,416193.17,0.0,0.0,95407.893745,0.813511
+2018,Organics,Other organics,Municipal Solid Waste,25539.0,0.0,0.0,95164.427044,0.211584
+2018,Organics,Wood /timber,Municipal Solid Waste,0.0,0.0,0.249633,26628.7435,9e-06
+2018,Paper and cardboard,Cardboard,Municipal Solid Waste,0.0,0.0,15946.694275,34975.441911,0.313158
+2018,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,26555.90362,0.0
+2018,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,4000.0,0.0,3118.58625,0.0,1.0
+2018,Paper and cardboard,Other paper,Municipal Solid Waste,84845.0,0.0,50586.120167,119497.293165,0.531251
+2018,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,0.0,0.0,0.0,79774.172196,0.0
+2018,Plastic,HDPE (2),Municipal Solid Waste,10611.271492,1714.84156065593,20590.041828,67979.477809,0.326239
+2018,Plastic,LDPE (4),Municipal Solid Waste,8631.39927,147.850605616122,3311.059018,32424.68024,0.2716
+2018,Plastic,Other plastics (7),Municipal Solid Waste,1.8125,0.0,0.0,80168.167492,2.2e-05
+2018,Plastic,PET (1),Municipal Solid Waste,991.393142,1449.17978006301,15184.94556,45362.302668,0.279824
+2018,Plastic,PP (5),Municipal Solid Waste,8594.051157,620.5677395586871,4700.608514,34779.545285,0.285764
+2018,Plastic,PS (6),Municipal Solid Waste,1621.315457,86.2303329089115,816.99955,9057.173251,0.217976
+2018,Plastic,PVC (3),Municipal Solid Waste,718.325846,19.8218806392464,553.958131,22824.076593,0.053578
+2018,Textiles,Clothing,Municipal Solid Waste,250.0,0.0,0.0,59236.266283,0.004202
+2018,Textiles,Other textiles,Municipal Solid Waste,250.0,0.0,0.292608,19397.054515,0.012739
+2018,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,2593.815329,2327.213923,0.527087
+2018,Tyres and rubber,Passenger tyres,Municipal Solid Waste,0.0,0.0,1147.002601,0.0,1.0
+2019,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,11523.0,0.0,0.0,744.864539,0.939283
+2019,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,0.0,0.0,0.0,48925.389617,0.0
+2019,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,16300.0,0.0,0.0,397.223025,0.97621
+2019,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,0.0,0.0,0.0,4411.945195,0.0
+2019,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,68000.0,0.0,0.0,2980.228154,0.958013
+2019,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,0.0,0.0,0.0,15529.85775,0.0
+2019,Glass,Container glass,Municipal Solid Waste,283804.0,0.0,3766.329967,39047.566809,0.880448
+2019,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,38666.255264,0.0
+2019,Metals,Aluminium,Municipal Solid Waste,5922.0,0.0,24215.986449,21079.330581,0.588433
+2019,Metals,Ferrous,Municipal Solid Waste,203401.0,0.0,146255.357388,35409.019657,0.908044
+2019,Metals,Other metals,Municipal Solid Waste,13990.0,0.0,2441.136439,0.0,1.0
+2019,Organics,Food organics,Municipal Solid Waste,40908.48,50000.0,6542.076728,640580.475746,0.132041
+2019,Organics,Garden organics,Municipal Solid Waste,611413.52,20000.0,0.0,101504.50814,0.861506
+2019,Organics,Other organics,Municipal Solid Waste,12705.0,0.0,6.201245,101245.48379,0.111544
+2019,Organics,Wood /timber,Municipal Solid Waste,18300.0,0.0,0.099853,28330.334161,0.392449
+2019,Paper and cardboard,Cardboard,Municipal Solid Waste,45.0,0.0,11653.5716,37210.390973,0.23919
+2019,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,28252.839775,0.0
+2019,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,45.0,0.0,9560.52355,0.0,1.0
+2019,Paper and cardboard,Other paper,Municipal Solid Waste,125075.0,0.0,47525.312659,127133.232805,0.575845
+2019,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,0.0,0.0,0.0,84871.783594,0.0
+2019,Plastic,HDPE (2),Municipal Solid Waste,10109.413085,2179.53949847456,14343.011112,72323.402055,0.269131
+2019,Plastic,LDPE (4),Municipal Solid Waste,4809.217672,118.665629778903,1138.905822,34496.634295,0.149563
+2019,Plastic,Other plastics (7),Municipal Solid Waste,792.438718,0.0,127.386509,85290.955396,0.010669
+2019,Plastic,PET (1),Municipal Solid Waste,6896.411667,1462.27020489245,12665.258117,48260.977573,0.303441
+2019,Plastic,PP (5),Municipal Solid Waste,11667.908998,328.379054589892,2807.855541,37001.97645,0.28576
+2019,Plastic,PS (6),Municipal Solid Waste,3814.91333,0.320356154482563,709.120211,9635.931367,0.31951
+2019,Plastic,PVC (3),Municipal Solid Waste,652.26394,30.8289817909256,293.95929,24282.547045,0.03868
+2019,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,63021.494733,0.0
+2019,Textiles,Other textiles,Municipal Solid Waste,0.0,0.0,0.185785,20636.536461,9e-06
+2019,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,1466.308286,2475.924112,0.371948
+2019,Tyres and rubber,Passenger tyres,Municipal Solid Waste,0.0,0.0,1325.071914,0.0,1.0
+2020,"Aggregate, masonry and soils",Asphalt,Municipal Solid Waste,0.0,0.0,0.0,751.720554,0.0
+2020,"Aggregate, masonry and soils",Bricks,Municipal Solid Waste,0.0,0.0,0.0,49375.717472,0.0
+2020,"Aggregate, masonry and soils",Concrete,Municipal Solid Waste,0.0,0.0,0.0,400.879217,0.0
+2020,"Aggregate, masonry and soils",Plaster,Municipal Solid Waste,0.0,0.0,0.0,4452.554413,0.0
+2020,"Aggregate, masonry and soils",Rubble,Municipal Solid Waste,11608.0,0.0,0.0,3007.659306,0.794216
+2020,"Aggregate, masonry and soils",Soil and natural materials,Municipal Solid Waste,0.0,0.0,0.0,15672.800455,0.0
+2020,Glass,Container glass,Municipal Solid Waste,174755.0,0.0,0.0,39406.975434,0.815994
+2020,Glass,Other glass,Municipal Solid Waste,0.0,0.0,0.0,39022.154152,0.0
+2020,Metals,Aluminium,Municipal Solid Waste,1462.0,0.0,26323.936668,21273.35274,0.566374
+2020,Metals,Ferrous,Municipal Solid Waste,45848.0,0.0,141200.249068,35734.937715,0.839597
+2020,Metals,Other metals,Municipal Solid Waste,4134.0,0.0,2456.784412,0.0,1.0
+2020,Organics,Food organics,Municipal Solid Waste,53170.61,0.0,7825.281606,646476.621564,0.086216
+2020,Organics,Garden organics,Municipal Solid Waste,531942.39,0.0,0.0,102438.794158,0.838521
+2020,Organics,Other organics,Municipal Solid Waste,0.0,0.0,0.356762,102177.38565,3e-06
+2020,Organics,Wood /timber,Municipal Solid Waste,74500.0,0.0,0.083211,28591.097309,0.722662
+2020,Paper and cardboard,Cardboard,Municipal Solid Waste,46.0,0.0,10559.6,37552.889535,0.220222
+2020,Paper and cardboard,Liquidpaperboard,Municipal Solid Waste,0.0,0.0,0.0,28512.889635,0.0
+2020,Paper and cardboard,Newsprint and magazines,Municipal Solid Waste,6287.0,0.0,1029.25,0.0,1.0
+2020,Paper and cardboard,Other paper,Municipal Solid Waste,170089.0,0.0,42081.508414,128303.415331,0.623162
+2020,Paper and cardboard,Printing and writing paper,Municipal Solid Waste,0.0,0.0,0.0,85652.975702,0.0
+2020,Plastic,HDPE (2),Municipal Solid Waste,10827.737463,1946.83047222222,13999.917188,72989.094098,0.268379
+2020,Plastic,LDPE (4),Municipal Solid Waste,8045.294244,43.907563025210095,2024.006593,34814.154409,0.225101
+2020,Plastic,Other plastics (7),Municipal Solid Waste,3201.113431,0.0,256.878947,86076.005721,0.038622
+2020,Plastic,PET (1),Municipal Solid Waste,7896.741123,1126.68778512111,14560.150633,48705.189929,0.326241
+2020,Plastic,PP (5),Municipal Solid Waste,14357.301818,185.792307692308,4701.482374,37342.556685,0.340087
+2020,Plastic,PS (6),Municipal Solid Waste,4050.048241,84.8824188129899,489.028571,9724.624137,0.322258
+2020,Plastic,PVC (3),Municipal Solid Waste,35.02994,0.0,0.0,24506.052825,0.001427
+2020,Textiles,Clothing,Municipal Solid Waste,0.0,0.0,0.0,63601.568489,0.0
+2020,Textiles,Other textiles,Municipal Solid Waste,0.0,0.0,0.0,20826.482974,0.0
+2020,Tyres and rubber,Other rubber,Municipal Solid Waste,0.0,0.0,1639.144966,2498.713457,0.396133
+2020,Tyres and rubber,Passenger tyres,Municipal Solid Waste,0.0,0.0,1738.499694,0.0,1.0

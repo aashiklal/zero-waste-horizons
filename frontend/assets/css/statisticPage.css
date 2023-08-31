@@ -173,33 +173,62 @@ label[for="total-generate"] {
 }
 
 .statistic-two{
+    min-height: 600px;
+    background-color: #f2d95c;
+
+    /* 以下是你为body设置的样式 */
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 600px;
-    background-color: whitesmoke;
+    height: 100vh;
     margin: 0;
-}
-.statistic2 .line-chart,
-.statistic2 .donut-chart {
-    flex: 1;
-    height: 100%;
-    padding: 20px;
+
+    .chart-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .line-chart {
+        flex: 1;
+        width: 600px;
+        height: 600px;
+        padding: 20px;
+    }
+
+    .line-chart {
+        background-color: #f2d95c;
+    }
 }
 
-.statistic2 .line-chart {
-    background-color: #f7f7f7;
+
+.statistic-three {
+    min-height: 800px;
+    background-color: #f7f0b5;
 }
 
-.statistic2 .donut-chart {
-    background-color: #f3f3f3;
-}
-.line-chart svg, .donut-chart svg {
-    width: 100%;
-    height: 100%;
+.statistic-three .tree-diagram-container {
+    width: 1000px;  /* 或其他你希望的大小 */
+    height: 600px;
+    margin: auto;  /* 可选的，使其在页面上居中 */
 }
 
-.statistic-three{
-    min-height: 600px;
-    background-color: blue;
+.statistic-three .tree-diagram-container .link {
+    fill: none;
+    stroke: #f59c03;
+    stroke-width: 2px;
+}
+
+.statistic-three .tree-diagram-container .node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+
+.statistic-three .tree-diagram-container .node text {
+   font: 12px sans-serif;
 }
