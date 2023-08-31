@@ -95,7 +95,40 @@ wasteServiceSelect.addEventListener('change', () => {
 
 window.filterCouncils = filterCouncils;
 
-// 当 selectedYear，councilName，  personOrTotalValue， selectedWasteService 都不是空的时候请求数据
-// 要selectedYear 和councilName 相同的值， selectedWasteService的值是列的名字，如果personOrTotalValue 是Person就要除人口那一列的值
-// 如果是totlal，就直接返回值就行
-export let wasteGenerateData = 20;
+
+
+
+export let wasteGenerateData = 0;
+
+// Function to make the API request
+function makeApiRequest() {
+    // Check if all necessary variables are not empty
+    if (selectedYear && councilName && selectedWasteService) {
+        let apiUrl = 'your_api_url_here'; // Replace with your actual API URL
+
+        // Check if personOrTotalValue is "Person" and add it to the API URL
+        if (personOrTotalValue === "Person") {
+            apiUrl += `?year=${selectedYear}&council=${councilName}&wasteService=${selectedWasteService}&value=${wasteGenerateData}`;
+        } else if (personOrTotalValue === "Total") {
+            apiUrl += `?year=${selectedYear}&council=${councilName}&wasteService=${selectedWasteService}`;
+        }
+
+        // Make the API request using fetch or any other method you prefer
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                // Handle the API response data here
+                wasteGenerateData = data
+                console.log(data);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    }
+}
+
+// Add an event listener to detect changes and make the API request
+window.addEventListener('councilNameChange', makeApiRequest);
+personGenerateRadio.addEventListener('change', makeApiRequest);
+totalGenerateRadio.addEventListener('change', makeApiRequest);
+wasteServiceSelect.addEventListener('change', makeApiRequest);
