@@ -1,202 +1,269 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/img/ZeroWaste.png"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/ZeroWaste.png">
-    <link rel="stylesheet" href="assets/css/statisticPage.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/statisticPage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Zero Waste Horizons</title>
-    <style></style>
-    <script src="
-https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js
-"></script>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
-    <script>
-        window.onload = function () {
-            const navbarBrand = document.querySelector('.navbar-brand');
-            navbarBrand.addEventListener('click', () => {
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            });
-        };
-    </script>    
-    <script src="https://d3js.org/d3.v7.js"></script>
-</head>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/Navbar-Right-Links-Dark-icons.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css"
+    /> -->
 
-<body>
-    <div class="loading-overlay">
-        <div class="loader"></div>
-        <p class="loader-text">Classification helps you manage risks of harm to human health and the environment from
-            waste.</p>
-    </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script> -->
+
+    <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script> -->
+    <script>
+      window.onload = function () {
+        const navbarBrand = document.querySelector(".navbar-brand");
+        navbarBrand.addEventListener("click", () => {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
+      };
+    </script>
+    <script src="https://d3js.org/d3.v7.js"></script>
+  </head>
+
+  <body>
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-md fixed-top bg-dark py-3" data-bs-theme="dark">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><img src="assets/img/favicon.png" width="35" height="35"></span><span>Zero Waste Horizons</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-5">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" id="home" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" id="dashboard" href="statistic.html">Dashboard</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Feature2</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Feature3</a></li>
-                </ul>
-            </div>
+    <nav
+      class="navbar navbar-expand-md fixed-top bg-dark py-3"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#"
+          ><span
+            class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"
+            ><img src="assets/img/favicon.png" width="35" height="35" /></span
+          ><span>Zero Waste Horizons</span></a
+        ><button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navcol-5"
+        >
+          <span class="visually-hidden">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-5">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="home" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="dashboard" href="statistic.html"
+                >Dashboard</a
+              >
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Feature2</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Feature3</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!-- background part -->
-    <div class="statistics-backgroud" style="background-image: url('assets/img/statistics-background.jpg');">
-        <h1 class="page-name">Waste Management Visualization</h1>
-        <div class="statistics-card">
-            <p>The Australian Government's biennial "2022 National Waste Report", released at the end of 2022, found
-                that waste generated by Australians increased by nearly 3% compared to 2018/19. In recent years,
-                Australia as a whole and particularly the state of Victoria have faced an increasingly serious waste
-                management challenge. According to statistics from 2022, in 2020/21, Victoria produced about 3.48
-                million tonnes of household waste.</p>
-            <p>Despite the state government implementing a range of measures, such as promoting waste sorting,
-                intensifying punishments for illegal waste dumping, and raising environmental awareness among residents,
-                Victoria has seen continuous improvement in its waste recycling and conversion rates. However, it still
-                confronts numerous challenges, including incomplete waste sorting, inadequate waste management
-                facilities, and the persistence of illegal waste dumping.</p>
-            <p>This page will help you quickly understand the waste collection situation of residents in various regions
-                of Victoria, as well as the waste collection trends in Melbourne, the capital city of Victoria, in
-                recent years. Lastly, we will also show you a detailed classification of different types of waste in
-                Victoria and their conversion rates, helping you to better plan your waste management.</p>
-        </div>
+    <div
+      class="statistics-backgroud"
+      style="background-image: url('assets/img/statistics-background.jpg')"
+    >
+      <h1 class="page-name">Waste Management Visualization</h1>
+      <div class="statistics-card">
+        <p>
+          The Australian Government's biennial "2022 National Waste Report",
+          released at the end of 2022, found that waste generated by Australians
+          increased by nearly 3% compared to 2018/19. In recent years, Australia
+          as a whole and particularly the state of Victoria have faced an
+          increasingly serious waste management challenge. According to
+          statistics from 2022, in 2020/21, Victoria produced about 3.48 million
+          tonnes of household waste.
+        </p>
+        <p>
+          Despite the state government implementing a range of measures, such as
+          promoting waste sorting, intensifying punishments for illegal waste
+          dumping, and raising environmental awareness among residents, Victoria
+          has seen continuous improvement in its waste recycling and conversion
+          rates. However, it still confronts numerous challenges, including
+          incomplete waste sorting, inadequate waste management facilities, and
+          the persistence of illegal waste dumping.
+        </p>
+        <p>
+          This page will help you quickly understand the waste collection
+          situation of residents in various regions of Victoria, as well as the
+          waste collection trends in Melbourne, the capital city of Victoria, in
+          recent years. Lastly, we will also show you a detailed classification
+          of different types of waste in Victoria and their conversion rates,
+          helping you to better plan your waste management.
+        </p>
+      </div>
     </div>
 
     <!-- The part of first statistic -->
     <div class="statistic-one">
-        <script type="module" src="assets/js/map-select.js"></script>
-        <h2 class="statistic-one-title">Waste Generate Map</h2>
-        <div class="statistic-one-container">
-            <div class="statistic-one-column-one">
-                <div id="map" style="width: 800px;height: 600px;"></div>
-                <script type="module" src="assets/js/map.js"></script>
-            </div>
-            <div class="statistic-one-column-two">
-                <div class="statistic-one-select">
-                    <label class="statistic-one-label">
-                        Year:
-                    </label>
-                    <select class="form-select" aria-label="Default select example"  id="yearSelect">
-                        <option value="2010">2010</option>
-                        <option value="2011">2011</option>
-                        <option value="2012">2012</option>
-                        <option value="2013">2013</option>
-                        <option value="2014">2014</option>
-                        <option value="2015">2015</option>
-                        <option value="2016">2016</option>
-                        <option value="2017">2017</option>
-                        <option value="2018">2018</option>
-                        <option value="2019">2019</option>
-                        <option value="2020">2020</option>
-                      </select>
-                    <label class="statistic-one-label" for="councilInput">
-                        Council name (only in VIC):
-                    </label>
-                    <input type="text" id="councilInput" name="council" size="10" oninput="filterCouncils()">
-                    <div class="council-dropdown">
-                        <ul id="councilList">
-                            <!-- City options will be populated here -->
-                        </ul>
-                    </div>
+      <!-- <script type="module" src="assets/js/map-select.js"></script> -->
+      <h2 class="statistic-one-title">Waste Generate Map</h2>
+      <div class="statistic-one-container">
+        <div class="filter-group">
+          <label class="statistic-one-label"> Year: </label>
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            id="yearSelect"
+            onchange="onYearChange()"
+          >
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+          </select>
 
-                    <form>
-                        <P>
-                            Please choose total/person waste generate:
-                        </P>
-                        <input type="radio" name="person-or-total" id="person-generate" value="person">
-                        <label for="person-generate">Person</label><br>
-                        <input type="radio" name="person-or-total" id="total-generate" value="total">
-                        <label for="total-generate">Total</label><br>
-                    </form>
-                    <label class="statistic-one-label">
-                        Waste type:
-                    </label>
-                    <select class="waste-service-type-select" id="wasteServiceSelect">
-                        <option value="premises_with_garbage_service_residential">
-                            garbage service
-                        </option>
-                        <option value="premises_with_kerbside_recycling_service_residential">
-                            kerbside recycling service
-                        </option>
-                    </select>
-
-                </div>
-
-                <div class="statistic-one-text">
-                    <p>This map displays the waste situation of residents in different towns of Victoria. You can view
-                        the per capita waste output and the overall waste output for different years and regions through
-                        the selection box on the right. Additionally, you can choose to view the amount of residential
-                        waste collected via the kerbside zone or the waste service zone.</p>
-                </div>
-
-            </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="onCharTypeSwitch()">
+            <label class="form-check-label" id="type-switch-label" for="flexSwitchCheckDefault">Change to bar</label>
+          </div>
+          <label class="statistic-one-label"> Waste type: </label>
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+              <input
+                type="radio"
+                name="options"
+                id="option1"
+                autocomplete="off"
+                checked
+                onclick="onClickGarbageServiceBtn()"
+              />
+              garbage service
+            </label>
+            <label class="btn btn-secondary">
+              <input
+                type="radio"
+                name="options"
+                id="option2"
+                autocomplete="off"
+                onclick="onClickKerbsideRecyclingServiceBtn()"
+              />
+              kerbside recycling service
+            </label>
+          </div>
+          <!-- <select class="waste-service-type-select" id="wasteServiceSelect">
+            <option value="premises_with_garbage_service_residential">
+              garbage service
+            </option>
+            <option
+              value="premises_with_kerbside_recycling_service_residential"
+            >
+              kerbside recycling service
+            </option>
+          </select> -->
         </div>
+        <div id="map" style="width: 800px; height: 600px"></div>
+      </div>
     </div>
 
     <!-- statistic two -->
     <div class="statistic-two">
-        <!-- <div class="line-chart">
+      <!-- <div class="line-chart">
             <svg id="lineChart"></svg>
             <script src="assets/js/linechart.js"></script>
         </div> -->
-        <p>Melbourne, as the capital of Victoria, is one of Australia's cultural, artistic, and economic centers.
-            However, with the rapid development of the city and the growth of the population, Melbourne also faces
-            challenges in waste management. In recent years, the city's total waste has shown an upward trend, including
-            household waste, plastic waste, etc. Currently, the government and local communities have taken a series of
-            measures, such as promoting waste classification and recycling, strengthening the penalties for illegal
-            waste dumping, and raising residents' environmental awareness. Now we'd like to introduce Melbourne, the
-            capital of Victoria, as a typical example of urban waste collection. Through the following charts, we hope
-            to give you an insight into the annual trend of waste production in Melbourne and show the channels through
-            which this waste is collected.</p>
-        <div class="charts-container">
-            <div class="chart-with-description">
-                <div class="line-chart">
-                    <svg id="lineChart"></svg>
-                    <script src="assets/js/linechart.js"></script>
-                </div>
-                <p>This chart shows the annual trend of total waste generation (in tonnes) in Melbourne, the capital of
-                    Victoria, from 2010 to 2020. It can help you understand the changes in waste production in Melbourne
-                    in recent years.</p>
-            </div>
-
-            <div class="chart-with-description">
-                <div class="bubble-chart">
-                    <svg id="bubbleChart"></svg>
-                    <script src="assets/js/bubbleChart.js"></script>
-                </div>
-                <p>This chart shows a comparison of the tonnage of different types of waste collected in Melbourne. It
-                    can help you understand the collection volume of waste from different channels.</p>
-            </div>
+      <p>
+        Melbourne, as the capital of Victoria, is one of Australia's cultural,
+        artistic, and economic centers. However, with the rapid development of
+        the city and the growth of the population, Melbourne also faces
+        challenges in waste management. In recent years, the city's total waste
+        has shown an upward trend, including household waste, plastic waste,
+        etc. Currently, the government and local communities have taken a series
+        of measures, such as promoting waste classification and recycling,
+        strengthening the penalties for illegal waste dumping, and raising
+        residents' environmental awareness. Now we'd like to introduce
+        Melbourne, the capital of Victoria, as a typical example of urban waste
+        collection. Through the following charts, we hope to give you an insight
+        into the annual trend of waste production in Melbourne and show the
+        channels through which this waste is collected.
+      </p>
+      <div class="charts-container">
+        <div class="chart-with-description">
+          <div class="line-chart">
+            <svg id="lineChart"></svg>
+          </div>
+          <p>
+            This chart shows the annual trend of total waste generation (in
+            tonnes) in Melbourne, the capital of Victoria, from 2010 to 2020. It
+            can help you understand the changes in waste production in Melbourne
+            in recent years.
+          </p>
         </div>
+
+        <div class="chart-with-description">
+          <div class="bubble-chart">
+            <svg id="bubbleChart"></svg>
+          </div>
+          <p>
+            This chart shows a comparison of the tonnage of different types of
+            waste collected in Melbourne. It can help you understand the
+            collection volume of waste from different channels.
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- statistic three -->
 
     <div class="statistic-three">
-        <p>From the chart above, you should have already gained an understanding of the waste generation situation in
-            Victoria. Next, we hope to show you the classification of different wastes and lead you to further
-            understand
-            the conversion rate of various types of waste.</p>
-        <div class="tree-diagram-container">
-            <svg id="treeDiagram"></svg>
-            
-        </div>
-        <p>This tree map displays the detailed waste classification in Victoria. You can view the detailed
-            classification of waste in different categories and obtain their corresponding conversion rates by
-            clicking on the small trash bin icons in the tree map.</p>
+      <p>
+        From the chart above, you should have already gained an understanding of
+        the waste generation situation in Victoria. Next, we hope to show you
+        the classification of different wastes and lead you to further
+        understand the conversion rate of various types of waste.
+      </p>
+      <div class="tree-diagram-container">
+        <svg id="treeDiagram"></svg>
+      </div>
+      <p>
+        This tree map displays the detailed waste classification in Victoria.
+        You can view the detailed classification of waste in different
+        categories and obtain their corresponding conversion rates by clicking
+        on the small trash bin icons in the tree map.
+      </p>
     </div>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/treediagram.js"></script>
-<script src="assets/js/bubbleChart.js"></script>
-<script src="assets/js/linechart.js"></script>
+  </body>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/treediagram.js"></script>
+  <script src="assets/js/bubbleChart.js"></script>
+  <script src="assets/js/linechart.js"></script>
+  <script src="assets/js/map.js"></script>
 </html>
