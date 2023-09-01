@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path')
+const fs = require('fs')
 const app = express();
 
 const port = process.env.PORT || 3000;
@@ -18,23 +19,30 @@ app.use(cors())
 app.use(express.static(path.join(__dirname, './frontend')));
 
 app.get('/person', (req, res) => {
-  const { year, council, wasteService } = req.query;
-  const query = `
-    SELECT ${wasteService}, Population 
-    FROM VLGAS 
-    WHERE financial_year = ? AND council = ?`;
+  const { year, wasteService } = req.query;
 
-  db.get(query, [year, council], (err, row) => {
+  const query = `
+    SELECT council, ${wasteService}, Population 
+    FROM VLGAS 
+    WHERE financial_year = ?`;
+
+  db.all(query, [year], (err, rows) => {
     if (err) {
       return res.status(500).json({ error: err.message });
     }
-    if (!row) {
+
+    if (!rows || rows.length === 0) {
       return res.status(404).json({ error: 'Not Found' });
     }
-    const value = row[wasteService] / row['Population'];
-    res.json({ value });
+    const result = rows.map(row => {
+      const value = row[wasteService] / row['Population'];
+      return { name: row['council'], value:value*1000 };
+    });
+
+    res.json(result);
   });
 });
+
 app.get('/api/classification', (req, res) => {
   const sql = "SELECT * FROM Classification_cleaned";
   db.all(sql, [], (err, rows) => {
@@ -91,6 +99,16 @@ app.get('/api/wastecollection/details', (req, res) => {
       return console.error(err.message);
     }
     res.json(rows);
+  });
+});
+app.get('/api/geojson', (req, res) => {
+  const geojsonPath = path.join(__dirname, './data/Council.geojson');  // Replace with your actual file path
+  fs.readFile(geojsonPath, 'utf8', (err, data) => {
+    if (err) {
+      return console.error(`Error reading GeoJSON file: ${err.message}`);
+    }
+    const geojsonData = JSON.parse(data);
+    res.json(geojsonData);
   });
 });
 
