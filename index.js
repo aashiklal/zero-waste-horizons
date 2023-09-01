@@ -18,7 +18,7 @@ app.use(cors())
 
 app.use(express.static(path.join(__dirname, './frontend')));
 
-app.get('/person', (req, res) => {
+app.get('/api/mapdata', (req, res) => {
   const { year, wasteService } = req.query;
 
   const query = `
@@ -62,24 +62,6 @@ app.get('/api/wastecollection', (req, res) => {
   });
 });
 
-app.get('/total', (req, res) => {
-  const { year, council, wasteService } = req.query;
-  const query = `
-    SELECT ${wasteService} 
-    FROM VLGAS 
-    WHERE financial_year = ? AND council = ?`;
-
-  db.get(query, [year, council], (err, row) => {
-    if (err) {
-      return res.status(500).json({ error: err.message });
-    }
-    if (!row) {
-      return res.status(404).json({ error: 'Not Found' });
-    }
-    const value = row[wasteService];
-    res.json({ value });
-  });
-});
 // API endpoint to get selected columns from WasteCollectionMonthly_cleaned
 app.get('/api/wastecollection/details', (req, res) => {
   const sql = `

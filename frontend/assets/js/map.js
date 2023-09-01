@@ -4,7 +4,7 @@ let data = []
 let currentService = "premises_with_garbage_service_residential"
 let currentYear = "2010"
 async function getMapData(year=2010,wasteService) {
-    const dataUrl = `http://localhost:3000/person?year=${year}&wasteService=${wasteService}`;
+    const dataUrl = `https://fullmoon.azurewebsites.net/api/mapdata?year=${year}&wasteService=${wasteService}`;
     const dataResponse = await fetch(dataUrl, {
       mode: "cors",
     });
@@ -103,7 +103,7 @@ const getBarOption = () => {
       };
 }
 async function generateMap() {
-    const apiUrl = "http://localhost:3000/api/geojson";
+    const apiUrl = "https://fullmoon.azurewebsites.net/api/geojson";
     const response = await fetch(apiUrl, {
       mode: "cors",
     });
