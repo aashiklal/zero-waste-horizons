@@ -82,7 +82,9 @@ document.addEventListener("DOMContentLoaded", async function () {
       .text((d) => (d.value > minValueToShowLabel ? d.label : ""))
       .attr("visibility", (d) =>
         d.value > minValueToShowLabel ? "visible" : "hidden"
-      );
+      )  
+      .style("font-family", "Arial")  // Change the font-family here.
+      .style("font-size", "14px")     // Change the font size if needed.
 
     simulation.nodes(data).on("tick", ticked);
 
