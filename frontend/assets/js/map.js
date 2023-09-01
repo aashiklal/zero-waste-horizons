@@ -103,13 +103,14 @@ const getBarOption = () => {
       };
 }
 async function generateMap() {
+    myChart.showLoading()
     const apiUrl = "https://fullmoon.azurewebsites.net/api/geojson";
     const response = await fetch(apiUrl, {
       mode: "cors",
     });
     const usaJson = await response.json();
-    
     data = await getMapData(currentYear,currentService)
+    myChart.hideLoading()
     echarts.registerMap("USA", usaJson);
     myChart.setOption(currentType === 'map'?getMapOption():getBarOption(), true);
 }
