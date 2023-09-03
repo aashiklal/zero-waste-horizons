@@ -53,6 +53,7 @@ CREATE TABLE VLGAS (
 const createWasteCollectionTableQuery = `
 CREATE TABLE WasteCollectionMonthly_cleaned (
   date TEXT,
+  population REAL,
   residential REAL,
   public_litter_bins REAL,
   dumped_rubbish REAL,

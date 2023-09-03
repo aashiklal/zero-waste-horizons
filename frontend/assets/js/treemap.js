@@ -1,4 +1,9 @@
-d3.csv("../../data/WasteCollectionMonthly_cleaned.csv").then(function (data) {
+(async function (data) {
+    const dataUrl = `https://fullmoon.azurewebsites.net/api/treemap`;
+    const dataResponse = await fetch(dataUrl, {
+      mode: "cors",
+    });
+    const data = await dataResponse.json();
     // return an array of objects
     const filteredData = data.map(function(d) {
         return {
@@ -75,5 +80,5 @@ d3.csv("../../data/WasteCollectionMonthly_cleaned.csv").then(function (data) {
 
         myChart.setOption(option);
     }
-});
+})();
 

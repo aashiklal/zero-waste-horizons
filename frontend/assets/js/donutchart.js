@@ -1,20 +1,3 @@
-d3.csv("../../data/Classification_cleaned.csv").then(data => {
-  const totalRecycled = d3.sum(data, d => +d.recycled);
-  const totalExportInterstate = d3.sum(data, d => +d.export_interstate);
-  const totalExportInternational = d3.sum(data, d => +d.export_international);
-  const totalDisposal = d3.sum(data, d => +d.disposal);
-
-  const grandTotal = totalRecycled + totalExportInterstate + totalExportInternational + totalDisposal;
-
-  const processedData = [
-      { name: 'Recycled', value: totalRecycled, percentage: (totalRecycled / grandTotal) * 100 },
-      { name: 'Export Interstate', value: totalExportInterstate, percentage: (totalExportInterstate / grandTotal) * 100 },
-      { name: 'Export International', value: totalExportInternational, percentage: (totalExportInternational / grandTotal) * 100 },
-      { name: 'Disposal', value: totalDisposal, percentage: (totalDisposal / grandTotal) * 100 }
-  ];
-  DonutChart(processedData);
-});
-
 function DonutChart(data) {
   const pieChart = echarts.init(document.getElementById('donutChart'));
 
@@ -47,3 +30,27 @@ function DonutChart(data) {
   
   pieChart.setOption(option)
 }
+
+
+(async function(){
+    const dataUrl = `https://fullmoon.azurewebsites.net/api/donutchart`;
+    const dataResponse = await fetch(dataUrl, {
+      mode: "cors",
+    });
+    const data = await dataResponse.json();
+
+    const totalRecycled = d3.sum(data, d => +d.recycled);
+    const totalExportInterstate = d3.sum(data, d => +d.export_interstate);
+    const totalExportInternational = d3.sum(data, d => +d.export_international);
+    const totalDisposal = d3.sum(data, d => +d.disposal);
+  
+    const grandTotal = totalRecycled + totalExportInterstate + totalExportInternational + totalDisposal;
+  
+    const processedData = [
+        { name: 'Recycled', value: totalRecycled, percentage: (totalRecycled / grandTotal) * 100 },
+        { name: 'Export Interstate', value: totalExportInterstate, percentage: (totalExportInterstate / grandTotal) * 100 },
+        { name: 'Export International', value: totalExportInternational, percentage: (totalExportInternational / grandTotal) * 100 },
+        { name: 'Disposal', value: totalDisposal, percentage: (totalDisposal / grandTotal) * 100 }
+    ];
+    DonutChart(processedData);
+})()

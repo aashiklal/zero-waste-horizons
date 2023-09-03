@@ -93,6 +93,51 @@ app.get('/api/geojson', (req, res) => {
     res.json(geojsonData);
   });
 });
+// For linechart.js: Returns total_waste, population, residential from WasteCollectionMonthly_cleaned
+app.get('/api/linechart', (req, res) => {
+  const sql = "SELECT date, total_waste, residential FROM WasteCollectionMonthly_cleaned";
+  db.all(sql, [], (err, rows) => {
+    if (err) {
+      return res.status(500).json({ error: err.message });
+    }
+    res.json(rows);
+  });
+});
+
+// For treemap.js: Returns multiple columns from WasteCollectionMonthly_cleaned
+app.get('/api/treemap', (req, res) => {
+  const sql = `
+    SELECT residential, public_litter_bins, dumped_rubbish, street_sweepings, cardboard, hardwaste_total, green_waste 
+    FROM WasteCollectionMonthly_cleaned`;
+  db.all(sql, [], (err, rows) => {
+    if (err) {
+      return res.status(500).json({ error: err.message });
+    }
+    res.json(rows);
+  });
+});
+
+// For donutchart.js: Returns specific columns from Classification_Cleaned
+app.get('/api/donutchart', (req, res) => {
+  const sql = "SELECT recycled, export_interstate, export_international, disposal FROM Classification_cleaned";
+  db.all(sql, [], (err, rows) => {
+    if (err) {
+      return res.status(500).json({ error: err.message });
+    }
+    res.json(rows);
+  });
+});
+
+// For barchart.js: Returns recycled, disposal from Classification_Cleaned
+app.get('/api/barchart', (req, res) => {
+  const sql = "SELECT recycled, disposal FROM Classification_cleaned";
+  db.all(sql, [], (err, rows) => {
+    if (err) {
+      return res.status(500).json({ error: err.message });
+    }
+    res.json(rows);
+  });
+});
 
 app.listen(port, () => {
   console.log(`Listening http://localhost:${port}`);

@@ -1,5 +1,9 @@
-d3.csv("../../data/WasteCollectionMonthly_cleaned.csv").then(parsedData => {
-  
+(async function(){
+    const dataUrl = `https://fullmoon.azurewebsites.net/api/linechart`;
+    const dataResponse = await fetch(dataUrl, {
+      mode: "cors",
+    });
+    const parsedData = await dataResponse.json();
   const filteredData = parsedData.filter(d => d.date.substring(0, 4) !== '2009' && d.date.substring(0, 4) !== '2020');
 
   const groupedData = d3.rollups(
@@ -23,7 +27,7 @@ d3.csv("../../data/WasteCollectionMonthly_cleaned.csv").then(parsedData => {
 
   LineChart(finalData);
 
-});
+})();
 
 function LineChart(data) {
   const myChart = echarts.init(document.getElementById('lineChart'));

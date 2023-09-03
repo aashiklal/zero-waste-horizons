@@ -62,8 +62,16 @@ function getColorForValue(value, min, max, colors) {
     const step = range / (colors.length - 1);
     const index = Math.min(colors.length - 1, Math.floor((value - min) / step));
     const lerpAmount = ((value - min) - (step * index)) / step;
-    const color1 = parseInt(colors[index].replace('#',''), 16);
-    const color2 = parseInt(colors[index + 1].replace('#',''), 16);
+
+    // 为防止index超出数组边界，进行检查
+    const color1 = colors[index] ? parseInt(colors[index].replace('#',''), 16) : null;
+    const color2 = colors[index + 1] ? parseInt(colors[index + 1].replace('#',''), 16) : null;
+
+    // 如果color2不存在，直接使用color1
+    if (!color2) {
+        return color1 ? '#' + color1.toString(16) : '#000000';  // 使用黑色作为默认颜色
+    }
+
     const lerpedColor = lerpColor(color1, color2, lerpAmount);
     return '#' + (lerpedColor | 0).toString(16);
 }
@@ -119,10 +127,10 @@ async function generateMap() {
 
 function onCharTypeSwitch() {
     const label = document.getElementById("type-switch-label")
-    console.log(label)
     currentType = currentType === "map"?"bar":"map"
     label.innerText = currentType === "map"?"Change to bar":"Change to map"
     const option = currentType === "map"?getMapOption():getBarOption()
+    console.log(selectedConcil,currentService,currentType,currentYear)
     myChart.setOption(option, true);
 }
 

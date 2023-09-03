@@ -1,4 +1,9 @@
-d3.csv("../../data/Classification_cleaned.csv").then(data => {
+(async function() {
+    const dataUrl = `https://fullmoon.azurewebsites.net/api/barchart`;
+    const dataResponse = await fetch(dataUrl, {
+      mode: "cors",
+    });
+    const data = await dataResponse.json();
     const processedData = d3.rollups(
         data,
         v => ({
@@ -11,7 +16,7 @@ d3.csv("../../data/Classification_cleaned.csv").then(data => {
     .map(([year, values]) => ({ ...values, year }));
 
     BarChart(processedData);
-});
+})();
 
 
 function BarChart(data) {
