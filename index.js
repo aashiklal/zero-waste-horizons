@@ -95,7 +95,7 @@ app.get('/api/geojson', (req, res) => {
 });
 // For linechart.js: Returns total_waste, population, residential from WasteCollectionMonthly_cleaned
 app.get('/api/linechart', (req, res) => {
-  const sql = "SELECT date, total_waste, residential FROM WasteCollectionMonthly_cleaned";
+  const sql = "SELECT date, total_waste, population, residential FROM WasteCollectionMonthly_cleaned";
   db.all(sql, [], (err, rows) => {
     if (err) {
       return res.status(500).json({ error: err.message });
@@ -130,7 +130,7 @@ app.get('/api/donutchart', (req, res) => {
 
 // For barchart.js: Returns recycled, disposal from Classification_Cleaned
 app.get('/api/barchart', (req, res) => {
-  const sql = "SELECT recycled, disposal FROM Classification_cleaned";
+  const sql = "SELECT financial_year, recycled, disposal FROM Classification_cleaned";
   db.all(sql, [], (err, rows) => {
     if (err) {
       return res.status(500).json({ error: err.message });
