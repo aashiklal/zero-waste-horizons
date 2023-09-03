@@ -3,15 +3,14 @@
     const dataResponse = await fetch(dataUrl, {
       mode: "cors",
     });
-    const data = await dataResponse.json();
+    const treedata = await dataResponse.json();
     // return an array of objects
-    const filteredData = data.map(function(d) {
+    const filteredData = treedata.map(function(d) {
         return {
             Residential: +d.residential,
             PublicBins: +d.public_litter_bins,
             Dumped: +d.dumped_rubbish,
             Street: +d.street_sweepings,
-            Commingled: +d.commingled_recycling,
             Cardboard: +d.cardboard,
             Hardwaste: +d.hardwaste_total,
             Greenwaste: +d.green_waste
@@ -40,7 +39,7 @@
     };
     Treemap(treemapData, grandTotal);
 
-    function Treemap(data, total) {
+    function Treemap(treedata, total) {
         const myChart = echarts.init(document.getElementById('Treemap'));
 
         const option = {
@@ -66,7 +65,7 @@
             series: [{
                 name: 'Waste Type',
                 type: 'treemap',
-                data: [data],
+                data: [treedata],
                 leafDepth: 1,
                 label: {
                     show: true,

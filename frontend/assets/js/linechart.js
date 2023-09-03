@@ -5,6 +5,7 @@
     });
     const parsedData = await dataResponse.json();
   const filteredData = parsedData.filter(d => d.date.substring(0, 4) !== '2009' && d.date.substring(0, 4) !== '2020');
+  console.log(filteredData)
 
   const groupedData = d3.rollups(
       filteredData,
