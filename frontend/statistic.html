@@ -1,174 +1,132 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="assets/img/ZeroWaste.png"
-    />
 
-    <link rel="stylesheet" href="assets/css/statisticPage.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/img/ZeroWaste.png" />
 
-    <title>Zero Waste Horizons</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="assets/css/Navbar-Right-Links-Dark-icons.css"
-    />
-    <!-- <link
+  <link rel="stylesheet" href="assets/css/statisticPage.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+
+  <title>Zero Waste Horizons</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css" />
+  <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css"
     /> -->
 
-    <!-- Latest compiled and minified JavaScript -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script> -->
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script> -->
 
-    <!-- (Optional) Latest compiled and minified JavaScript translation files -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script> -->
-    <script>
-      window.onload = function () {
-        const navbarBrand = document.querySelector(".navbar-brand");
-        navbarBrand.addEventListener("click", () => {
-          window.scrollTo({
-            top: 0,
-            behavior: "smooth",
-          });
+  <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script> -->
+  <script>
+    window.onload = function () {
+      const navbarBrand = document.querySelector(".navbar-brand");
+      navbarBrand.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
         });
-      };
-    </script>
-    <script src="https://d3js.org/d3.v7.js"></script>
-  </head>
+      });
+    };
+  </script>
+  <script src="https://d3js.org/d3.v7.js"></script>
+</head>
 
-  <body>
-    <!-- navigation bar -->
-    <nav
-      class="navbar navbar-expand-md fixed-top bg-dark py-3"
-      data-bs-theme="dark"
-    >
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#"
-          ><span
-            class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"
-            ><img src="assets/img/favicon.png" width="35" height="35" /></span
-          ><span>Zero Waste Horizons</span></a
-        ><button
-          data-bs-toggle="collapse"
-          class="navbar-toggler"
-          data-bs-target="#navcol-5"
-        >
-          <span class="visually-hidden">Toggle navigation</span
-          ><span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navcol-5">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" id="home" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="dashboard" href="statistic.html"
-                >Dashboard</a
-              >
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">Feature2</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Feature3</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- background part -->
-    <div
-      class="statistics-backgroud"
-      style="background-image: url('assets/img/statistics-background.jpg')"
-    >
-      <h1 class="page-name">Waste Management Visualization</h1>
-      <div class="statistics-card">
-        <p>
-          The Australian Government's biennial "2022 National Waste Report",
-          released at the end of 2022, found that waste generated by Australians
-          increased by nearly 3% compared to 2018/19. In recent years, Australia
-          as a whole and particularly the state of Victoria have faced an
-          increasingly serious waste management challenge. According to
-          statistics from 2022, in 2020/21, Victoria produced about 3.48 million
-          tonnes of household waste.
-        </p>
-        <p>
-          This page will help you quickly understand the waste collection
-          situation of residents in various regions of Victoria, as well as the
-          waste collection trends in Melbourne, the capital city of Victoria, in
-          recent years. Lastly, we will also show you a detailed classification
-          of different types of waste in Victoria and their conversion rates,
-          helping you to better plan your waste management.
-        </p>
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-md fixed-top bg-dark py-3" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#"><span
+          class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><img
+            src="assets/img/favicon.png" width="35" height="35" /></span><span>Zero Waste Horizons</span></a><button
+        data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5">
+        <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navcol-5">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="home" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="dashboard" href="statistic.html">Dashboard</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Feature2</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Feature3</a></li>
+        </ul>
       </div>
     </div>
+  </nav>
+  <!-- background part -->
+  <div class="statistics-backgroud" style="background-image: url('assets/img/statistics-background.jpg')">
+    <h1 class="page-name">Waste Management Visualization</h1>
+    <div class="statistics-card">
+      <p>
+        The Australian Government's biennial "2022 National Waste Report",
+        released at the end of 2022, found that waste generated by Australians
+        increased by nearly 3% compared to 2018/19. In recent years, Australia
+        as a whole and particularly the state of Victoria have faced an
+        increasingly serious waste management challenge. According to
+        statistics from 2022, in 2020/21, Victoria produced about 3.48 million
+        tonnes of household waste.
+      </p>
+      <p>
+        This page will help you quickly understand the waste collection
+        situation of residents in various regions of Victoria, as well as the
+        waste collection trends in Melbourne, the capital city of Victoria, in
+        recent years. Lastly, we will also show you a detailed classification
+        of different types of waste in Victoria and their conversion rates,
+        helping you to better plan your waste management.
+      </p>
+    </div>
+  </div>
 
-    <!-- The part of first statistic -->
-    <div class="statistic-one">
-      <!-- <script type="module" src="assets/js/map-select.js"></script> -->
-      <h2 class="statistic-one-title">Waste Generate Map</h2>
-      <div class="statistic-one-container">
-        <div class="filter-group">
-          <label class="statistic-one-label"> Year: </label>
-          <select
-            class="form-select"
-            aria-label="Default select example"
-            id="yearSelect"
-            onchange="onYearChange()"
-          >
-            <option value="2010">2010</option>
-            <option value="2011">2011</option>
-            <option value="2012">2012</option>
-            <option value="2013">2013</option>
-            <option value="2014">2014</option>
-            <option value="2015">2015</option>
-            <option value="2016">2016</option>
-            <option value="2017">2017</option>
-            <option value="2018">2018</option>
-            <option value="2019">2019</option>
-            <option value="2020">2020</option>
-          </select>
+  <!-- The part of first statistic -->
+  <div class="statistic-one">
+    <!-- <script type="module" src="assets/js/map-select.js"></script> -->
+    <h2 class="statistic-one-title">Waste Generate Map</h2>
+    <div class="statistic-one-container">
+      <div class="filter-group">
+        <label class="statistic-one-label"> Year: </label>
+        <select class="form-select" style="width: 400px;" aria-label="Default select example" id="yearSelect"
+          onchange="onYearChange()">
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+        </select>
 
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="onCharTypeSwitch()">
-            <label class="form-check-label" id="type-switch-label" for="flexSwitchCheckDefault">Change to bar</label>
-          </div>
-          <label class="statistic-one-label"> Waste type: </label>
-          <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input
-                type="radio"
-                name="options"
-                id="option1"
-                autocomplete="off"
-                checked
-                onclick="onClickGarbageServiceBtn()"
-              />
-              garbage service
-            </label>
-            <label class="btn btn-secondary">
-              <input
-                type="radio"
-                name="options"
-                id="option2"
-                autocomplete="off"
-                onclick="onClickKerbsideRecyclingServiceBtn()"
-              />
-              kerbside recycling service
-            </label>
-          </div>
-          <!-- <select class="waste-service-type-select" id="wasteServiceSelect">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+            onchange="onCharTypeSwitch()">
+          <label class="form-check-label" id="type-switch-label" for="flexSwitchCheckDefault">Change to bar</label>
+        </div>
+        <label class="statistic-one-label"> Waste type: </label>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked
+              onclick="onClickGarbageServiceBtn()" />
+            garbage service
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option2" autocomplete="off"
+              onclick="onClickKerbsideRecyclingServiceBtn()" />
+            kerbside recycling service
+          </label>
+        </div>
+        <!-- <select class="waste-service-type-select" id="wasteServiceSelect">
             <option value="premises_with_garbage_service_residential">
               garbage service
             </option>
@@ -178,52 +136,55 @@
               kerbside recycling service
             </option>
           </select> -->
-        </div>
-        <div id="map" style="width: 800px; height: 600px"></div>
       </div>
+      <div id="map" style="width: 800px; height: 600px;"></div>
     </div>
+  </div>
 
-    <!-- statistic two -->
-    <div class="statistic-two">
-      <!-- <div class="line-chart">
+  <!-- statistic two -->
+  <div class="statistic-two">
+    <!-- <div class="line-chart">
             <svg id="lineChart"></svg>
             <script src="assets/js/linechart.js"></script>
         </div> -->
-      <p>
-        In Melbourne, the primary source of waste is residential waste, accounting for approximately 53% of the total waste. 
-         It is good to see the annual waste generation per capita in Victoria
-        shows a descending trend in the past years. 
-        This suggests that people are reducing the production of other types of waste, 
-        but residential waste still requires more efficient management.
-      </p>
-      <div class="statistic-two-charts-container">
-        <div class="line-chart" id="lineChart"></div>
-        <div class="treemap" id="Treemap"></div>
-        </div>
-      </div>
-
-    <!-- statistic three -->
-
-    <div class="statistic-three">
-      <p>
-        So, how is the waste collected by the government processed?
-      </p>
-      <div class="statistic-three-chart-container">
-        <div class="donut-chart" id="donutChart"></div>
-        <div class="bar-chart" id="barChart"></div>
+    <p>
+      In Melbourne, the primary source of waste is residential waste, accounting for approximately 53% of the total
+      waste.
+      It is good to see the annual waste generation per capita in Victoria
+      shows a descending trend in the past years.
+      This suggests that people are reducing the production of other types of waste,
+      but residential waste still requires more efficient management.
+    </p>
+    <div class="statistic-two-charts-container">
+      <div class="line-chart" id="lineChart"></div>
+      <div class="treemap" id="Treemap"></div>
     </div>
-      <p>
-        Although we can see that recyclable waste has been gradually increasing in recent years, 
-        it seems that the vast majority of waste cannot be transformed through reasonable methods and can only be disposed of.
-      </p>
+  </div>
+
+  <!-- statistic three -->
+
+  <div class="statistic-three">
+    <p>
+      So, how is the waste collected by the government processed?
+    </p>
+    <div class="statistic-three-chart-container">
+      <div class="donut-chart" id="donutChart"></div>
+      <div class="bar-chart" id="barChart"></div>
     </div>
-  </body>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/barchart.js"></script>
-  <script src="assets/js/treemap.js"></script>
-  <script src="assets/js/linechart.js"></script>
+    <p>
+      Although we can see that recyclable waste has been gradually increasing in recent years,
+      it seems that the vast majority of waste cannot be transformed through reasonable methods and can only be disposed
+      of.
+    </p>
+  </div>
+</body>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/barchart.js"></script>
+<script src="assets/js/treemap.js"></script>
+<script src="assets/js/linechart.js"></script>
 <script src="assets/js/donutchart.js"></script>
-  <script src="assets/js/map.js"></script>
+<script src="assets/js/map.js"></script>
+
 </html>
