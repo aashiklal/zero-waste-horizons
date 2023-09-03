@@ -186,13 +186,13 @@ label[for="total-generate"] {
     align-items: center;
     width: 100%;
     padding: 10px 0; 
+    flex-direction: column;
 }
 
-.line-chart,
+.linechart,
 .treemap {
     display: inline-flex;
-    flex: 1;
-    width: 45%; 
+    width: 70%; 
     height: 500px; 
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -201,23 +201,68 @@ label[for="total-generate"] {
 
 .statistic-three-charts-container {
     display: flex;
-    gap: 20px; 
+    gap: 20px;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 10px 0; 
+    padding: 10px 0;
+    flex-direction: column;
 }
 
-.donut-chart,
-.bar-chart {
+.donutchart,
+.barchart {
     display: inline-flex;
-    flex: 1;
-    width: 45%; 
+    width: 70%; 
     height: 500px; 
     border: 1px solid #ccc;
     box-sizing: border-box;
     padding: 0;
 }
 
+.tree-map, .line-chart{
+    width: 70%;
+    display: flex;
+}
 
+.tree-map p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.line-chart p{
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
 
+.donut-chart, .bar-chart{
+    width: 70%;
+    display: flex;
+}
+
+.donut-chart p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.bar-chart p{
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
