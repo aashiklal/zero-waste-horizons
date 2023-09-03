@@ -55,6 +55,7 @@
                 }
             },
             visualMap: {
+                show: false,
                 type: 'continuous',
                 min: 0,
                 max: Math.max(...Object.values(totalData)),

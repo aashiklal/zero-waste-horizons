@@ -51,7 +51,7 @@ function LineChart(data) {
           nameGap: 30 
       },
       yAxis: {
-          name: 'Waste Per Capita (tonnes)'
+          name: 'Waste (tonnes)'
       },
       series: [
           {
