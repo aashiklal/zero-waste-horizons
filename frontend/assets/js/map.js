@@ -130,7 +130,9 @@ function onCharTypeSwitch() {
     currentType = currentType === "map"?"bar":"map"
     label.innerText = currentType === "map"?"Change to bar":"Change to map"
     const option = currentType === "map"?getMapOption():getBarOption()
-    console.log(selectedConcil,currentService,currentType,currentYear)
+    if(currentType === "map") {
+        selectedConcil = []
+    }
     myChart.setOption(option, true);
 }
 
