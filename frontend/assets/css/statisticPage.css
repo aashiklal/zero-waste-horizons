@@ -79,10 +79,13 @@ body {
     flex-direction:column;
 }
 .statistic-title{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
+    font-weight: bold;
     font-size: xx-large;
+    color:rgb(240, 95, 64);
+
 }
 .statistic-one-column-one{
     padding-left: 10%;
@@ -233,6 +236,11 @@ label[for="total-generate"] {
     justify-content: center;
     padding: 20px;
 
+}
+.inserted-number {
+    font-size: 3em; /* 增大字体大小 */
+    font-weight: bold; 
+    margin-top: 10px;
 }
 .line-chart p {
     width: 30%;
