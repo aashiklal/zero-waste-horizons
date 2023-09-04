@@ -78,7 +78,7 @@ body {
     display: flex;
     flex-direction:column;
 }
-.statistic-one-title{
+.statistic-title{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -270,4 +270,26 @@ label[for="total-generate"] {
     justify-content: center;
     padding: 20px;
 
+}
+
+/* MAP */
+.statistic-one{
+    background-color:rgb(240, 95, 64);
+    padding-bottom: 25px;
+}
+
+#map{
+    background-color: #f2f2f2;
+}
+
+.statistic-one-title{
+    color: aliceblue;
+    text-align: center;
+    padding: 25px 0px 0px;
+    font-size: 40px;
+}
+
+.statistic-one-content{
+    font-size: 25px;
+    text-align: center;
 }
