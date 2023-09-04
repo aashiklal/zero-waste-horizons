@@ -194,7 +194,7 @@ label[for="total-generate"] {
 
 .linechart,
 .treemap {
-    display: inline-flex;
+    display: inline-flex; 
     width: 65%;  
     height: 480px;  
     box-sizing: border-box;
@@ -224,7 +224,7 @@ label[for="total-generate"] {
 .tree-map, .line-chart {
     width: 65%;
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 .tree-map img{
     width: 70%;
