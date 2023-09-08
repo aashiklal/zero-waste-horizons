@@ -21,6 +21,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, './frontend/index.html'));
 });
 
+app.get('/index', (req, res) => {
+  res.sendFile(path.join(__dirname, './frontend/index.html'));
+});
+
 app.get('/statistic', (req, res) => {
   res.sendFile(path.join(__dirname, './frontend/statistic.html'));
 });
