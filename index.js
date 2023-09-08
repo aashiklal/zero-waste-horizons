@@ -15,8 +15,16 @@ let db = new sqlite3.Database('./mydb.sqlite', (err) => {
   console.log('connetced to sql db');
 });
 app.use(cors())
-
 app.use(express.static(path.join(__dirname, './frontend')));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, './frontend/index.html'));
+});
+
+app.get('/statistic', (req, res) => {
+  res.sendFile(path.join(__dirname, './frontend/statistic.html'));
+});
+
 
 app.get('/api/mapdata', (req, res) => {
   const { year, wasteService } = req.query;
