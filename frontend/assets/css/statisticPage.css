@@ -312,3 +312,9 @@ label[for="total-generate"] {
     font-size: 25px;
     text-align: center;
 }
+
+/* Override Bootstrap styles for the checked state of .form-check-input */
+.form-check-input:checked {
+    background-color: #000; /* Black background */
+    border-color: #000; /* Black border */
+}
