@@ -29,6 +29,10 @@ app.get('/statistic', (req, res) => {
   res.sendFile(path.join(__dirname, './frontend/statistic.html'));
 });
 
+app.get('/dispose', (req, res) => {
+  res.sendFile(path.join(__dirname, './frontend/dispose.html'));
+});
+
 
 app.get('/api/mapdata', (req, res) => {
   const { year, wasteService } = req.query;
