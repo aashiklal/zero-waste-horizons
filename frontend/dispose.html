@@ -147,7 +147,10 @@
                 </div>
             </div>
             <form class="d-flex justify-content-center flex-wrap" method="post">
-                <div class="mb-3"><input class="form-control" type="search" name="postcode" placeholder="Post Code" minlength="4" maxlength="4" pattern="3\d{3}" inputmode="numeric" required=""></div>
+                <div class="mb-3"><input class="form-control" type="search" name="postcode" placeholder="Post Code" minlength="4" maxlength="4" pattern="3\d{3}" inputmode="numeric" list="postcodes" required=""></div>
+                <datalist id="postcodes">
+                    <!-- Options will be populated by JavaScript -->
+                </datalist>
                 <div class="mb-3"><button class="btn btn-primary ms-2" id="search-postcode" type="submit">Search</button></div>
             </form>
         </div>
@@ -156,6 +159,7 @@
     <script src="assetsDisposePage/bootstrap/js/bootstrap.min.js"></script>
     <script src="assetsDisposePage/js/aos.min.js"></script>
     <script src="assetsDisposePage/js/bs-init.js"></script>
+    <script src="assetsDisposePage/js/postCode.js"></script>
 </body>
 
 </html>

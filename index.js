@@ -33,6 +33,16 @@ app.get('/dispose', (req, res) => {
   res.sendFile(path.join(__dirname, './frontend/dispose.html'));
 });
 
+/* GET POSTCODES*/
+app.get('/get-postcodes', (req, res) => {
+  const csvFilePath = path.join(__dirname, 'data', 'postcodes.csv');
+  fs.readFile(csvFilePath, 'utf8', (err, data) => {
+      if (err) {
+          return res.status(500).send({ error: 'Unable to read CSV file.' });
+      }
+      res.send(data);
+  });
+});
 
 app.get('/api/mapdata', (req, res) => {
   const { year, wasteService } = req.query;
