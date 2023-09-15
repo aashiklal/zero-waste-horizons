@@ -3,6 +3,7 @@ const cors = require('cors');
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path')
 const fs = require('fs')
+const basicAuth = require('express-basic-auth');
 const app = express();
 
 const port = process.env.PORT || 3000;
@@ -14,6 +15,14 @@ let db = new sqlite3.Database('./mydb.sqlite', (err) => {
   }
   console.log('connetced to sql db');
 });
+
+// Basic Authentication Middleware
+app.use(basicAuth({
+  users: { 'ta12': 'ta12@fullmoontech' }, 
+  challenge: true,
+  unauthorizedResponse: 'Unauthorized'
+}));
+
 app.use(cors())
 app.use(express.static(path.join(__dirname, './frontend')));
 
