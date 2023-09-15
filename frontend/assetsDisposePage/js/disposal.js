@@ -39,4 +39,45 @@ console.log('Metals_Table_1 data:', metalsData);
 const landfillData = await fetchLandfillData();
 console.log('Landfill_Table_1 data:', landfillData);
 
+
+
+function initMap(target) {
+  // Your data
+  const data = target??{
+    UniqueId: "VIC00002",
+    Latitude: -37.7642345,
+    Longitude: 144.9021359,
+    // ... other fields
+  };
+
+  // Create a map object and specify the DOM element for display.
+  const map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: data.Latitude, lng: data.Longitude},
+    zoom: 11
+  });
+
+  // Create a marker and set its position.
+  const marker = new google.maps.Marker({
+    map: map,
+    position: {lat: data.Latitude, lng: data.Longitude},
+    title: data.UniqueId
+  });
+}
+initMap()
+
+document.getElementById("search-postcode").addEventListener("click" ,() => {
+  const postCode = document.getElementById('postcodes').value
+  const item = eWasteData.find((item) => item.Postcode == postCode)
+  initMap(item)
+})
+
+function generatePostcodeOptions(data) {
+  const dataList = document.getElementById('postcodes');
+  data.map(item => item.Postcode).forEach(code => {
+      const option = document.createElement('option');
+      option.value = code;
+      dataList.appendChild(option);
+  });
+}
+generatePostcodeOptions(eWasteData)
 })()
