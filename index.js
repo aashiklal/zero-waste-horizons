@@ -3,8 +3,9 @@ const cors = require('cors');
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path')
 const fs = require('fs')
-const basicAuth = require('express-basic-auth');
+
 const app = express();
+const addUIRoute = require('./UIRoute')
 
 const port = process.env.PORT || 3000;
 
@@ -16,31 +17,9 @@ let db = new sqlite3.Database('./mydb.sqlite', (err) => {
   console.log('connetced to sql db');
 });
 
-// Basic Authentication Middleware
-app.use(basicAuth({
-  users: { 'ta12': 'ta12@fullmoontech' }, 
-  challenge: true,
-  unauthorizedResponse: 'Unauthorized'
-}));
 
 app.use(cors())
 app.use(express.static(path.join(__dirname, './frontend')));
-
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, './frontend/index.html'));
-});
-
-app.get('/index', (req, res) => {
-  res.sendFile(path.join(__dirname, './frontend/index.html'));
-});
-
-app.get('/statistic', (req, res) => {
-  res.sendFile(path.join(__dirname, './frontend/statistic.html'));
-});
-
-app.get('/dispose', (req, res) => {
-  res.sendFile(path.join(__dirname, './frontend/dispose.html'));
-});
 
 /* GET POSTCODES*/
 app.get('/get-postcodes', (req, res) => {
@@ -173,6 +152,49 @@ app.get('/api/barchart', (req, res) => {
     res.json(rows);
   });
 });
+
+// API endpoint for E_waste_Table_1
+app.get('/api/e_waste', (req, res) => {
+  db.all('SELECT * FROM E_waste_Table_1', [], (err, rows) => {
+    if (err) {
+      return res.status(500).json(err);
+    }
+    res.json(rows);
+  });
+});
+
+// API endpoint for Transfer_Station_Table_1
+app.get('/api/transfer_station', (req, res) => {
+  db.all('SELECT * FROM Transfer_Station_Table_1', [], (err, rows) => {
+    if (err) {
+      return res.status(500).json(err);
+    }
+    res.json(rows);
+  });
+});
+
+// API endpoint for Metals_Table_1
+app.get('/api/metals', (req, res) => {
+  db.all('SELECT * FROM Metals_Table_1', [], (err, rows) => {
+    if (err) {
+      return res.status(500).json(err);
+    }
+    res.json(rows);
+  });
+});
+
+// API endpoint for Landfill_Table_1
+app.get('/api/landfill', (req, res) => {
+  db.all('SELECT * FROM Landfill_Table_1', [], (err, rows) => {
+    if (err) {
+      return res.status(500).json(err);
+    }
+    res.json(rows);
+  });
+});
+
+
+addUIRoute(app)
 
 app.listen(port, () => {
   console.log(`Listening http://localhost:${port}`);
