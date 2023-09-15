@@ -1,0 +1,56 @@
+UniqueId,FacilityOrSiteName,Owner,ManagementType,InfrastructureType,FacilityStreetAddress,FacilitySuburbLocality,State,Postcode,Latitude,Longitude,ChemicalDrums,Lead,Mercury
+VIC00038,Bairnsdale Scrap Metal,Bairnsdale Scrap Metal,Recycling,Metals recovery facility,14 Kyle Street,Bairnsdale,VIC,3875,-37.843572,147.611273,1,1,0
+VIC00039,East Gippsland Scrap Metal Recyclers & Bargain Centre,East Gippsland Scrap Metal Recyclers & Bargain Centre,Recycling,Metals recovery facility,29 Lawless Street,Bairnsdale,VIC,3875,-37.841714,147.587345,1,1,0
+VIC00068,Recycal,Recycal,Recycling,Metals recovery facility,242 Canterbury Road,Bayswater,VIC,3153,-37.829176,145.277089,1,1,0
+VIC00080,Beechworth Transfer Station,Indigo Shire Council,Recycling,Metals recovery facility,1620 Diffey Road,Beechworth,VIC,3747,-36.374737,146.679658,0,1,0
+VIC00087,Benalla Resource Recovery Centre,Benalla Rural City Council,Recycling,Metals recovery facility,Old Farnley Road,Benalla,VIC,3672,-36.511326,146.001273,0,1,0
+VIC00144,Sims Brooklyn,Sims Ltd,Recycling,Metals recovery facility,44-60 McDonald Road,Brooklyn,VIC,3012,-37.8100567,144.8481565,1,1,0
+VIC00176,Sims Broadmeadows,Sims Ltd,Recycling,Metals recovery facility,1904 Hume Highway,Campbellfield,VIC,3061,-37.6597531,144.9544295,1,1,0
+VIC00182,Recycal,Recycal,Recycling,Metals recovery facility,5-11 Reo Crescent,Campbellfield,VIC,3061,-37.6469803,144.9383423,1,1,0
+VIC00235,Yarra Recycling Centre,Yarra City Council,Recycling,Metals recovery facility,168 Roseneath Street,Clifton Hill,VIC,3068,-37.7934248,145.0013537,0,1,0
+VIC00268,Corryong Transfer Station,Towong Shire Council,Recycling,Metals recovery facility,Sugarloaf Road,Corryong,VIC,3707,-36.220985,147.890697,0,1,0
+VIC00275,InfraBuild Recycling,InfraBuild Recycling,Recycling,Metals recovery facility,360 Hume Highway,Craigieburn,VIC,3064,-37.6110934,144.9477189,1,1,0
+VIC00302,InfraBuild Recycling,InfraBuild Recycling,Recycling,Metals recovery facility,21 Elliott Road,Dandenong,VIC,3175,-38.02321,145.2107355,1,1,0
+VIC00322,Future Recycling Dandenong,Future Recycling,Recycling,Metals recovery facility,194-204 Ordish Road,Dandenong South,VIC,3175,-38.0317402,145.19356,1,1,0
+VIC00369,KB Auto Salvage & Recycling,KB Auto Salvage & Recycling,Recycling,Metals recovery facility,30 Weerong Road,Drouin,VIC,3818,-38.118986,145.831721,1,1,0
+VIC00372,Drouin Waste Recyclers,Drouin Waste Recyclers,Recycling,Metals recovery facility,81 Weerong Road,Drouin,VIC,3818,-38.116549,145.831578,1,1,0
+VIC00384,InfraBuild Recycling,InfraBuild Recycling,Recycling,Metals recovery facility,6 Baldock Court,Eaglehawk,VIC,3556,-36.7236771,144.2455072,1,1,0
+VIC00398,Eldorado Transfer Station,Wangaratta Rural City Council,Recycling,Metals recovery facility,Woolshed Road,Eldorado,VIC,3746,-36.301597,146.637923,0,1,0
+VIC00438,"Jackson, Maria C","Jackson, Maria C",Recycling,Metals recovery facility,Ameys Track,Foster,VIC,3960,-38.63992,146.222733,1,1,0
+VIC00454,Aussie Drum Furniture,Aussie Drum Furniture,Recycling,Metals recovery facility,730 Manley Road,Gillieston,VIC,3616,-36.212619,145.125248,1,1,0
+VIC00480,Future Recycling Hallam ,Future Recycling,Recycling,Metals recovery facility,57 Star Crescent,Hallam,VIC,3164,-38.0170233,145.2686123,1,1,0
+VIC00504,Heyfield Scrap Metal Merchants,Heyfield Scrap Metal Merchants,Recycling,Metals recovery facility,Firebrace Road,Heyfield,VIC,3858,-37.976796,146.780465,1,1,0
+VIC00522,Manhari Metals,Manhari Metals,Recycling,Metals recovery facility,52 Henty Highway,Horsham,VIC,3400,-36.737979,142.204591,1,1,0
+VIC00571,Loch Scrap Metal Pty Ltd,Loch Scrap Metal Pty Ltd,Recycling,Metals recovery facility,3 Adkins Street,Korumburra,VIC,3950,-38.427264,145.809139,1,1,0
+VIC00605,Norstar Steel Recyclers,Norstar Steel Recyclers,Recycling,Metals recovery facility,191-205 Dohertys Road,Laverton North,VIC,3026,-37.8304627,144.7775976,1,1,0
+VIC00609,InfraBuild Recycling,InfraBuild Recycling,Recycling,Metals recovery facility,62 Fitzgerald Road,Laverton North,VIC,3026,-37.7870594,144.7909648,1,1,0
+VIC00613,B & H Scrap Removals,B & H Scrap Removals,Recycling,Metals recovery facility,155 Seven Mile Rd,Nar Nar Goon,VIC,3812,-37.989873,145.583106,0,1,0
+VIC00629,Maffra Waste Disposal,Maffra Waste Disposal,Recycling,Metals recovery facility,6 McMahon Drive,Maffra,VIC,3860,-37.971153,146.6979569,1,1,0
+VIC00640,Mansfield Resource Recovery Centre,Mansfield Shire Council,Recycling,Metals recovery facility,163 Monkey Gully Road,Mansfield,VIC,3722,-37.0831,146.0906082,0,1,0
+VIC00645,Markwood Transfer Station,Wangaratta Rural City Council,Recycling,Metals recovery facility,145 Forest Lane,Markwood,VIC,3678,-36.467864,146.475917,0,1,0
+VIC00691,Moe Recyclers,Moe Recyclers,Recycling,Metals recovery facility,116 Moore Street,Moe,VIC,3825,-38.16457,146.262997,1,1,0
+VIC00730,Sledge Hammer Scrap Metal,Sledge Hammer Scrap Metal,Recycling,Metals recovery facility,48-50 Commercial Road,Morwell,VIC,3840,-38.23376,146.382577,1,1,0
+VIC00732,Latrobe Valley Recyclers,Latrobe Valley Recyclers,Recycling,Metals recovery facility,55 Madden Street,Morwell,VIC,3840,-38.2308,146.388554,1,1,0
+VIC00732,Madden Street Scrap & Recycling,Madden Street Scrap & Recycling,Recycling,Metals recovery facility,55 Madden Street,Morwell,VIC,3840,-38.2308,146.388554,1,1,0
+VIC00733,Lifeline Gippsland,Lifeline Gippsland,Recycling,Metals recovery facility,Cnr Church & Fleming Streets,Morwell,VIC,3840,-38.234243,146.399671,1,1,0
+VIC00735,Industrial Metal Recyclers,Industrial Metal Recyclers,Recycling,Metals recovery facility,Lot 4J Southern Court,Morwell,VIC,3840,-38.247854,146.410624,1,1,0
+VIC00740,Mount Beauty Transfer Station,Alpine Shire Council,Recycling,Metals recovery facility,Maddisons Lane,Mount Beauty,VIC,3699,-36.7293,147.174674,0,1,0
+VIC00748,Sims,Sims Ltd,Recycling,Metals recovery facility,195 Forster Road,Mount Waverley,VIC,3149,-37.8985153,145.1284443,1,1,0
+VIC00751,Moyhu Transfer Station,Wangaratta Rural City Council,Recycling,Metals recovery facility,569 Boggy Creek Road,Moyhu,VIC,3732,-36.637271,146.351227,0,1,0
+VIC00762,Myrtleford Transfer Station,Alpine Shire Council,Recycling,Metals recovery facility,6 Morrisons Lane,Myrtleford,VIC,3741,-36.543607,146.761577,0,1,0
+VIC00791,Sims Metal Management,Sims Ltd,Recycling,Metals recovery facility,3 Victor Street,North Geelong,VIC,3215,-38.10888,144.3443,1,1,0
+VIC00795,InfraBuild Wire Manufacturing,InfraBuild Wire Manufacturing,Recycling,Other metals reprocessing facility,21 Walchs Road,North Shore,VIC,3214,-38.0935945,144.3756275,1,1,0
+VIC00807,Outlook,Outlook Environmental,Recycling,Metals recovery facility,5-7 Hickson Road,Officer ,VIC,3809,-38.0678206,145.4097763,1,1,0
+VIC00836,Porepunkah Transfer Station,Alpine Shire Council,Recycling,Metals recovery facility,159 Roberts Creek Road,Porepunkah,VIC,3740,-36.69481,146.958276,0,1,0
+VIC00870,Recycal,Recycal,Recycling,Metals recovery facility,81-85 Heatherdale Road,Ringwood,VIC,3134,-37.8248628,145.2144421,1,1,0
+VIC00887,Rutherglen Transfer Station,Indigo Shire Council,Recycling,Metals recovery facility,53 Cornishtown Road,Rutherglen,VIC,3685,-36.069791,46.493703,0,1,0
+VIC00901,Ballarat Scrap Metal & Recycling,Ballarat Scrap Metal & Recycling,Recycling,Metals recovery facility,8-18 Kossuth Street,Sebastopol,VIC,3356,-37.589066,143.827465,1,1,0
+VIC00909,Future Recycling Shepparton,Future Recycling,Recycling,Metals recovery facility,121 Old Dookie Road,Shepparton,VIC,3630,-36.223832,145.254856,1,1,0
+VIC00992,Tallangatta Transfer Station,Towong Shire Council,Recycling,Metals recovery facility,727 Murray Valley Highway,Tallangatta,VIC,3700,-36.2236,147.163442,0,1,0
+VIC01058,Wangaratta Transfer Station,Wangaratta Rural City Council,Recycling,Metals recovery facility,46-56 Sandford Road,Wangaratta,VIC,3677,-36.3667543,146.2904396,0,1,0
+VIC01065,Maple Ridge Scrap,Maple Ridge Scrap,Recycling,Metals recovery facility,2B Olympic Street,Warragul,VIC,3820,-38.164814,145.941123,1,1,0
+VIC01068,Gippsland Metal Recyclers,Gippsland Metal Recyclers,Recycling,Metals recovery facility,7 Cadby Court,Warragul,VIC,3820,-38.162708,145.940597,1,1,0
+VIC01093,Ace Recycling Interchange Facility,Ace Metals,Recycling,Metals recovery facility,5-7 Coronet Street,Wendouree,VIC,3355,-37.52725,143.847137,1,1,0
+VIC01093,InfraBuild Recycling,InfraBuild Recycling,Recycling,Metals recovery facility,5-7 Coronet Street,Wendouree,VIC,3355,-37.52725,143.847137,1,1,0
+VIC01117,Wodonga Transfer Station,Wodonga Council,Recycling,Metals recovery facility,29 Kane Road,Wodonga,VIC,3690,-36.1174577,146.9058819,0,1,0
+VIC01134,Bass Coast Metal Recyclers,Bass Coast Metal Recyclers,Recycling,Metals recovery facility,146 Wentworth Rd,Wonthaggi,VIC,3995,-38.6089501,145.5911028,1,1,0

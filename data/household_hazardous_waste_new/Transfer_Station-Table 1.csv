@@ -1,0 +1,346 @@
+UniqueId,FacilityOrSiteName,Owner,ManagementType,InfrastructureType,FacilityStreetAddress,FacilitySuburbLocality,State,Postcode,Latitude,Longitude,BatteriesRechargeable,BatteriesSingleUse,BatteriesLeadAcid,ComputersAccessories,MobilePhones,PrinterCartridges,Televisions,ElectricalAppliances,ElectricalAppliancesBatteryOperated,ChemicalDrums,Mercury,WhiteGoods
+VIC00002,Moonee Valley Transfer Station,Moonee Valley City Council,Drop-off,Transfer station,188 Holmes Road,Aberfeldie,VIC,3040,-37.7646544999999,144.9025485,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00006,Alexandra Resource Recovery Centre,Murrindindi Shire Council,Drop-off,Transfer station,119 Mount Pleasant Road,Alexandra,VIC,3714,-37.123036,145.431853,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00014,Calleja Transfer Station,Calleja Group,Drop-off,Transfer station,30 Baldwin Road,Altona North,VIC,3025,-37.8406215,144.8191073,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00018,Alvie Resource Recovery Centre,Colac Otway Shire Council,Drop-off,Transfer station,977 Corangamite Lake Road,Alvie,VIC,3249,-38.25136,143.52228,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00019,Anglers Rest Trailer,East Gippsland Shire Council,Drop-off,Transfer station,Callaghan-McNamara Road,Anglers Rest,VIC,3898,-36.993161,147.474107,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00020,Anglesea Landfill,Surf Coast Shire Council,Drop-off,Transfer station,50 Coalmine Road,Anglesea,VIC,3230,-38.3843,144.205,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00021,Apollo Bay Resource Recovery Centre,Colac Otway Shire Council,Drop-off,Transfer station,10-18 Arthur Court,Apollo Bay,VIC,3233,-38.7558988,143.6548224,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00022,Apsley Transfer Station,West Wimmera Shire Council,Drop-off,Transfer station,Apsley-Casterton Road,Apsley,VIC,3319,-36.974928,141.070452,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00025,Ararat Resource Recovery Centre,Ararat Rural City Council,Drop-off,Transfer station,Surface Hill Road,Ararat,VIC,3377,-37.29078,142.929638,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00026,Ardmona Resource Recovery Centre,Greater Shepparton City Council,Drop-off,Transfer station,770 Turnbull Road,Ardmona,VIC,3629,-36.241312,145.184602,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00032,Avenel Resource Recovery Centre,Strathbogie Shire Council,Drop-off,Transfer station,145 Monea Road,Avenel,VIC,3664,-36.524419,145.143062,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00033,Avoca Transfer Station,Pyrenees Shire Council,Drop-off,Transfer station,Russell Street,Avoca,VIC,3467,-37.087216,143.482997,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00037,Bacchus Marsh Transfer Station,Moorabool Shire Council,Drop-off,Transfer station,Moore Street South,Bacchus Marsh,VIC,3340,-37.691544,144.423131,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00045,Bin Skips Waste & Recycling,Bin Skips Waste & Recycling,Drop-off,Transfer station,By Appointment Only,Bairnsdale,VIC,3875,-37.8366265,147.5993569,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00047,Ballan Transfer Station,Moorabool Shire Council,Drop-off,Transfer station,Monteville Lane,Ballan,VIC,3342,-37.60205,144.269757,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00055,Ballarat Transfer Station,Ballarat City Council,Drop-off,Transfer station,Gillies Street,Ballarat,VIC,3350,-37.566292,143.814864,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00058,Balmoral Resource Recovery Centre,Southern Grampians Shire Council,Drop-off,Transfer station,55 Hamilton Natimuk Road,Balmoral,VIC,3407,-37.23889,141.83601,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00064,Barmah Transfer Station,Moira Shire Council,Drop-off,Transfer station,Corner Moira Lakes Road & Racecourse Road,Barmah,VIC,3639,-36.002459,144.574885,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00076,Bealiba Transfer Station,Central Goldfields Shire Council,Drop-off,Transfer station,Whitehills Road,Bealiba,VIC,3475,-36.794912,143.547063,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00077,Beaufort Transfer Station,Pyrenees Shire Council,Drop-off,Transfer station,Racecourse Road,Beaufort,VIC,3373,-37.42504,143.39575,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00079,Beech Forest Drop Off,Colac Otway Shire Council,Drop-off,Transfer station,2-4 Main Rd,Beech Forest,VIC,3237,-38.6369,143.57268,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00080,Beechworth Transfer Station,Indigo Shire Council,Drop-off,Transfer station,1620 Diffey Road,Beechworth,VIC,3747,-36.374737,146.679658,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00082,Banyule Waste Recovery Centre,Banyule City Council,Drop-off,Transfer station,307-325 Waterdale Road,Bellfield,VIC,3081,-37.7561355,145.0449615,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00084,Bemm River Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,2 Alans Track,Bemm River,VIC,3889,-37.751764,148.969301,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00087,Benalla Resource Recovery Centre,Benalla Rural City Council,Drop-off,Transfer station,Old Farnley Road,Benalla,VIC,3672,-36.511326,146.001273,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00088,Benambra Transfer station,East Gippsland Shire Council,Drop-off,Transfer station,142 Tip Road,Benambra,VIC,3900,-36.965257,147.687049,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00095,Triple R Waste Bendigo,JJ's Waste & Recycling,Drop-off,Transfer station,4 Rohs Road,Bendigo,VIC,3550,-36.746398926,144.3125,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00099,Bendoc Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,54 Clarkeville Road,Bendoc,VIC,3888,-37.168929,148.881945,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00106,Beulah Transfer Station & Resource Recovery Centre,Yarriambiack Shire Council,Drop-off,Transfer station,Birchip-Rainbow Road,Beulah,VIC,3395,-35.931123,142.441291,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00109,Birregurra Resource Recovery Centre,Colac Otway Shire Council,Drop-off,Transfer station,77 Scouller Street,Birregurra,VIC,3242,-38.33322,143.79275,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00113,Boinka Hard Waste Compound,Mildura Rural City Council,Drop-off,Transfer station,Kelly Road,Boinka,VIC,3490,-35.2021374999999,141.607112,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00114,Bonang Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,16 Mailing Road,Bonang,VIC,3888,-37.8283213,145.0748583,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00115,Eldorado Transfer Station,Wangaratta Rural City Council,Drop-off,Transfer station,3 Woolshed Rd,Eldorado,VIC,3746,-36.3168066635779,146.531472900589,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00119,Bowser Landfill,Wangaratta Rural City Council,Drop-off,Transfer station,5 Coleman Road,Bowser,VIC,3678,-36.3181915,146.3671645,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00123,Braeside Transfer Station,Kartaway,Drop-off,Transfer station,12-14 Tarnard Drive,Braeside,VIC,3195,-37.9891662,145.1096078,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00125,Branxholme Resource Recovery Centre,Southern Grampians Shire Council,Drop-off,Transfer station,114 Branxholme Byaduk Road,Branxholme,VIC,3302,-37.86238,141.80776,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00136,Broadford Resource Recovery Centre,Mitchell Shire Council,Drop-off,Transfer station,Mia Mia Road,Broadford,VIC,3658,-37.132191,145.042619,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00140,Brodribb River Trailer,East Gippsland Shire Council,Drop-off,Transfer station,Sandy Flat Road,Brodribb River,VIC,3888,-37.707933,148.563474,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00143,Cleanaway Brooklyn,Cleanaway,Drop-off,Transfer station,174 Old Geelong Road,Brooklyn,VIC,3012,-37.8186013,144.8281594,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00153,East Brunswick Transfer Station,Kartaway,Drop-off,Transfer station,32 Kirkdale Street,Brunswick East,VIC,3057,-37.7701524999999,144.982594,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00155,Bruthen Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,109 Great Alpine Road,Bruthen,VIC,3885,-37.697864,147.836478,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00156,Buchan Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,2337 Bruthen-Buchan Road,Buchan,VIC,3885,-37.544522,148.148001,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00157,Buldah Trailer,East Gippsland Shire Council,Drop-off,Transfer station,Buldah Road,Buldah,VIC,3890,-37.335037,149.206256,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00172,Boroondara Transfer Station,Boroondara City Council,Drop-off,Transfer station,648 Riversdale Road,Camberwell,VIC,3124,-37.8333853,145.0697979,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00177,Bingo Campbellfield,Bingo Industries,Drop-off,Transfer station,201-203 Northbourne Road,Campbellfield,VIC,3061,-37.6486615,144.957957,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00183,Campbellfield Recycling and Waste Transfer  Station,Hume City Council,Drop-off,Transfer station,71 Bolinda Road,Campbellfield,VIC,3061,-37.6848425,144.9654428,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00192,Caramut Transfer Station,Moyne Shire Council,Drop-off,Transfer station,Sawmill Road,Caramut,VIC,3274,-37.95727,142.52566,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00193,Carisbrook Transfer Station & Resource Recovery Centre,Central Goldfields Shire Council,Drop-off,Transfer station,Potts Lane,Carisbrook,VIC,3464,-37.064722,143.791748,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00194,Carlisle River Drop Off Facility,Colac Otway Shire Council,Drop-off,Transfer station,45 Gellibrand River Road,Carlisle River,VIC,3239,-38.56057,143.39407,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00204,Carranballac Drop Off Facility,Pyrenees Shire Council,Drop-off,Transfer station,Darlington Carranballac Road,Carranballac,VIC,3361,-37.700261,143.161541,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00207,Casteron Resource Recovery Centre,Glenelg Shire Council,Drop-off,Transfer station,291 Bahgallah Road,Casterton,VIC,3311,-37.6108,141.38945,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00208,Castlemaine Transfer Station,Mount Alexander Shire Council,Drop-off,Transfer station,Sluicers Road,Castlemaine,VIC,3450,-37.0774489999999,144.192531,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00210,Cavendish Resource Recovery Centre,Southern Grampians Shire Council,Drop-off,Transfer station,2478 Henty Highway,Cavendish,VIC,3314,-37.52941,142.03405,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00221,Chetwynd Transfer Station,West Wimmera Shire Council,Drop-off,Transfer station,Chetwynd Cemetery Road,Chetwynd,VIC,3312,-37.278912,141.382666,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00233,Bingo Clayton South Recycling Centre,Bingo Industries,Drop-off,Transfer station,90 Fairbank Road,Clayton South,VIC,3169,-37.9424893,145.1283581,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00234,Cleanaway Clayton South Resource Recovery Centre,Cleanaway,Drop-off,Transfer station,Fraser Road & Deals Road,Clayton South,VIC,3169,-37.9472493,145.1202533,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00235,Yarra Recycling Centre,Yarra City Council,Drop-off,Transfer station,168 Roseneath Street,Clifton Hill,VIC,3068,-37.7934248,145.0013537,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00236,Club Terrace Trailer,East Gippsland Shire Council,Drop-off,Transfer station,School Road,Club Terrace,VIC,3889,-37.551624,148.93537,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00239,Cobram Transfer Station,Moira Shire Council,Drop-off,Transfer station,56 Pye Road,Cobram,VIC,3644,-35.9554116,145.6825279,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00250,Coburg Transfer Station,Calleja Group,Drop-off,Transfer station,Newlands Road,Coburg North,VIC,3058,-37.7243065,144.9750842,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00251,Cohuna Transfer Station,Gannawarra Shire Council,Drop-off,Transfer station,150 Chuggs Road,Cohuna,VIC,3568,-35.834484,144.228175,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00252,Western Waste Management Resource Recovery Centre,Western Waste Management ,Drop-off,Transfer station,11-27 Marriner Street,Colac,VIC,3250,-38.3307,143.61032,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00257,Colbinabbin Resource Recovery Centre,Campaspe Shire Council,Drop-off,Transfer station,89 Cemetery Road,Colbinabbin,VIC,3559,-36.354871,144.480366,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00258,Coldstream Recovery and Waste Transfer Station,Yarra Ranges Shire Council,Drop-off,Transfer station,Corner Ingram Road & Leonard Road,Coldstream,VIC,3770,-37.7382595,145.395006,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00259,Coleraine Resource Recovery Centre,Southern Grampians Shire Council,Drop-off,Transfer station,Robertson Street,Coleraine,VIC,3315,-37.60366,141.70162,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00261,Combienbar Trailer,East Gippsland Shire Council,Drop-off,Transfer station,Combienbar Road,Combienbar,VIC,3889,-37.438168,148.98117,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00267,Suez Corio,Suez Australia Pty Ltd,Drop-off,Transfer station,By Appointment Only,Corio,VIC,3214,-38.066487,144.363823,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00268,Corryong Transfer Station,Towong Shire Council,Drop-off,Transfer station,Sugarloaf Road,Corryong,VIC,3707,-36.220985,147.890697,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00270,Cowangie Hard Waste Compound ,Mildura Rural City Council,Drop-off,Transfer station,39 Dayman Street,Cowangie,VIC,3506,-35.234878,141.37921,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00273,Cowes Recycling Facility,Bass Coast Shire Council,Drop-off,Transfer station,Cnr Settlement Road & Dunsmore Road,Cowes,VIC,3922,-38.45705,145.24819,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00290,Creswick Transfer Station,Hepburn Shire Council,Drop-off,Transfer station,32 Anne Street,Creswick,VIC,3363,-37.414729,143.886057,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00291,Killarney Transfer Station,Moyne Shire Council,Drop-off,Transfer station,12 Badhams Road,Crossley,VIC,3283,-38.31886,142.29692,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00292,Crowlands Drop Off Facility,Pyrenees Shire Council,Drop-off,Transfer station,Spring Flat Road,Crowlands,VIC,3377,-37.146136,143.115156,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00298,Cullulleraine Transfer Station,Mildura Rural City Council,Drop-off,Transfer station,Sturt Highway,Cullulleraine,VIC,3496,-34.2733315,141.6076395,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00303,Bingo Dandenong,Bingo Industries,Drop-off,Transfer station,3/44-48 Mills Road,Dandenong,VIC,3175,-37.9913559,145.1932848,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00305,Dandenong Resource and Recovery Facility,Veolia,Drop-off,Transfer station,72-74 Ordish Road,Dandenong,VIC,3175,-38.0218495,145.192464,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00326,Cleanaway Dandenong South Solid Waste Depot,Cleanaway,Drop-off,Transfer station,349 Perry Road,Dandenong South,VIC,3175,-38.0348975,145.1866219,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00328,Cleanaway Dandenong South Transfer Station,Cleanaway,Drop-off,Transfer station,72-76 Thomas Murrell Crescent,Dandenong South,VIC,3175,-38.0215772,145.193419,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00333,Dargo Transfer Station,Wellington Shire Council,Drop-off,Transfer station,Kings Road,Dargo,VIC,3862,-37.456218,147.241525,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00334,Dartmoor Resource Recovery Centre,Glenelg Shire Council,Drop-off,Transfer station,271 Bowds Lane,Dartmoor,VIC,3304,-37.90267,141.2292,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00335,Daylesford Transfer Station,Hepburn Shire Council,Drop-off,Transfer station,Ajax Road,Daylesford,VIC,3460,-37.334377,144.130618,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00337,Deddick Trailer,East Gippsland Shire Council,Drop-off,Transfer station,McKillops Road,Deddick Valley,VIC,3888,-37.073342,148.465597,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00344,Dellicknora Trailer,East Gippsland Shire Council,Drop-off,Transfer station,McKillops Road,Dellicknora,VIC,3888,-37.120873,148.660764,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00346,Dergholm Transfer Station,West Wimmera Shire Council,Drop-off,Transfer station,Quinn Road,Dergholm,VIC,3312,-37.368648,141.218439,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00349,Derrinallum Transfer Station,Corangamite Shire Council,Drop-off,Transfer station,Heards Road,Derrinallum,VIC,3325,-37.96977,143.1934,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00351,Dimboola Transfer Station,Hindmarsh Shire Council,Drop-off,Transfer station,Dimboola-Warracknabeal Road,Dimboola,VIC,3414,-36.441219,142.020489,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00352,Dingee Transfer Station,Loddon Shire Council,Drop-off,Transfer station,Lawry's Road,Dingee,VIC,3571,-36.3560395,144.2387575,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00354,Dinner Plain Resource Recovery Centre,Alpine Shire Council,Drop-off,Transfer station,Scrubbers End,Dinner Plain,VIC,3898,-37.024717,147.243721,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00367,Dromana Hopper,Mornington Peninsula Shire Council,Drop-off,Transfer station,256 Boundary Road,Dromana,VIC,3936,-38.3437221,144.9782003,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00368,Vins Bins,Vins Bins,Drop-off,Transfer station,45 Brasser Avenue,Dromana,VIC,3936,-38.3372286,144.9858815,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00372,Drouin Waste Recyclers,Drouin Waste Recyclers,Drop-off,Transfer station,81 Weerong Road,Drouin,VIC,3818,-38.122448,145.83346,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00377,Drysdale Transfer Station,Greater Geelong City Council,Drop-off,Transfer station,82-180 Becks Road,Drysdale,VIC,3222,-38.1708,144.6276,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00378,Dunkeld Resource Recovery Centre,Southern Grampians Shire Council,Drop-off,Transfer station,7 Bellicourt Road,Dunkeld,VIC,3294,-37.6584,142.34886,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00380,Dunolly Transfer Station,Central Goldfields Shire Council,Drop-off,Transfer station,Maryborough Dunolly Road,Dunolly,VIC,3472,-36.88062,143.751477,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00383,Eaglehawk Transfer Station,Greater Bendigo City Council,Drop-off,Transfer station,191-193 Upper California Gully Road,Eaglehawk,VIC,3556,-36.659505,144.212341,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00393,Echuca Resource Recovery Centre,Campaspe Shire Council,Drop-off,Transfer station,520 McKenzie Road,Echuca,VIC,3564,-36.11375,144.462303,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00396,Edenhope Transfer Station,West Wimmera Shire Council,Drop-off,Transfer station,Moss Street,Edenhope,VIC,3318,-37.038263,141.279649,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00397,Eildon Resource Recovery Centre,Murrindindi Shire Council,Drop-off,Transfer station,100 Jerusalem Creek Road,Eildon,VIC,3713,-37.140367,145.555326,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00398,Eldorado Transfer Station,Wangaratta Rural City Council,Drop-off,Transfer station,Woolshed Road,Eldorado,VIC,3746,-36.301597,146.637923,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00399,Elmhurst Resource Recovery Centre,Ararat Rural City Council,Drop-off,Transfer station,McKay Street,Elmhurst,VIC,3469,-37.191022,143.251242,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00408,Ensay Trailer,East Gippsland Shire Council,Drop-off,Transfer station,Doctors Flat Road,Ensay,VIC,3895,-37.367449,147.793477,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00416,Erica Transfer Station,Baw Baw Shire Council,Drop-off,Transfer station,Mathiesons Road,Erica,VIC,3825,-37.971961,146.371268,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00419,Euroa Resource Recovery Centre,Strathbogie Shire Council,Drop-off,Transfer station,46 Euroa Tip Road,Euroa,VIC,3666,-36.454086,145.330434,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00422,Falls Creek Village Transfer Station,Falls Creek Alpine Resort Management Board,Drop-off,Transfer station,Bogong High Plains Rd,Falls Creek,VIC,3699,-36.863472,147.284417,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00432,Flinders Hopper,Mornington Peninsula Shire Council,Drop-off,Transfer station,21 Double Creek Road,Flinders  ,VIC,3929,-38.4764645,145.0055195,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00436,Bairnsdale Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,200 Johnstons Road,Forge Creek,VIC,3875,-37.87967,147.626012,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00439,Foster Transfer Station,South Gippsland Shire Council,Drop-off,Transfer station,South Gippsland Highway,Foster,VIC,3960,-38.6521,146.219392,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00440,Framlingham Transfer Station,Framlingham Aboriginal Trust,Drop-off,Transfer station,46 Kirrae Avenue,Framlingham,VIC,3265,-38.301724,142.6497265,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00446,Sims Geelong,Sims Ltd,Drop-off,Transfer station,266 Thompson Road,Geelong,VIC,3220,-38.1086631,144.3443667,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00452,Gellibrand Drop Off Facility,Colac Otway Shire Council,Drop-off,Transfer station,10 Rifle Range Road,Gellibrand,VIC,3239,-38.52651,143.53893,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00453,Genoa Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,13 Nash Camp Track,Genoa,VIC,3891,-37.478899,149.583393,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00464,Glen Wills Trailer,East Gippsland Shire Council,Drop-off,Transfer station,Omeo Highway,Glen Wills,VIC,3898,-36.887033,147.461333,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00466,Moyhu Transfer Station,Wangaratta Rural City Council,Drop-off,Transfer station,569 Boggy Creek Rd,Moyhu,VIC,3732,-36.6371261761102,146.351095284658,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00468,Glenthompson Resource Recovery Centre,Southern Grampians Shire Council,Drop-off,Transfer station,Glenthompson Maroona Road,Glenthompson,VIC,3293,-37.62252,142.55226,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00469,Goongerah Trailer,East Gippsland Shire Council,Drop-off,Transfer station,Bonang Highway,Goongerah,VIC,3888,-37.357928,148.684166,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00470,Goornong Transfer Station,Greater Bendigo City Council,Drop-off,Transfer station,55-59 English's Road,Goornong,VIC,3557,-36.6164669999999,144.5156445,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00471,Goroke Transfer Station,West Wimmera Shire Council,Drop-off,Transfer station,Kiely Street,Goroke,VIC,3412,-36.721414,141.465108,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00472,GrantvilleTransfer Station,Bass Coast Shire Council,Drop-off,Transfer station,1685 Bass Highway,Grantville,VIC,3984,-38.420836,145.5196345,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00473,Graytown Resource Recovery Centre,Strathbogie Shire Council,Drop-off,Transfer station,1487 Costerfield Road,Graytown,VIC,3608,-36.501437,144.555223,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00477,Gunbower Resource Recovery Centre,Campaspe Shire Council,Drop-off,Transfer station,4134 Murray Valley Highway,Gunbower,VIC,3644,-35.573852,144.22376,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00481,Halls Gap Transfer Station,Northern Grampians Shire Council,Drop-off,Transfer station,4300 Ararat-Halls Gap Road,Halls Gap,VIC,3381,-37.130377,142.544489,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00484,Norm's Waste Disposal,Norm's Waste Disposal,Drop-off,Transfer station,47 Pioneer Street,Hamilton,VIC,3300,-37.745354,142.001452,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00485,Hamilton Resource Recovery Centre,Southern Grampians Shire Council,Drop-off,Transfer station,68 Elijah Street,Hamilton,VIC,3300,-37.7465389,141.99663,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00488,Suez Hallam Road Transfer Station,Suez Australia Pty Ltd,Drop-off,Transfer station,274 Hallam Road,Hampton Park,VIC,3976,-38.052968,145.2671285,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00492,Harrow Transfer Station,West Wimmera Shire Council,Drop-off,Transfer station,Nhill-Harrow Road,Harrow,VIC,3317,-37.135337,141.594073,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00495,Hawkesdale Transfer Station,Moyne Shire Council,Drop-off,Transfer station,Baird Street,Hawkesdale,VIC,3287,-38.0211,142.32817,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00497,Morwell Transfer Station,Latrobe City Council,Drop-off,Transfer station,Porters Road,Hazelwood North,VIC,3840,-38.254212,146.426395,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00499,Heathcote Transfer Station,Greater Bendigo City Council,Drop-off,Transfer station,Golden Gully Road,Heathcote,VIC,3523,-35.763373,143.773803,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00503,Moe Transfer Station,Latrobe City Council,Drop-off,Transfer station,Haunted Hills Road,Hernes Oak,VIC,3825,-38.201088,146.309603,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00505,Heyfield Transfer Station,Wellington Shire Council,Drop-off,Transfer station,Rifle Range Road,Heyfield,VIC,3858,-37.961417,146.741264,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00506,Heywood Resource Recovery Centre,Glenelg Shire Council,Drop-off,Transfer station,Catons Flat Road,Heywood,VIC,3304,-38.13804,141.59706,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00511,Seymour Resource Recovery Centre,Mitchell Shire Council,Drop-off,Transfer station,470 Seymour-Tooborac Road,Hilldene,VIC,3660,-37.0293934,145.0800757,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00512,Hopetoun Transfer Station,Yarriambiack Shire Council,Drop-off,Transfer station,8 Tip Road,Hopetoun,VIC,3396,-35.7081077,142.3551841,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00521,Wastebusters Recycling,Wastebusters Recycling,Drop-off,Transfer station,44 Golf Course Road,Horsham,VIC,3400,-36.7355709999999,142.200273,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00527,Horsham Transfer Station & Resource Recovery Centre,Horsham Rural City Council,Drop-off,Transfer station,Kenny Road,Horsham,VIC,3400,-36.741434,142.190929,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00529,Inverloch Transfer Station,Bass Coast Shire Council,Drop-off,Transfer station,Old Ford Road,Inverloch,VIC,3996,-38.63122,145.751292,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00533,Jeparit Transfer Station,Hindmarsh Shire Council,Drop-off,Transfer station,Jeparit East Road,Jeparit,VIC,3423,-36.130898,141.99624,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00534,Jung Transfer Station & Resource Recovery Centre,Horsham Rural City Council,Drop-off,Transfer station,Jung Recreation Reserve Road,Jung,VIC,3401,-36.609738,142.372024,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00536,Kaniva Transfer Station,West Wimmera Shire Council,Drop-off,Transfer station,South Lillimur Road,Kaniva,VIC,3419,-36.384723,141.225702,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00543,Brimbank Resource Recovery Centre,Brimbank City Council,Drop-off,Transfer station,Stadium Drive,Keilor Park,VIC,3042,-37.7138748,144.8533667,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00546,Kensington Waste and Recycling Centre,Melbourne City Council,Drop-off,Transfer station,437 Dynon Road,Kensington,VIC,3031,-37.8024085,144.915142,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00547,Kerang Transfer Station,Gannawarra Shire Council,Drop-off,Transfer station,197 Kerang-Murrabit Road ,Kerang,VIC,3579,-35.7200295,143.92593,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00552,Kew Depot Recycling Drop-off Centre,Boroondara City Council,Drop-off,Transfer station,31-35 Hutchinson Drive,Kew,VIC,3101,-37.7938582,145.0286881,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00558,Veolia Keysborough,Veolia,Drop-off,Transfer station,45-52 Kirkham Road West,Keysborough,VIC,3173,-37.9959765,145.1853115,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00561,Kiata Depot,Hindmarsh Shire Council,Drop-off,Transfer station,Reserve Road,Kiata,VIC,3418,-36.364485,141.786363,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00562,Kilmany Transfer Station,Wellington Shire Council,Drop-off,Transfer station,Velore Road,Kilmany,VIC,3851,-38.103092,146.920064,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00564,Eco Waste Recycling Centre,Eco Waste Recycling,Drop-off,Transfer station,199-201 Colchester Road,Kilsyth,VIC,3137,-37.8127625,145.307243,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00567,Kinglake Resource Recovery Centre,Murrindindi Shire Council,Drop-off,Transfer station,205 Watsons Road,Kinglake West,VIC,3757,-37.273954,145.16298,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00570,Koonwarra Transfer Station,South Gippsland Shire Council,Drop-off,Transfer station,Koonwarra-Inverloch Road,Koonwarra,VIC,3954,-38.447186,145.9922177,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00572,Korumburra Transfer Station,South Gippsland Shire Council,Drop-off,Transfer station,Silkstone Road,Korumburra,VIC,3950,-38.447625,145.833978,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00574,Mount Scobie Resource Recovery Centre,Campaspe Shire Council,Drop-off,Transfer station,479 Everard Road,Kyabram,VIC,3620,-36.184467,144.585181,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00576,Kyneton Transfer Station,Macedon Ranges Shire Council,Drop-off,Transfer station,140 Redesdale Road,Kyneton,VIC,3444,-37.2253974999999,144.4579,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00580,Mount Zero Transfer Station,Horsham Rural City Council,Drop-off,Transfer station,Wonwondah-Dadswells Bridge Road,Laharum,VIC,3401,-36.871306,142.355129,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00581,Lake Bolac Resource Recovery Centre,Ararat Rural City Council,Drop-off,Transfer station,Rubbish Tip Road,Lake Bolac,VIC,3351,-37.704218,142.8236,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00583,Lakes Entrance Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,5 Thorpes Lane,Lakes Entrance,VIC,3909,-37.858294,148.006782,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00585,Lalbert Transfer Station,Gannawarra Shire Council,Drop-off,Transfer station,10 Wood Avenue,Lalbert,VIC,3542,-35.673526,143.374307,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00590,Landsborough Transfer Station,Pyrenees Shire Council,Drop-off,Transfer station,Cnr Ararat St & St Arnaud Road,Landsborough,VIC,3384,-37.023621,143.1248,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00596,Lardner Transfer Station,Baw Baw Shire Council,Drop-off,Transfer station,Simpson Road,Lardner,VIC,3821,-38.220544,145.864021,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00598,Lavers Hill Drop Off Facility,Colac Otway Shire Council,Drop-off,Transfer station,49-51 Great Ocean Road,Lavers Hill,VIC,3238,-38.68275,143.38675,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00611,Wheelie Waste Shepparton,Wheelie Waste,Drop-off,Transfer station,415 New Dookie Road,Lemnos,VIC,3631,-36.215033,145.273899,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00618,Lindsay Point Transfer Station,Mildura Rural City Council,Drop-off,Transfer station,498 Lacey Avenue,Lindsay Point,VIC,3496,-34.103506,141.005037,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00619,Loch Sport Transfer Station,Wellington Shire Council,Drop-off,Transfer station,Progress Road,Loch Sport,VIC,3851,-38.064742,147.552742,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00620,Lockington Resource Recovery Centre,Campaspe Shire Council,Drop-off,Transfer station,1671 O’Donnell Road,Lockington,VIC,3561,-36.20765,144.302386,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00621,Longwood Resource Recovery Centre,Strathbogie Shire Council,Drop-off,Transfer station,85 Maxfield Street,Longwood,VIC,3665,-36.480776,145.250278,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00622,Lorne Transfer Station,Surf Coast Shire Council,Drop-off,Transfer station,370 Erskine Falls Road,Lorne,VIC,3232,-38.5293,143.947,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00626,Cleanaway Lysterfield Resource Recovery Centre,Cleanaway,Drop-off,Transfer station,840 Wellington Road ,Lysterfield,VIC,3156,-37.942062,145.319472,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00627,Macarthur Transfer Station,Moyne Shire Council,Drop-off,Transfer station,Macarthur-Myamyn Road,Macarthur,VIC,3286,-38.01261,141.97525,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00629,Maffra Waste Disposal,Maffra Waste Disposal,Drop-off,Transfer station,6 McMahon Drive,Maffra,VIC,3860,-37.971153,146.6979569,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00631,Maffra Transfer Station,Wellington Shire Council,Drop-off,Transfer station,Sellings Road,Maffra,VIC,3860,-37.9126585,146.9861545,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00633,Maldon Transfer Station,Mount Alexander Shire Council,Drop-off,Transfer station,40 Morris Street,Maldon,VIC,3463,-36.992085,144.0846535,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00634,Mallacoota Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,Betka Road,Mallacoota,VIC,3892,-37.572423,149.745938,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00637,Stonnington Waste Transfer Station,Stonnington City Council,Drop-off,Transfer station,32 Weir Street,Malvern,VIC,3144,-37.8490884999999,145.042997,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00639,Manangatang Transfer Station,Swan Hill Rural City Council,Drop-off,Transfer station,126 Moondah Road,Manangatang,VIC,3546,-35.0392659999999,142.8962255,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00640,Mansfield Resource Recovery Centre,Mansfield Shire Council,Drop-off,Transfer station,163 Monkey Gully Road,Mansfield,VIC,3722,-37.0831,146.0906082,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00645,Markwood Transfer Station,Wangaratta Rural City Council,Drop-off,Transfer station,145 Forest Lane,Markwood,VIC,3678,-36.467864,146.475917,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00646,Marlo Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,99 Curlip Road,Marlo,VIC,3888,-37.790137,148.56159,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00649,Marysville Resource Recovery Centre,Murrindindi Shire Council,Drop-off,Transfer station,Sunds Mill Court,Marysville,VIC,3779,-37.302571,145.442097,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00657,Melton Recycling Centre,Melton Shire Council,Drop-off,Transfer station,33-41 Ferris Road,Melton,VIC,3337,-37.7009174999999,144.6031095,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00667,Meringur Transfer Station,Mildura Rural City Council,Drop-off,Transfer station,Delahoy Road,Meringur,VIC,3496,-34.3874259999999,141.340773,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00668,Jarrads Road Resource Recovery Centre,Glenelg Shire Council,Drop-off,Transfer station,Jarrads Road,Merino,VIC,3310,-37.74242,141.52272,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00672,Metung Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,130 Rosherville Road,Metung,VIC,3904,-37.852133,147.861536,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00682,Cleanaway Mildura,Cleanaway,Drop-off,Transfer station,Ontario Avenue,Mildura,VIC,3500,-34.199890137,142.174316406,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00683,Mildura Landfill,Mildura Rural City Council,Drop-off,Transfer station,Scherger Drive,Mildura,VIC,3500,-34.1850615,142.1422685,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00686,Minyip Transfer Station,Yarriambiack Shire Council,Drop-off,Transfer station,Minyip-Rich Avon Road,Minyip,VIC,3392,-36.4650329999999,142.6322755,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00687,Mirboo North Transfer Station,South Gippsland Shire Council,Drop-off,Transfer station,Railway Road,Mirboo North,VIC,3871,-38.402207,146.171474,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00690,Mittyack Transfer Station,Mildura Rural City Council,Drop-off,Transfer station,McErvale Street,Mittyack,VIC,3490,-35.153258,142.659591,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00698,Cleanway Montrose,Cleanaway,Drop-off,Transfer station,69-71 Canterbury Road,Montrose,VIC,3765,-37.815212,145.326544,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00698,Montrose Transfer Station,Grosvenor Lodge Pty Ltd,Drop-off,Transfer station,69-71 Canterbury Road,Montrose,VIC,3765,-37.8164419999999,145.3241745,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00701,Cleanaway Moolap Depot,Cleanaway,Drop-off,Transfer station,317 Portarlington Road,Moolap,VIC,3224,-38.1658191,144.420345,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00704,Point Henry Transfer Station,Greater Geelong City Council,Drop-off,Transfer station,50 Point Henry Rd,Moolap,VIC,3224,-38.1641,144.427,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00717,Kingston Waste Transfer Station,Kingston City Council,Drop-off,Transfer station,24-30 Fonceca Street,Mordiallic,VIC,3195,-37.9903439999999,145.104293,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00721,Mornington Resource Recovery  Centre,Mornington Peninsula Shire Council,Drop-off,Transfer station,134 Watt Road,Mornington,VIC,3931,-38.2345905,145.0654565,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00728,Mortlake Transfer Station,Moyne Shire Council,Drop-off,Transfer station,Connewarren Lane,Mortlake,VIC,3272,-38.06898,142.76917,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00729,Pinegro Morwell,Pinegro Products Pty Ltd,Drop-off,Transfer station,300 Monash Way,Morwell,VIC,3840,-38.2442225,146.4096645,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00739,Mount Baw Baw Transfer Station,Mount Baw Baw Alpine Tourist Resort Management Board,Drop-off,Transfer station,Mt Baw Baw Tourist Road,Mount Baw Baw,VIC,3833,-37.847104,146.245269,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00740,Mount Beauty Transfer Station,Alpine Shire Council,Drop-off,Transfer station,Maddisons Lane,Mount Beauty,VIC,3699,-36.7293,147.174674,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00741,Mount Buller Transfer Station,Mount Buller/Mt Stirling Alpine Resort Management Board,Drop-off,Transfer station,Boggy Corner,Mount Buller,VIC,3723,-37.1363,146.45306,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00744,Mount Egerton Transfer Station,Moorabool Shire Council,Drop-off,Transfer station,Corner Ballan Egerton Road & Yendon Egerton Road,Mount Egerton,VIC,3352,-37.631535,144.106686,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00751,Moyhu Transfer Station,Wangaratta Rural City Council,Drop-off,Transfer station,569 Boggy Creek Road,Moyhu,VIC,3732,-36.637271,146.351227,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00752,Moyston Resource Recovery Centre,Ararat Rural City Council,Drop-off,Transfer station,Moyston West Road,Moyston,VIC,3377,-37.292028,142.735257,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00759,Murchison Resource Recovery Centre,Greater Shepparton City Council,Drop-off,Transfer station,15 Cassidy Road,Murchison,VIC,3610,-36.372425,145.113119,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00760,Murrayville Transfer Station,Mildura Rural City Council,Drop-off,Transfer station,Cemetery Road,Murrayville,VIC,3512,-35.258586,141.179359,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00761,Murtoa Transfer Station,Yarriambiack Shire Council,Drop-off,Transfer station,1281 Wimmera Highway,Murtoa,VIC,3390,-36.6229309,142.4973353,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00762,Myrtleford Transfer Station,Alpine Shire Council,Drop-off,Transfer station,6 Morrisons Lane,Myrtleford,VIC,3741,-36.543607,146.761577,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00765,Nagambie Resource Recovery Centre,Strathbogie Shire Council,Drop-off,Transfer station,McDonalds Road,Nagambie,VIC,3608,-36.474195,145.114287,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00766,Nangiloc Transfer Station,Mildura Rural City Council,Drop-off,Transfer station,Castle Crossing Road,Nangiloc,VIC,3494,-34.5038279999999,142.308811,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00767,Corangamite Regional Landfill,Corangamite Shire Council,Drop-off,Transfer station,County Boundary West Road,Naroghid,VIC,3266,-38.27278,143.04848,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00773,Nathalia Resource Recovery Centre,Moira Shire Council,Drop-off,Transfer station,Balls Rd,Nathalia,VIC,3638,-36.045297,145.111001,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00775,Neerim South Transfer Station,Baw Baw Shire Council,Drop-off,Transfer station,Neerim East Road,Neerim South,VIC,3831,-38.00739,145.963851,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00776,Nelson Resource Recovery Centre,Glenelg Shire Council,Drop-off,Transfer station,North Nelson Road ,Nelson,VIC,3292,-38.03253,141.00985,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00777,Netherby Depot,Hindmarsh Shire Council,Drop-off,Transfer station,Netherby Baker Road,Netherby,VIC,3418,-36.106224,141.642858,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00782,Newmerella Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,215 Corringle Road,Newmerella,VIC,3886,-37.754817,148.423226,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00784,Nhill Transfer Station,Hindmarsh Shire Council,Drop-off,Transfer station,Netherby Road,Nhill,VIC,3418,-36.318595,141.663464,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00787,Sims Noble Park,Sims Ltd,Drop-off,Transfer station,442 Princes Highway,Noble Park,VIC,3174,-37.9581069,145.1857522,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00790,Cleanaway North Geelong,Cleanaway,Drop-off,Transfer station,111-117 Mornington Street,North Geelong,VIC,3215,-38.1128561,144.3477831,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00792,North Geelong Resource Recovery Centre,Greater Geelong City Council,Drop-off,Transfer station,Douro Street,North Geelong,VIC,3215,-38.1153409999999,144.349435,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00798,Monash Waste Transfer and Recycling Station,Monash City Council,Drop-off,Transfer station,380 Ferntree Gully Road,Notting Hill,VIC,3168,-37.9014858,145.1405366,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00800,Numurkah Resource Recovery Centre,Moira Shire Council,Drop-off,Transfer station,Naring Road,Numurkah,VIC,3636,-36.035295,145.292938,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00809,Omeo Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,18 Margetts Street,Omeo,VIC,3898,-37.100543,147.603573,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00810,Orbost Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,351 Bonang Road,Orbost,VIC,3888,-37.672272,148.472983,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00811,Ouyen Transfer Station,Mildura Rural City Council,Drop-off,Transfer station,Dunkley Road,Ouyen,VIC,3490,-35.0945429999999,142.325982,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00813,Cleanaway Pakenham,Cleanaway,Drop-off,Transfer station,20 Drovers Way,Pakenham,VIC,3810,-38.0984439,145.4989452,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00814,Future Recycling Pakenham,Future Recycling,Drop-off,Transfer station,30-32 Exchange Drive,Pakenham,VIC,3810,-38.0972731,145.4921711,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00819,Cardinia Waste and Recyclers,Atkins Family,Drop-off,Transfer station,Lot 7 Exchange Drive,Pakenham,VIC,3810,-38.0986583,145.4921063,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00822,Patchewollock Transfer Station,Yarriambiack Shire Council,Drop-off,Transfer station,38 Patchewollock Tip Road,Patchewollock,VIC,3491,-35.371129,142.20475,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00826,Penshurst Resource Recovery Centre,Southern Grampians Shire Council,Drop-off,Transfer station,5408 Hamilton Highway,Penshurst,VIC,3289,-37.8644168,142.3178332,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00827,Peterborough Transfer Station,Moyne Shire Council,Drop-off,Transfer station,Maclean Lane,Peterborough,VIC,3270,-38.59386,142.86812,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00828,Piangil Transfer Station,Swan Hill Rural City Council,Drop-off,Transfer station,246 Hayes Road,Piangil,VIC,3597,-35.075843,143.31075,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00829,Pimpinio Transfer Station,Horsham Rural City Council,Drop-off,Transfer station,Banyena Road,Pimpinio,VIC,3401,-36.582421,142.117892,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00830,Nillumbik Recycling and Recovery Centre,Nillumbik Shire Council,Drop-off,Transfer station,290 Yan Yean Road,Plenty,VIC,3090,-37.654827,145.124126,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00834,Pomonal Resource Recovery Centre,Ararat Rural City Council,Drop-off,Transfer station,Pomonal East Road,Pomonal,VIC,3381,-37.195093,142.635344,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00836,Porepunkah Transfer Station,Alpine Shire Council,Drop-off,Transfer station,159 Roberts Creek Road,Porepunkah,VIC,3740,-36.69481,146.958276,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00837,Port Campbell Transfer Station,Corangamite Shire Council,Drop-off,Transfer station,55 McRae Street,Port Campbell,VIC,3269,-38.61951,143.00524,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00838,Delta Group Transfer Station,Delta Group,Drop-off,Transfer station,Bridge Street,Port Melbourne,VIC,3207,-37.8335365,144.9397345,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00842,Portland Resource Recovery Centre,Glenelg Shire Council,Drop-off,Transfer station,Derril Road,Portland,VIC,3305,-38.36984,141.60237,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00851,Pyalong Resource Recovery Centre,Mitchell Shire Council,Drop-off,Transfer station,Ladderhill Road,Pyalong,VIC,3521,-37.065168,144.515317,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00853,Quambatook Transfer Station,Gannawarra Shire Council,Drop-off,Transfer station,43 Meering Road,Quambatook,VIC,3540,-35.852587,143.515788,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00854,Quantong Transfer Station & Resource Recovery Centre,Horsham Rural City Council,Drop-off,Transfer station,Cnr Hutchinson Road,Quantong,VIC,3401,-36.737652,142.02133,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00855,Rainbow Transfer Station,Hindmarsh Shire Council,Drop-off,Transfer station,Rainbow-Nhill Road,Rainbow,VIC,3424,-35.908306,141.970568,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00856,Cleanaway MRL Ravenhall,Cleanaway,Drop-off,Transfer station,1100-1152 Christies Road,Ravenhall,VIC,3023,-37.7915809,144.7302601,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00858,Darebin Resource Recovery Centre,Darebin City Council,Drop-off,Transfer station,30 Kurnai Avenue,Reservoir,VIC,3073,-37.720538,144.984556,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00868,Eastern Recycling and Waste Transfer Centre,Maroondah City Council,Drop-off,Transfer station,22 Palmerston East Road,Ringwood,VIC,3134,-37.8251789999999,145.2186005,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00874,Rochester Resource Recovery Centre,Campaspe Shire Council,Drop-off,Transfer station,139 High Street,Rochester,VIC,3561,-36.210492,144.423693,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00875,Rokewood Transfer Station,Golden Plains Shire Council,Drop-off,Transfer station,141 Meadows Road,Rokewood,VIC,3330,-37.912242,143.714996,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00876,Romsey Transfer Station,Macedon Ranges Shire Council,Drop-off,Transfer station,21 Johnston Court  ,Romsey,VIC,3434,-37.3610624999999,144.7679525,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00884,Ruffy Resource Recovery Centre,Strathbogie Shire Council,Drop-off,Transfer station,Redgate Lane/Longwood Ruffy Road,Ruffy,VIC,3666,-36.562223,145.283652,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00885,Rupanyup Transfer Station,Yarriambiack Shire Council,Drop-off,Transfer station,Dyer Street,Rupanyup,VIC,3388,-36.639533,142.629282,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00886,Rushworth Resource Recovery Centre,Campaspe Shire Council,Drop-off,Transfer station,186 Nine Mile Road,Rushworth,VIC,3612,-36.360244,145.000107,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00887,Rutherglen Transfer Station,Indigo Shire Council,Drop-off,Transfer station,53 Cornishtown Road,Rutherglen,VIC,3685,-36.069791,46.493703,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00888,Rye Landfill & Resource Recovery Centre,Mornington Peninsula Shire Council,Drop-off,Transfer station,280 Trueman Road,Rye,VIC,3941,-38.391339,144.8557915,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00890,Kwik Tip Bins,Tambo Waste,Drop-off,Transfer station,1 Wellington Park Way,Sale,VIC,3850,-38.0994696,147.0966104,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00890,Towards Zero,Towards Zero,Drop-off,Transfer station,1 Wellington Park Way,Sale,VIC,3850,-38.099337,147.096218,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00894,Bayside Transfer Station,Bayside City Council,Drop-off,Transfer station,76 Royal Avenue,Sandringham,VIC,3191,-37.9596885,145.0169148,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00897,Sea Lake Resource Recovery Facility,Buloke Shire Council,Drop-off,Transfer station,10715 Robinvale Road,Sea Lake,VIC,3533,-35.4605905,142.855453,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00898,Seaford Sims Metals Transfer Station,Sims Ltd,Drop-off,Transfer station,45 Wells Road,Seaford,VIC,3198,-38.1156478,145.136635,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00900,Seaspray Transfer Station,Wellington Shire Council,Drop-off,Transfer station,Tip Road,Seaspray,VIC,3851,-38.365518,147.191445,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00910,Shepparton Resource Recovery Centre,Greater Shepparton City Council,Drop-off,Transfer station,125 Wanganui Road,Shepparton,VIC,3630,-36.20577,145.231804,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00916,Cleanaway Shepparton,Cleanaway,Drop-off,Transfer station,73 Old Dookie Road,Shepparton,VIC,3630,-36.220731,145.252682,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00924,Simpson Transfer Station,Corangamite Shire Council,Drop-off,Transfer station,Princetown Road,Simpson,VIC,3266,-38.50095,143.20871,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00925,Skipton Transfer Station,Corangamite Shire Council,Drop-off,Transfer station,Beaufort Road,Skipton,VIC,3361,-38.68279,143.35841,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00926,Frankston Regional Recycling and Recovery Centre,Frankston City Council,Drop-off,Transfer station,20 Harold Road,Skye,VIC,3977,-38.1236967,145.2174444,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00928,Snake Valley Transfer Station,Pyrenees Shire Council,Drop-off,Transfer station,Snake Valley-Morchup Road,Snake Valley,VIC,3351,-37.62084,143.550339,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00936,Sorrento Hopper,Mornington Peninsula Shire Council,Drop-off,Transfer station,81 Normanby Road,Sorrento ,VIC,3943,-38.3425255,144.729379,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00937,Cleanaway South Geelong,Cleanaway,Drop-off,Transfer station,22 Wood Street,South Geelong,VIC,3048,-38.16875,144.36729,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00941,Port Phillip Transfer Station,Port Phillip City Council,Drop-off,Transfer station,Cnr White and Boundary Streets,South Melbourne,VIC,3205,-37.828478,144.943517,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00950,Springhurst Transfer Station,Wangaratta Rural City Council,Drop-off,Transfer station,Vipond Road,Springhurst,VIC,3682,-36.187934,146.48096,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00957,St Arnaud Transfer Station,Northern Grampians Shire Council,Drop-off,Transfer station,329 Old Wedderburn Road,St Arnaud,VIC,3478,-36.590533,143.327382,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00959,St James Resource Recovery Centre,Moira Shire Council,Drop-off,Transfer station,Kelly's Road,St James,VIC,3727,-36.163909,145.523067,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00966,Stawell Transfer Station,Northern Grampians Shire Council,Drop-off,Transfer station,36 Lavett Road,Stawell,VIC,3380,-37.0740934,142.7996059,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00968,Stawell Transfer Station,Wimmera Mallee Waste,Drop-off,Transfer station,Lavett Road,Stawell,VIC,3380,-37.07058,142.800328,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00970,Stratford Transfer Station,Wellington Shire Council,Drop-off,Transfer station,Wyndham Street,Stratford,VIC,3862,-37.959918,147.090904,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00971,Strathfieldsaye Waste Transfer Station,Greater Bendigo City Council,Drop-off,Transfer station,998 Wellington Street  ,Strathfieldsaye,VIC,3551,-36.807721,144.362969,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00973,Strathmerton Resource Recovery Centre,Moira Shire Council,Drop-off,Transfer station,Murray Valley Highway,Strathmerton,VIC,3641,-35.9250631,145.4846783,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00974,Streatham Transfer Station,Ararat Rural City Council,Drop-off,Transfer station,Neerin-Floodway Road,Streatham,VIC,3351,-37.684394,143.040767,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00976,Sunbury Landfill Resource Recovery Centre,Hume City Council,Drop-off,Transfer station,515 Riddell Road,Sunbury,VIC,3429,-37.548056,144.690741,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00985,Gray Street Transfer Station,Swan Hill Rural City Council,Drop-off,Transfer station,174 Gray Street,Swan Hill,VIC,3585,-35.3451235,143.5329846,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00989,Swifts Creek Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,237 Cassilis Road,Swifts Creek,VIC,3896,-37.269118,147.696939,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00991,Talbot Transfer Station,Central Goldfields Shire Council,Drop-off,Transfer station,Rocky Flat Road,Talbot,VIC,3371,-37.166119,143.709014,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00992,Tallangatta Transfer Station,Towong Shire Council,Drop-off,Transfer station,727 Murray Valley Highway,Tallangatta,VIC,3700,-36.2236,147.163442,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00993,Tallarook Transfer Station,Mitchell Shire Council,Drop-off,Transfer station,Pyalong-Tallarook Road,Tallarook,VIC,3659,-37.0931019999999,145.096048,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00994,Tamboon/Furnell Trailer,East Gippsland Shire Council,Drop-off,Transfer station,Tamboon Road,Tamboon,VIC,3890,-37.692039,149.160208,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00999,Tatyoon Resource Recovery Centre,Ararat Rural City Council,Drop-off,Transfer station,Porters Bridge Road,Tatyoon,VIC,3378,-37.535434,142.951494,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01006,Tempy Transfer Station,Yarriambiack Shire Council,Drop-off,Transfer station,3270 Sunraysia Highway,Tempy,VIC,3489,-35.359321,142.428256,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01008,Cleanaway Thurla,Cleanaway,Drop-off,Transfer station,428 Magnum Avenue,Thurla,VIC,3496,-34.3392551,142.0981271,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01009,Timboon Transfer Station,Corangamite Shire Council,Drop-off,Transfer station,Timboon-Curdies River Road,Timboon,VIC,3268,-38.49506,142.98113,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01010,Toolleen Resource Recovery Centre,Campaspe Shire Council,Drop-off,Transfer station,22 Cornella Toolleen Road,Toolleen,VIC,3551,-36.431864,144.410652,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01011,Toolondo Transfer Station,Horsham Rural City Council,Drop-off,Transfer station,Telangatuk East Road,Toolondo,VIC,3401,-36.993956,141.933478,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01016,Specialised Environmental Services,Specialised Environmental Services Pty Ltd,Drop-off,Transfer station,1 Amanda Road,Tottenham,VIC,3012,-37.804626465,144.851501465,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01018,Sort Worx,Sort Worx,Drop-off,Transfer station,Contour Road,Trafalgar,VIC,3824,-38.204605,146.158754,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01019,Trafalgar Transfer Station,Baw Baw Shire Council,Drop-off,Transfer station,Giles Road,Trafalgar,VIC,3824,-38.228236,146.143388,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01025,Doc Shop,Doc Shop,Drop-off,Transfer station,66 Eastern Road ,Traralgon,VIC,3844,-38.181396,146.56528,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01026,Sims Traralgon,Sims Ltd,Drop-off,Transfer station,70-74 Eastern Road,Traralgon,VIC,3844,-38.180395,146.5655,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01027,Traralgon Transfer Station,Latrobe City Council,Drop-off,Transfer station,Liddiard Road,Traralgon,VIC,3844,-38.222746,146.554063,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01032,Trentham Transfer Station,Hepburn Shire Council,Drop-off,Transfer station,Trentham Blackwood Road,Trentham,VIC,3458,-37.414729,143.886057,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01033,Tubbut Trailer,East Gippsland Shire Council,Drop-off,Transfer station,McKillops Road,Tubbut,VIC,3888,-37.073956,148.596658,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01035,Rayco Waste Management,Rayco,Drop-off,Transfer station,7 Adina Court,Tullamarine,VIC,3043,-37.7112269,144.8750129,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01036,Tungamah Resource Recovery Centre,Moira Shire Council,Drop-off,Transfer station,Tungamah Road,Tungamah,VIC,3728,-36.085566,145.525714,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01037,Tutye Hard Waste Compound,Mildura Rural City Council,Drop-off,Transfer station,Old Stock Route Road,Tutye,VIC,3490,-35.2219645,141.484092,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01038,Tyabb Resource Recovery Centre,Mornington Peninsula Shire Council,Drop-off,Transfer station,21 McKirdys Road,Tyabb,VIC,3913,-38.2600234,145.2172139,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01040,Ultima Transfer Station,Swan Hill Rural City Council,Drop-off,Transfer station,4330 Sea Lake Road,Ultima,VIC,3544,-35.455006,143.2790995,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01041,Underbool Transfer Station,Mildura Rural City Council,Drop-off,Transfer station,Cemetery Road,Underbool,VIC,3509,-35.178526,141.806449,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01043,Venus Bay Transfer Station,South Gippsland Shire Council,Drop-off,Transfer station,Corner Canterbury Road & 3 Beach Road,Venus Bay,VIC,3956,-38.696967,145.808548,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01046,Whitehorse Recycling and Waste Centre,Whitehorse City Council,Drop-off,Transfer station,638-640 Burwood Highway,Vermont South,VIC,3133,-36.7785049999999,146.392972,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01048,Violet Town Resource Recovery Centre,Strathbogie Shire Council,Drop-off,Transfer station,190 McDiarmids Road,Violet Town,VIC,3669,-36.385496,145.415621,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01049,Wairewa Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,Boundary Road,Wairewa,VIC,3887,-37.690504,148.172573,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01050,Walkerville Transfer Station,South Gippsland Shire Council,Drop-off,Transfer station,Fish Creek-Walkerville Road,Walkerville,VIC,3956,-38.818034,146.001743,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01051,Wallan Resource Recovery Centre,Mitchell Shire Council,Drop-off,Transfer station,4-5 Freeway Drive,Wallan,VIC,3756,-37.250034,145.595805,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01054,Lindenow Transfer Station,East Gippsland Shire Council,Drop-off,Transfer station,90 Snobbs Road,Walpa,VIC,3875,-37.814954,147.425117,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01055,Walpeup Transfer Station,Mildura Rural City Council,Drop-off,Transfer station,Murphy Road,Walpeup,VIC,3507,-35.145372,142.033246,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01058,Wangaratta Transfer Station,Wangaratta Rural City Council,Drop-off,Transfer station,46-56 Sandford Road,Wangaratta,VIC,3677,-36.3667543,146.2904396,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01061,Knox Transfer Station,Knox City Council,Drop-off,Transfer station,251 George Street,Wantirna South,VIC,3152,-37.8826495,145.213433,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01064,Warracknabeal Resource Recovery Centre,Yarriambiack Shire Council,Drop-off,Transfer station,Golf Links Road,Warracknabeal,VIC,3393,-36.226349,142.407726,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01072,Cob & Co Transfer Station,Cob & Co,Drop-off,Transfer station,25 Dickson Street,Warrnambool,VIC,3280,-38.3714125,142.4546829,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01073,Westvic Resource Recovery Centre,Westvic Waste,Drop-off,Transfer station,3 Hammond Place,Warrnambool,VIC,3280,-38.36617,142.45578,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01074,Cleanaway Warrnambool,Cleanaway,Drop-off,Transfer station,355 Koroit Street,Warrnambool,VIC,3280,-38.374863,142.4633,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01078,Barton's Waste Transfer Station,Barton's Waste,Drop-off,Transfer station,Harrington Road,Warrnambool,VIC,3280,-38.36772,142.45041,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01082,Watchem Resource Recovery Centre,Buloke Shire Council,Drop-off,Transfer station,40 Morton Street ,Watchem,VIC,3482,-36.155747,142.86659,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01086,Wedderburn Transfer Station,Loddon Shire Council,Drop-off,Transfer station,Godfrey Street,Wedderburn,VIC,3518,-36.422782,143.6052465,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01095,Wyndham Transfer Station,Wyndham City Council,Drop-off,Transfer station,420 Wests Road,Werribee,VIC,3030,-37.9387258,144.5943745,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01096,Veolia Werribee Transfer Station,Veolia,Drop-off,Transfer station,470 Wests Road,Werribee,VIC,3030,-37.9391078,144.5944815,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01101,Werrimull Transfer Station,Mildura Rural City Council,Drop-off,Transfer station,King Street,Werrimull,VIC,3496,-34.3895929999999,141.597204,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01102,Wesburn Recovery and Waste Transfer Station,Yarra Ranges Shire Council,Drop-off,Transfer station,689 Old Warburton Road,Wesburn,VIC,3799,-37.7748359999999,145.649282,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01104,Bingo West Melbourne,Bingo Industries,Drop-off,Transfer station,372-374 Dynon Road,West Melbourne,VIC,3003,-37.8016283,144.9188495,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01105,Citywide Waste Transfer Station,Citywide,Drop-off,Transfer station,437 Dynon Road,West Melbourne,VIC,3003,-37.8018923,144.9163221,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01108,Wangaratta Transfer Station,Wangaratta Rural City Council,Drop-off,Transfer station,Sandford Rd,Wangaratta,VIC,3677,-36.3425281706552,146.289817878807,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01109,Willaura Resource Recovery Centre,Ararat Rural City Council,Drop-off,Transfer station,Wickcliffe-Willaura Road,Willaura,VIC,3379,-37.576825,142.73492,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01113,Paisley Petroleum,Paisley Petroleum Pty Ltd,Drop-off,Transfer station,42-44 Chelmsford Street,Williamstown North,VIC,3016,-37.8516235349999,144.861694336,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01114,Winchelsea Transfer Station,Surf Coast Shire Council,Drop-off,Transfer station,55 Cressy Road,Winchelsea,VIC,3241,-38.49506,142.98113,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01117,Wodonga Transfer Station,Wodonga Council,Drop-off,Transfer station,29 Kane Road,Wodonga,VIC,3690,-36.1177,146.9059227,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01127,Hansons Wollert Transfer Station,Hanson,Drop-off,Transfer station,55 Bridge Inn Road,Wollert,VIC,3750,-37.5912137,145.0473462,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01129,Wonthaggi Transfer Station,Bass Coast Shire Council,Drop-off,Transfer station,180 Cameron Street,Wonthaggi,VIC,3995,-38.621983,145.58244,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01135,Woodend Transfer Station,Macedon Ranges Shire Council,Drop-off,Transfer station,149 Quarry Road,Woodend,VIC,3442,-37.3697139999999,144.54125,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01137,Woods Point Transfer Station,Mansfield Shire Council,Drop-off,Transfer station,Corry Street,Woods Point,VIC,3723,-37.5725,146.2564308,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01138,Woolsthorpe Transfer Station,Moyne Shire Council,Drop-off,Transfer station,Mount Taurus Road,Woolsthorpe,VIC,3276,-38.22443,142.42437,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01139,Woomelang Transfer Station,Yarriambiack Shire Council,Drop-off,Transfer station,Church Street & Duthies Road,Woomelang,VIC,3485,-35.696939,142.67586,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01140,Woorndoo Transfer Station,Moyne Shire Council,Drop-off,Transfer station,Cameron Street,Woorndoo,VIC,3272,-38.22443,142.42437,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01141,Wycheproof Transfer Station,Buloke Shire Council,Drop-off,Transfer station,281 Mackies Road ,Wycheproof,VIC,3527,-36.064426,143.256966,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01144,Yaapeet Resource Recovery Centre,Yarriambiack Shire Council,Drop-off,Transfer station,Rainbow-Yaapeet Road,Yaapeet,VIC,3424,-35.780134,142.044088,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01145,Yabba Resource Recovery Centre,Moira Shire Council,Drop-off,Transfer station,Yabba South Road,Yabba,VIC,3646,-36.143985,145.385979,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01147,Yanac Depot,Hindmarsh Shire Council,Drop-off,Transfer station,Netherby Yanac Road,Yanac,VIC,3418,-36.126679,141.452183,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01152,Yarram Transfer Station,Wellington Shire Council,Drop-off,Transfer station,Hyland Highway,Yarram,VIC,3971,-38.54132,146.702445,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01153,Nillumbik Recycling & Recovery Centre,Nillumbik Shire Council,Drop-off,Transfer station,Yan Yean Road,Yarrambat,VIC,3091,-37.653791,145.1255105,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01157,Yarrawonga Resource Recovery Centre,Moira Shire Council,Drop-off,Transfer station,Channel Road,Yarrawonga,VIC,3730,-36.022002,146.000864,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01158,Yea Resource Recovery Centre,Murrindindi Shire Council,Drop-off,Transfer station,617 Ghin Ghin Road,Yea,VIC,3717,-37.093,145.2227,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01159,Yinnar Transfer Station,Latrobe City Council,Drop-off,Transfer station,Whitelaws Track,Yinnar South,VIC,3869,-38.377715,146.343027,1,1,1,1,1,1,1,1,1,0,0,1

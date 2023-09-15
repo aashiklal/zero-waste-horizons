@@ -1,0 +1,56 @@
+UniqueId,FacilityOrSiteName,Owner,ManagementType,InfrastructureType,FacilityStreetAddress,FacilitySuburbLocality,State,Postcode,Latitude,Longitude,BatteriesRechargeable,BatteriesSingleUse,BatteriesLeadAcid,ComputersAccessories,MobilePhones,PrinterCartridges,Televisions,ElectricalAppliances,ElectricalAppliancesBatteryOperated,ChemicalDrums,Mercury,WhiteGoods
+VIC00007,Alexandra Landfill,Murrindindi Shire Council,Disposal,Landfill – putrescible,122 Mount Pleasant Road,Alexandra,VIC,3714,-37.210741,145.722375,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00020,Anglesea Landfill,Surf Coast Shire Council,Disposal,Landfill – putrescible,50 Coalmine Road,Anglesea,VIC,3230,-38.38506,144.19862,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00087,Benalla Landfill,Benalla Rural City Council,Disposal,Landfill – putrescible,Old Farnley Road,Benalla,VIC,3672,-36.5114179999999,145.998539,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00108,Birchip Landfill,Buloke Shire Council,Disposal,Landfill – putrescible,Birchip-Corack Road,Birchip,VIC,3483,-36.0094809999999,142.9362325,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00116,Boort Landfill,Loddon Shire Council,Disposal,Landfill – putrescible,Boort Quambatook Road,Boort,VIC,3537,-36.105948,143.722823,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00119,Bowser Landfill,Wangaratta Rural City Council,Disposal,Landfill – putrescible,5 Coleman Road,Bowser,VIC,3678,-36.3181915,146.3671645,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00167,Sago Hill Quarry,FMP Group (Australia) Pty Ltd,Disposal,Landfill – putrescible,726 Bells Road,Bunkers Hill,VIC,3352,-37.5833129879999,143.73828125,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00188,Cann River Landfill,East Gippsland Shire Council,Disposal,Landfill – putrescible,20 Coast Road,Cann River,VIC,3890,-37.5760521,149.1273861,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00207,Casterton Landfill,Glenelg Shire Council,Disposal,Landfill – putrescible,291 Bahgallah Road,Casterton,VIC,3311,-37.6108,141.38945,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00208,Castlemaine Landfill,Mount Alexander Shire Council,Disposal,Landfill – putrescible,Sluicers Road,Castlemaine,VIC,3450,-37.0774489999999,144.192531,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00215,Charlton Landfill,Buloke Shire Council,Disposal,Landfill – putrescible,212 Charlton - St Arnaud Road,Charlton,VIC,3525,-36.284343,143.335486,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00227,Cleanaway Carroll Road Landfill,Cleanaway,Disposal,Landfill – putrescible,Carroll Road,Clarinda,VIC,3169,-37.9328594,145.0937269,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00239,Cobram Landfill,Moira Shire Council,Disposal,Landfill – putrescible,56 Pye Road,Cobram,VIC,3644,-35.9554116,145.6825279,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00240,Cobungra Landfill,Mount Hotham Alpine Resort Management Board,Disposal,Landfill – putrescible,Great Alpine Road,Cobungra,VIC,3898,-37.0828705,147.37945,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00268,Corryong Landfill ,Towong Shire Council,Disposal,Landfill – putrescible,Sugarloaf Road,Corryong,VIC,3707,-37.9927719999999,145.427179,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00269,Cosgrove Landfill,Greater Shepparton City Council,Disposal,Landfill – putrescible,Cosgrove Lemnos Road,Cosgrove,VIC,3631,-36.3474024999999,145.599398,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00280,SBI Landfill,SBI Group,Disposal,Landfill – inert,950 Ballarto Road,Cranbourne,VIC,3977,-38.1282889,145.2607425,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00291,Killarney Landfill,Moyne Shire Council,Disposal,Landfill – inert,12 Badhams Road,Crossley,VIC,3283,-38.31809,142.29754,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00331,Suez Taylors Rd Landfill,Suez Australia Pty Ltd,Disposal,Landfill – putrescible,890 Taylors Road,Dandenong South,VIC,2976,-38.0401335,145.228086,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00334,Dartmoor Landfill,Glenelg Shire Council,Disposal,Landfill – putrescible,270 Bowds Lane,Dartmoor,VIC,3304,-37.89853,141.22418,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00357,Donald Landfill,Buloke Shire Council,Disposal,Landfill – putrescible,Depot Road,Donald,VIC,3480,-36.3828695,142.9529615,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00365,Dooen Landfill,Horsham Rural City Council,Disposal,Landfill – putrescible,132 Ladlows Road,Dooen,VIC,3401,-36.6071705,142.2560676,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00377,Drysdale Landfill,Greater Geelong City Council,Disposal,Landfill – putrescible,82-180 Becks Road,Drysdale,VIC,3222,-38.16925,144.62752,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00383,Eaglehawk Landfill,Greater Bendigo City Council,Disposal,Landfill – putrescible,191-193 Upper California Gully Road,Eaglehawk,VIC,3556,-36.659505,144.212341,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00436,Bairnsdale Landfill,East Gippsland Shire Council,Disposal,Landfill – putrescible,200 Johnstons Road,Forge Creek,VIC,3875,-37.8800009999999,147.6262,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00472,Grantville Landfill,Bass Coast Shire Council,Disposal,Landfill – putrescible,1685 Bass Highway,Grantville,VIC,3984,-38.420836,145.5196345,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00485,Hamilton Landfill,Southern Grampians Shire Council,Disposal,Landfill – putrescible,68 Elijah Street,Hamilton,VIC,3300,-37.7465389,141.99663,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00488,Suez Hallam Road Landfill,Suez Australia Pty Ltd,Disposal,Landfill – putrescible,274 Hallam Road,Hampton Park,VIC,3976,-38.0540704,145.2673278,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00499,Heathcote Landfill,Greater Bendigo City Council,Disposal,Landfill – putrescible,Golden Gully Road,Heathcote,VIC,3523,-36.935304,144.697147,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00511,Hilldene Landfill,Mitchell Shire Council,Disposal,Landfill – putrescible,470 Seymour-Tooborac Road,Hilldene,VIC,3660,-37.0293934,145.0800757,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00528,Inglewood Landfill,Loddon Shire Council,Disposal,Landfill – putrescible,North Street (Salisbury Road),Inglewood,VIC,3517,-36.566775,143.876544,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00548,Denyer Road Landfill,Gannawarra Shire Council,Disposal,Landfill – putrescible,55 Denyer Road,Kerang,VIC,3579,-35.7625785,143.77815,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00562,Kilmany Landfill,Wellington Shire Council,Disposal,Landfill – putrescible,Velore Road,Kilmany,VIC,3851,-38.102931,146.9274395,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00570,Koonwarra Landfill,South Gippsland Shire Council,Disposal,Landfill – putrescible,Koonwarra-Inverloch Road,Koonwarra,VIC,3954,-38.5583285,145.9222205,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00592,Glen Landfill Pty Ltd,Glen Landfill Pty Ltd,Disposal,Landfill – putrescible,75 Quarry Road,Langwarrin,VIC,3910,-38.1408489999999,145.1991845,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00623,Hyland Highway Landfill,Latrobe City Council,Disposal,Landfill – putrescible,Hyland Highway,Loy Yang,VIC,3844,-38.2773475,146.558154,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00631,Maffra Landfill,Wellington Shire Council,Disposal,Landfill – putrescible,Sellings Road,Maffra,VIC,3860,-37.9126585,146.9861545,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00683,Mildura Landfill,Mildura Rural City Council,Disposal,Landfill – putrescible,Scherger Drive,Mildura,VIC,3500,-34.1850615,142.1422685,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00767,Corangamite Regional Landfill,Corangamite Shire Council,Disposal,Landfill – putrescible,County Boundary West Road,Naroghid,VIC,3266,-38.27278,143.04848,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00779,Newbridge Landfill,Loddon Shire Council,Disposal,Landfill – putrescible,Newbridge-Tarnagulla Road,Newbridge,VIC,3551,-36.7443689999999,143.890815,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00811,Ouyen Landfill,Mildura Rural City Council,Disposal,Landfill – putrescible,Dunkley Road,Ouyen,VIC,3490,-35.0945429999999,142.325982,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00823,Patho Landfill,Veolia,Disposal,Landfill – putrescible,Patho Station Road,Patho,VIC,3564,-36.0375645,144.438963,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00852,Pyramid Hill Landfill,Loddon Shire Council,Disposal,Landfill – putrescible,Cemetery Road,Pyramid Hill,VIC,3575,-36.0653179999999,144.139332,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00856,Cleanaway MRL Ravenhall,Cleanaway,Disposal,Landfill – putrescible,1100-1152 Christies Road,Ravenhall,VIC,3023,-37.7915809,144.7302601,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00873,Robinvale Landfill,Swan Hill Rural City Council,Disposal,Landfill – putrescible,899 Robinvale-Sea Lake Road,Robinvale,VIC,3549,-34.6028224999999,142.7714905,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00880,Rosedale Landfill,Wellington Shire Council,Disposal,Landfill – putrescible,Merton Vale Road,Rosedale,VIC,3847,-38.196455,146.805947,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00888,Rye Landfill & Resource Recovery Centre,Mornington Peninsula Shire Council,Disposal,Landfill – putrescible,280 Truemans Road,Rye,VIC,3941,-38.401757,144.860689,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00927,Smythesdale Landfill,Ballarat City Council,Disposal,Landfill – putrescible,Glenelg Highway (BMG Boral Gravel Pits),Smythesdale,VIC,3351,-37.6255434999999,143.7012185,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00969,Stawell and Ararat Regional Landfill,Cleanaway,Disposal,Landfill – putrescible,Pomonal Road,Stawell,VIC,3380,-37.099284,142.735913,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00976,Sunbury Landfill,Hume City Council,Disposal,Landfill – putrescible,515 Riddell Road,Sunbury,VIC,3429,-37.554718,144.699348,1,1,1,1,1,1,1,1,1,0,0,1
+VIC00986,Swan Hill Landfill,Swan Hill Rural City Council,Disposal,Landfill – putrescible,6859 Swan Hill-Sea Lake Road ,Swan Hill,VIC,3585,-35.349929,143.509847,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01034,Devil Bend Landfill,Grosvenor Lodge Pty Ltd,Disposal,Landfill – putrescible,435 Balnarring Road,Tuerong,VIC,3915,-38.2950039999999,145.0769435,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01063,Warracknabeal Landfill,Yarriambiack Shire Council,Disposal,Landfill – putrescible,108 Tip Road,Warracknabeal,VIC,3393,-36.2262914,142.4077673,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01095,Werribee Landfill,Wyndham City Council,Disposal,Landfill – putrescible,420 Wests Road,Werribee,VIC,3030,-37.940938,144.5905665,1,1,1,1,1,1,1,1,1,0,0,1
+VIC01127,Hansons Wollert Landfill,Hanson ,Disposal,Landfill – putrescible,55 Bridge Inn Road,Wollert,VIC,3750,-37.5941364999999,145.038485,1,1,1,1,1,1,1,1,1,0,0,1

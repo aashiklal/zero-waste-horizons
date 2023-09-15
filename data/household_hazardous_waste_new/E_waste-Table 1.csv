@@ -1,0 +1,130 @@
+UniqueId,FacilityOrSiteName,Owner,ManagementType,InfrastructureType,FacilityStreetAddress,FacilitySuburbLocality,State,Postcode,Latitude,Longitude,BatteriesRechargeable,BatteriesSingleUse,BatteriesLeadAcid,ComputersAndAccessories,MobilePhones,PrinterCartridges,Televisions,ElectricalAppliances,ElectricalAppliancesBatteryOperated
+VIC00002,Moonee Valley Transfer Station,Moonee Valley City Council,Drop-off,E-waste drop-off facility,188 Holmes Road,Aberfeldie,VIC,3040,-37.7642345,144.9021359,1,1,0,1,1,1,1,1,1
+VIC00004,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,Louis St & Dromana Ave,Airport West,VIC,3042,-37.71335,144.8889173,1,1,0,1,1,1,0,0,0
+VIC00025,Ararat Resource Recovery Centre,Ararat Rural City Council,Drop-off,E-waste drop-off facility,Surface Hill Road,Ararat,VIC,3377,-37.191044,143.251694,1,1,0,1,1,1,1,1,1
+VIC00029,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,64 Mt Alexander Rd,Ascot Vale,VIC,3031,-37.7846605,144.9382989,1,1,0,1,1,1,0,0,0
+VIC00040,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,294 Main Street,Bairnsdale,VIC,3875,-37.826699,147.6257551,0,0,0,1,0,1,1,0,0
+VIC00048,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,116 Creswick Rd,Ballarat,VIC,3350,-37.5549626,143.8547099,1,1,0,1,1,1,0,0,0
+VIC00050,The Good Guys,The Good Guys,Drop-off,E-waste drop-off facility,31 Mair Street,Ballarat,VIC,3350,-37.560169,143.8595948,0,0,0,1,0,1,1,0,0
+VIC00073,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,"Lot 4, 189 Canterbury Road",Bayswater,VIC,3153,-37.8289451,145.2823006,1,1,0,1,1,1,0,0,0
+VIC00077,Beaufort Transfer Station,Pyrenees Shire Council,Drop-off,E-waste drop-off facility,Racecourse Road,Beaufort,VIC,3373,-37.42504,143.39575,1,1,0,1,1,1,1,1,1
+VIC00080,Beechworth Transfer Station,Indigo Shire Council,Drop-off,E-waste drop-off facility,1620 Diffey Road,Beechworth,VIC,3747,-36.374737,146.679658,1,1,0,1,1,1,1,1,1
+VIC00082,Banyule Waste Recovery Centre,Banyule City Council,Drop-off,E-waste drop-off facility,307-325 Waterdale Road,Bellfield,VIC,3081,-37.7563681,145.0449345,1,1,0,1,1,1,1,1,1
+VIC00087,Benalla Resource Recovery Centre,Benalla Rural City Council,Drop-off,E-waste drop-off facility,Old Farnley Road,Benalla,VIC,3672,-36.511326,146.001273,1,1,0,1,1,1,1,1,1
+VIC00089,The Good Guys,The Good Guys,Drop-off,E-waste drop-off facility,107 Williamson Street,Bendigo,VIC,3550,-36.7594336,144.2813701,0,0,0,1,0,1,1,0,0
+VIC00094,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,297-305 Hargreaves Mall,Bendigo,VIC,3550,-36.7599561,144.2803856,1,1,0,1,1,1,0,0,0
+VIC00122,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,263 Middleborough Road,Box Hill South,VIC,3128,-37.835659,145.1345657,1,1,0,1,1,1,0,0,0
+VIC00129,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,61 Leather Street,Breakwater,VIC,3219,-38.1852809,144.3792597,0,0,0,1,0,1,1,0,0
+VIC00134,The Good Guys,The Good Guys,Drop-off,E-waste drop-off facility,681 Nepean Highway,Brighton,VIC,3186,-37.9162719,145.0189109,0,0,0,1,0,1,1,0,0
+VIC00153,Kartaway East Brunswick Public Transfer Station,Kartaway,Drop-off,E-waste drop-off facility,32 Kirkdale Street,Brunswick East,VIC,3057,-37.7702484,144.9825744,0,0,0,1,1,1,1,1,1
+VIC00162,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,1101-1181 Plenty Rd,Bundoora,VIC,3083,-37.7043962,145.0544658,1,1,0,1,1,1,0,0,0
+VIC00175,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,1434-1468 Sydney Rd,Campbellfield,VIC,3061,-37.6878238,144.9597539,1,1,0,1,1,1,0,0,0
+VIC00183,Campbellfield Recycling and Waste Transfer  Station,Hume City Council,Drop-off,E-waste drop-off facility,71 Bolinda Road,Campbellfield,VIC,3061,-37.6848425,144.9654428,1,1,0,1,1,1,1,1,1
+VIC00198,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,1048-1054 Princess Highway,Carnegie,VIC,3163,-37.8842177,145.0553698,1,1,0,1,1,1,0,0,0
+VIC00203,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,"Lot 4, 22-45 Eucumbene Drive",Caroline Springs,VIC,3023,-37.7589573,144.7423575,1,1,0,1,1,1,0,0,0
+VIC00212,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,699 Warrigal Rd,Chadstone,VIC,3148,-37.8801264,145.0922593,1,1,0,1,1,1,0,0,0
+VIC00223,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,294 Maroondah Highway,Chirnside Park,VIC,3116,-37.7681335,145.300159,1,1,0,1,1,1,0,0,0
+VIC00235,Yarra Recycling Centre,Yarra City Council,Drop-off,E-waste drop-off facility,168 Roseneath Street,Clifton Hill,VIC,3068,-37.7934248,145.0013537,1,1,0,1,1,1,1,1,1
+VIC00243,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,64 Gaffney St,Coburg,VIC,3058,-37.732272,144.9591997,1,1,0,1,1,1,0,0,0
+VIC00243,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,8/64-74 Gaffney Street,Coburg,VIC,3058,-37.7321769,144.9586635,0,0,0,1,0,1,1,0,0
+VIC00251,Cohuna Transfer Station,Gannawarra Shire Council,Drop-off,E-waste drop-off facility,150 Chuggs Road,Cohuna,VIC,3568,-35.834484,144.228175,1,1,0,1,1,1,1,1,1
+VIC00268,Corryong Transfer Station,Towong Shire Council,Drop-off,E-waste drop-off facility,Sugarloaf Road,Corryong,VIC,3707,-36.220985,147.890697,1,1,0,1,1,1,1,1,1
+VIC00284,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,South Gippsland Hwy,Cranbourne,VIC,3977,-38.1080139,145.2833744,1,1,0,1,1,1,0,0,0
+VIC00285,The Good Guys,The Good Guys,Drop-off,E-waste drop-off facility,"Unit 24, 350-398 South Gippsland Highway",Cranbourne,VIC,3977,-38.0855972,145.2788867,0,0,0,1,0,1,1,0,0
+VIC00297,Whitehorse Council Works Depot,Whitehorse City Council,Drop-off,E-waste drop-off facility,Kingsbury Street,Croydon North,VIC,3136,-37.7696503,145.2869678,1,1,0,1,1,1,1,1,1
+VIC00301,Eurotag Australia,Eurotag Australia,Drop-off,E-waste drop-off facility,18-20 Dandenong Street,Dandenong,VIC,3175,-37.9925066,145.1996643,0,0,0,1,0,1,1,0,0
+VIC00307,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,Cnr Frankston-Dandenong & Greens Road,Dandenong,VIC,3175,-38.0146042,145.2152017,0,0,0,1,0,1,1,0,0
+VIC00312,The Good Guys,The Good Guys,Drop-off,E-waste drop-off facility,Tenancy 1,Dandenong,VIC,3175,-37.9908706,145.2003799,0,0,0,1,0,1,1,0,0
+VIC00332,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,"Tenancy 5, 55-67 Frankston Dandenong Rd",Dandenong South,VIC,3175,-38.0057384,145.2186803,1,1,0,1,1,1,0,0,0
+VIC00335,Daylesford Transfer Station,Hepburn Shire Council,Drop-off,E-waste drop-off facility,Ajax Road,Daylesford,VIC,3460,-37.334377,144.130618,1,1,0,1,1,1,1,1,1
+VIC00351,Dimboola Transfer Station,Hindmarsh Shire Council,Drop-off,E-waste drop-off facility,Warracknabeal Road,Dimboola,VIC,3414,-36.4457283,142.0496643,1,1,0,1,1,1,1,1,1
+VIC00358,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,602-630 Doncaster Rd,Doncaster,VIC,3108,-37.7879868,145.1258649,1,1,0,1,1,1,0,0,0
+VIC00396,Edenhope Transfer Station,West Wimmera Shire Council,Drop-off,E-waste drop-off facility,Moss Street,Edenhope,VIC,3318,-37.0373623,141.2824373,1,1,0,1,1,1,1,1,1
+VIC00398,Eldorado Transfer Station,Wangaratta Rural City Council,Drop-off,E-waste drop-off facility,Woolshed Road,Eldorado,VIC,3746,-36.301597,146.637923,1,1,0,1,1,1,1,1,1
+VIC00401,Shred On Site,Shred On Site,Drop-off,E-waste drop-off facility,"Level 1, 336 Glenhuntly Rd",Elsternwick,VIC,3185,-37.884785,145.0029861,0,0,0,1,1,1,1,1,1
+VIC00425,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,802 Burwood Hwy,Ferntree Gully,VIC,3156,-37.8822616,145.2738369,1,1,0,1,1,1,0,0,0
+VIC00428,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,230 Alexandra Parade,Fitzroy,VIC,3065,-37.7944219,144.9846394,1,1,0,1,1,1,0,0,0
+VIC00436,Bairnsdale Transfer Station,East Gippsland Shire Council,Drop-off,E-waste drop-off facility,200 Johnstons Road,Forge Creek,VIC,3875,-37.8800009999999,147.6262,1,1,0,1,1,1,1,1,1
+VIC00442,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,351-355 Nepean Hwy,Frankston,VIC,3199,-38.1354015,145.1249097,1,1,0,1,1,1,0,0,0
+VIC00445,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,150 Malop St,Geelong,VIC,3220,-38.1485498,144.3638827,1,1,0,1,1,1,0,0,0
+VIC00462,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,342 Springvale Road,Glen Waverley,VIC,3150,-37.8872801,145.1655671,1,1,0,1,1,1,0,0,0
+VIC00496,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,612 Burwood Road,Hawthorn East,VIC,3123,-37.8242427,145.0455908,1,1,0,1,1,1,0,0,0
+VIC00507,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,1123 Nepean Hwy,Highett,VIC,3190,-37.9471335,145.0459784,1,1,0,1,1,1,0,0,0
+VIC00513,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,1/201-219 Old Geelong Road,Hoppers Crossing,VIC,3029,-37.8749084,144.7109985,0,0,0,1,0,1,1,0,0
+VIC00520,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,148-150 Firebrace Street,Horsham,VIC,3400,-36.718209,142.1988338,0,0,0,1,0,1,1,0,0
+VIC00524,Horsham Transfer Station & Resource Recovery Centre,Horsham Rural City Council,Drop-off,E-waste drop-off facility,93 Kenny Road,Horsham,VIC,3400,-36.7410284,142.1935111,1,1,0,1,1,1,1,1,1
+VIC00547,Kerang Transfer Station,Gannawarra Shire Council,Drop-off,E-waste drop-off facility,197 Kerang-Murrabit Road ,Kerang,VIC,3579,-35.7200295,143.92593,1,1,0,1,1,1,1,1,1
+VIC00549,Bi-Rite,Bi-Rite,Drop-off,E-waste drop-off facility,78 Wellington Street,Kerang,VIC,3579,-35.735389,143.918622,0,0,0,1,0,0,1,0,0
+VIC00555,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,790 High Street,Kew East,VIC,3102,-37.7972024,145.0566591,1,1,0,1,1,1,0,0,0
+VIC00559,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,481- 485 Cheltenham Rd,Keysborough,VIC,3173,-37.9912409,145.1515526,1,1,0,1,1,1,0,0,0
+VIC00562,Kilmany Landfill,Wellington Shire Council,Drop-off,E-waste drop-off facility,Velore Road,Kilmany,VIC,3851,-38.095313,146.9217264,1,1,0,1,1,1,1,1,1
+VIC00577,Betta Home Living,Betta Home Living,Drop-off,E-waste drop-off facility,25 High Street,Kyneton,VIC,3444,-37.2494748,144.4542861,0,0,0,1,0,0,1,0,0
+VIC00581,Lake Bolac Resource Recovery Centre,Ararat Rural City Council,Drop-off,E-waste drop-off facility,Rubbish Tip Road,Lake Bolac,VIC,3351,-37.704218,142.8236,1,1,0,1,1,1,1,1,1
+VIC00585,Lalbert Transfer Station,Gannawarra Shire Council,Drop-off,E-waste drop-off facility,10 Wood Avenue,Lalbert,VIC,3542,-35.673526,143.374307,1,1,0,1,1,1,1,1,1
+VIC00606,Shred-X Vic,Shred-X ,Recycling,E-waste recycling facility,30 Plummer Road,Laverton North,VIC,3026,-37.8182766,144.8136871,1,1,0,1,1,1,1,0,0
+VIC00637,Stonnington Waste Transfer Station,Stonnington City Council,Drop-off,E-waste drop-off facility,32 Weir Street,Malvern,VIC,3144,-37.848196,145.0411196,1,1,0,1,1,1,1,1,1
+VIC00640,Mansfield Resource Recovery Centre,Mansfield Shire Council,Drop-off,E-waste drop-off facility,163 Monkey Gully Road,Mansfield,VIC,3722,-37.0831,146.0906082,1,1,0,1,1,1,1,1,1
+VIC00642,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,169 Rosamond Rd,Maribyrnong,VIC,3032,-37.773265,144.8839527,1,1,0,1,1,1,0,0,0
+VIC00645,Markwood Transfer Station,Wangaratta Rural City Council,Drop-off,E-waste drop-off facility,145 Forest Lane,Markwood,VIC,3678,-36.467864,146.475917,1,1,0,1,1,1,1,1,1
+VIC00652,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,210 Lonsdale Street,Melbourne,VIC,3000,-37.8108823,144.9657655,0,0,0,1,0,1,1,0,0
+VIC00653,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,271-275 Russell St,Melbourne,VIC,3000,-37.8106962,144.9657037,1,1,0,1,1,1,0,0,0
+VIC00664,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,3 Nepean Highway,Mentone,VIC,3194,-37.9749231,145.0665588,1,1,0,1,1,1,0,0,0
+VIC00674,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,138 Deakin Avenue,Mildura,VIC,3500,-34.1888165,142.1586548,1,1,0,1,1,1,0,0,0
+VIC00680,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,Cnr Sixteenth Street & Etiwanda Avenue,Mildura,VIC,3500,-34.2236292,142.1357128,0,0,0,1,0,1,1,0,0
+VIC00692,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,19 Moore Street,Moe,VIC,3825,-38.1740589,146.2617608,0,0,0,1,0,1,1,0,0
+VIC00710,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,420 South Road,Moorabbin,VIC,3189,-37.9348984,145.0419304,0,0,0,1,0,1,1,0,0
+VIC00713,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,286 Maroondah Highway,Mooroolbark,VIC,3138,-37.7673244,145.3030743,0,0,0,1,0,1,1,0,0
+VIC00720,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,1128-1132 Nepean Hwy,Mornington,VIC,3931,-38.2193791,145.0608613,0,0,0,1,0,1,1,0,0
+VIC00720,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,1128-1132 Nepean Hwy,Mornington,VIC,3931,-38.2193791,145.0608613,1,1,0,1,1,1,0,0,0
+VIC00726,The Good Guys,The Good Guys,Drop-off,E-waste drop-off facility,Shop B2-B3 Peninsula Homemaker Centre,Mornington,VIC,3931,-38.2202106,145.0615523,0,0,0,1,0,1,1,0,0
+VIC00740,Mount Beauty Transfer Station,Alpine Shire Council,Drop-off,E-waste drop-off facility,Maddisons Lane,Mount Beauty,VIC,3699,-36.7293,147.174674,1,1,0,1,1,1,1,1,1
+VIC00751,Moyhu Transfer Station,Wangaratta Rural City Council,Drop-off,E-waste drop-off facility,569 Boggy Creek Road,Moyhu,VIC,3732,-36.637271,146.351227,1,1,0,1,1,1,1,1,1
+VIC00756,Officeworks Mulgrave,Officeworks,Drop-off,E-waste drop-off facility,6 Industry Road,Mulgrave,VIC,3170,-37.9210289,145.1628072,1,1,0,1,1,1,0,0,0
+VIC00762,Myrtleford Transfer Station,Alpine Shire Council,Drop-off,E-waste drop-off facility,6 Morrisons Lane,Myrtleford,VIC,3741,-36.543607,146.761577,1,1,0,1,1,1,1,1,1
+VIC00768,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,352 Princes Highway  ,Narre Warren,VIC,3805,-38.0176841,145.3047916,1,1,0,1,1,1,0,0,0
+VIC00769,The Good Guys,The Good Guys,Drop-off,E-waste drop-off facility,48/50 Victor Crescent,Narre Warren,VIC,3805,-38.0214052,145.3118434,0,0,0,1,0,1,1,0,0
+VIC00770,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,8 Overland Drive,Narre Warren,VIC,3805,-38.0219211,145.305128,0,0,0,1,0,1,1,0,0
+VIC00785,Bi Rite Nhill,Bi Rite Nhill,Drop-off,E-waste drop-off facility,1/13 Victoria St,Nhill,VIC,3418,-36.33278,141.6503408,0,0,0,1,0,0,1,0,0
+VIC00801,The Good Guys,The Good Guys,Drop-off,E-waste drop-off facility,372-394 Whitehorse Road,Nunawading,VIC,3131,-37.8193132,145.179378,0,0,0,1,0,1,1,0,0
+VIC00807,Outlook E-waste Processing Facility,Outlook Environmental,Recycling,E-waste recycling facility,5-7 Hickson Road,Officer,VIC,3809,-38.0678206,145.4097763,0,0,0,1,1,1,1,1,1
+VIC00811,Ouyen Landfill,Mildura Rural City Council,Drop-off,E-waste drop-off facility,Dunkley Road,Ouyen,VIC,3490,-35.1064351,142.3372181,1,1,0,1,1,1,1,1,1
+VIC00816,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,825 Princes Highway,Pakenham,VIC,3810,-38.060733,145.4527428,1,1,0,1,1,1,0,0,0
+VIC00830,Nillumbik Recycling and Recovery Centre,Nillumbik Shire Council,Drop-off,E-waste drop-off facility,290 Yan Yean Road,Plenty,VIC,3090,-37.654827,145.124126,1,1,0,1,1,1,1,1,1
+VIC00836,Porepunkah Transfer Station,Alpine Shire Council,Drop-off,E-waste drop-off facility,159 Roberts Creek Road,Porepunkah,VIC,3740,-36.69481,146.958276,1,1,0,1,1,1,1,1,1
+VIC00846,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,121 Bell Street,Preston,VIC,3072,-37.7475605,145.0181632,0,0,0,1,0,1,1,0,0
+VIC00846,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,121 Bell Street,Preston,VIC,3072,-37.7475605,145.0181632,1,1,0,1,1,1,0,0,0
+VIC00853,Quambatook Transfer Station,Gannawarra Shire Council,Drop-off,E-waste drop-off facility,43 Meering Road,Quambatook,VIC,3540,-35.852587,143.515788,1,1,0,1,1,1,1,1,1
+VIC00858,Darebin Resource Recovery Centre,Darebin City Council,Recycling,E-waste recycling facility,30 Kurnai Avenue,Reservoir,VIC,3074,-37.720769,144.9838589,1,1,0,1,1,1,1,1,1
+VIC00864,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,566 Bridge Rd,Richmond,VIC,3121,-37.8207429,145.0110171,1,1,0,1,1,1,0,0,0
+VIC00869,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,241 Maroondah Hwy,Ringwood,VIC,3134,-37.8134619,145.2319455,1,1,0,1,1,1,0,0,0
+VIC00876,Romsey Transfer Station ,Macedon Ranges Shire Council,Drop-off,E-waste drop-off facility,21 Johnston Court,Romsey,VIC,3434,-37.3610596,144.7697345,1,1,0,1,1,1,1,1,1
+VIC00887,Rutherglen Transfer Station,Indigo Shire Council,Drop-off,E-waste drop-off facility,53 Cornishtown Road,Rutherglen,VIC,3685,-36.069791,46.493703,1,1,0,1,1,1,1,1,1
+VIC00888,Rye Landfill & Resource Recovery Centre,Mornington Peninsula Shire Council,Drop-off,E-waste drop-off facility,280 Truemans Road,Rye,VIC,3941,-38.3913687,144.8554069,1,1,0,1,1,1,1,1,1
+VIC00894,Bayside Transfer Station,Bayside City Council,Drop-off,E-waste drop-off facility,76 Royal Avenue,Sandringham,VIC,3191,-37.9596885,145.0169148,1,1,0,1,1,1,1,1,1
+VIC00913,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,278 High St,Shepparton,VIC,3630,-36.3831751,145.4086629,1,1,0,1,1,1,0,0,0
+VIC00917,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,Building A Riverside Plaza 8025,Shepparton,VIC,3630,-36.4083712,145.3911138,0,0,0,1,0,1,1,0,0
+VIC00933,TES-AMM Victoria,TES-AMM Pty Ltd,Recycling,E-waste recycling facility,29 Filo Drive,Somerton,VIC,3062,-37.64239502,144.957092285,0,1,1,1,1,1,1,0,0
+VIC00939,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,231 Kings Way,South Melbourne,VIC,3205,-37.8324166,144.9679812,1,1,0,1,1,1,0,0,0
+VIC00940,Port Phillip Resource Recovery Centre,Port Phillip City Council,Drop-off,E-waste drop-off facility,Boundary Street,South Melbourne,VIC,3205,-37.8300633,144.9451058,1,1,0,1,1,1,1,1,1
+VIC00952,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,917 Princes Hwy,Springvale,VIC,3171,-37.9280757,145.1437916,0,0,0,1,0,1,1,0,0
+VIC00976,Sunbury Landfill & Resource Recovery Centre,Hume City Council,Drop-off,E-waste drop-off facility,515 Riddell Rd,Sunbury,VIC,3429,-37.548056,144.690741,1,1,0,1,1,1,1,1,1
+VIC00992,Tallangatta Transfer Station,Towong Shire Council,Drop-off,E-waste drop-off facility,727 Murray Valley Highway,Tallangatta,VIC,3700,-36.2236,147.163442,1,1,0,1,1,1,1,1,1
+VIC01003,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,2/460 Melton Highway,Taylors Lakes,VIC,3038,-37.6952015,144.7752367,1,1,0,1,1,1,0,0,0
+VIC01004,Harvey Norman Watergardens,Harvey Norman,Drop-off,E-waste drop-off facility,450 Melton Highway,Taylors Lakes,VIC,3038,-37.6954115,144.7768628,0,0,0,1,0,1,1,0,0
+VIC01007,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,308-320 Settlement Road,Thomastown,VIC,3074,-37.6877106,145.0271182,0,0,0,1,0,1,1,0,0
+VIC01020,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,123 Argyle St,Traralgon,VIC,3844,-38.1928529,146.5530898,0,0,0,1,0,1,1,0,0
+VIC01029,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,"Shop 6, 149-163 Argyle Street",Traralgon,VIC,3844,-38.1921382,146.557016,1,1,0,1,1,1,0,0,0
+VIC01038,Tyabb Resource Recovery Centre,Mornington Peninsula Shire Council,Drop-off,E-waste drop-off facility,21 McKirdys Road,Tyabb,VIC,3913,-38.2600234,145.2172139,1,1,0,1,1,1,1,1,1
+VIC01045,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,606 Burwood Highway,Vermont South,VIC,3133,-37.8589669,145.1954582,1,1,0,1,1,1,0,0,0
+VIC01058,Wangaratta Transfer Station,Wangaratta Rural City Council,Drop-off,E-waste drop-off facility,46-56 Sandford Road,Wangaratta,VIC,3677,-36.3667543,146.2904396,1,1,0,1,1,1,1,1,1
+VIC01063,Warracknabeal Landfill,Yarriambiack Shire Council,Drop-off,E-waste drop-off facility,108 Tip Road,Warracknabeal,VIC,3393,-36.2262914,142.4077673,1,1,0,1,1,1,1,1,1
+VIC01066,Harvey Norman (Warehouse),Harvey Norman,Drop-off,E-waste drop-off facility,33 Victoria Street,Warragul,VIC,3820,-38.1618968,145.9300722,0,0,0,1,0,1,1,0,0
+VIC01071,eWaste Recycling,Western District Employment Agency,Recycling,E-waste recycling facility,11 Albert Street,Warrnambool,VIC,3280,-38.37387,142.45802,0,0,0,1,1,1,1,1,1
+VIC01076,Harvey Norman,Harvey Norman,Drop-off,E-waste drop-off facility,84 Raglan Pde,Warrnambool,VIC,3280,-38.3829014,142.5233578,0,0,0,1,0,1,1,0,0
+VIC01084,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,3/213 Colac Road,Waurn Ponds,VIC,3216,-38.2031669,144.3107692,1,1,0,1,1,1,0,0,0
+VIC01085,Harvey Norman (Breakwater Warehouse),Harvey Norman,Drop-off,E-waste drop-off facility,33 Princess Hwy,Waurn Ponds,VIC,3216,-38.2048558,144.3079523,0,0,0,1,0,1,1,0,0
+VIC01097,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,57-61 Synnot St,Werribee,VIC,3030,-37.9039514,144.6597614,1,1,0,1,1,1,0,0,0
+VIC01117,Wodonga Transfer Station,Wodonga Council,Drop-off,E-waste drop-off facility,29 Kane Road,Wodonga,VIC,3690,-36.1174577,146.9058819,1,1,0,1,1,1,1,1,1
+VIC01127,Hanson Wollert Landfill,Hanson,Drop-off,E-waste drop-off facility,55 Bridge Inn Road,Wollert,VIC,3750,-37.5912137,145.0473462,0,0,1,1,0,0,1,1,1
+VIC01135,Woodend Transfer Station,Macedon Ranges Shire Council,Drop-off,E-waste drop-off facility,149 Quarry Road,Woodend,VIC,3442,-37.3695643,144.5414709,1,1,0,1,1,1,1,1,1
+VIC01154,Officeworks,Officeworks,Drop-off,E-waste drop-off facility,377 Williamstown Rd,Yarraville,VIC,3013,-37.8241733,144.8819755,1,1,0,1,1,1,0,0,0

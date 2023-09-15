@@ -9,13 +9,19 @@ const db = new sqlite3.Database('./mydb.sqlite', (err) => {
   console.log('Connected to the local SQLite database.');
 });
 
-// Drop existing tables if they exist
-['VLGAS', 'WasteCollectionMonthly_cleaned', 'Classification_cleaned'].forEach(table => {
-  db.run(`DROP TABLE IF EXISTS ${table}`, (err) => {
-    if (err) {
-      return console.error(err.message);
-    }
-    console.log(`Table ${table} deleted successfully.`);
+db.all("SELECT name FROM sqlite_master WHERE type='table'", [], (err, rows) => {
+  if (err) {
+    return console.error(err.message);
+  }
+
+  // Drop each table one by one
+  rows.forEach((row) => {
+    db.run(`DROP TABLE IF EXISTS ${row.name}`, (err) => {
+      if (err) {
+        return console.error(err.message);
+      }
+      console.log(`Table ${row.name} deleted successfully.`);
+    });
   });
 });
 // Create new tables
@@ -81,6 +87,102 @@ CREATE TABLE Classification_cleaned (
   recovery_rate REAL
 )`;
 
+const createEwasteTableQuery = `
+CREATE TABLE E_waste_Table_1 (
+  UniqueId TEXT,
+  FacilityOrSiteName TEXT,
+  Owner TEXT,
+  ManagementType TEXT,
+  InfrastructureType TEXT,
+  FacilityStreetAddress TEXT,
+  FacilitySuburbLocality TEXT,
+  State TEXT,
+  Postcode REAL,
+  Latitude REAL,
+  Longitude REAL,
+  BatteriesRechargeable REAL,
+  BatteriesSingleUse REAL,
+  BatteriesLeadAcid REAL,
+  ComputersAndAccessories REAL,
+  MobilePhones REAL,
+  PrinterCartridges REAL,
+  Televisions REAL,
+  ElectricalAppliances REAL,
+  ElectricalAppliancesBatteryOperated REAL
+)`;
+
+const createTransferStationTableQuery = `
+CREATE TABLE Transfer_Station_Table_1 (
+  UniqueId TEXT,
+  FacilityOrSiteName TEXT,
+  Owner TEXT,
+  ManagementType TEXT,
+  InfrastructureType TEXT,
+  FacilityStreetAddress TEXT,
+  FacilitySuburbLocality TEXT,
+  State TEXT,
+  Postcode REAL,
+  Latitude REAL,
+  Longitude REAL,
+  BatteriesRechargeable REAL,
+  BatteriesSingleUse REAL,
+  BatteriesLeadAcid REAL,
+  ComputersAccessories REAL,
+  MobilePhones REAL,
+  PrinterCartridges REAL,
+  Televisions REAL,
+  ElectricalAppliances REAL,
+  ElectricalAppliancesBatteryOperated REAL,
+  ChemicalDrums REAL,
+  Mercury REAL,
+  WhiteGoods REAL
+)`;
+
+const createMetalsTableQuery = `
+CREATE TABLE Metals_Table_1 (
+  UniqueId TEXT,
+  FacilityOrSiteName TEXT,
+  Owner TEXT,
+  ManagementType TEXT,
+  InfrastructureType TEXT,
+  FacilityStreetAddress TEXT,
+  FacilitySuburbLocality TEXT,
+  State TEXT,
+  Postcode REAL,
+  Latitude REAL,
+  Longitude REAL,
+  ChemicalDrums REAL,
+  Lead REAL,
+  Mercury REAL
+)`;
+
+const createLandfillTableQuery = `
+CREATE TABLE Landfill_Table_1 (
+  UniqueId TEXT,
+  FacilityOrSiteName TEXT,
+  Owner TEXT,
+  ManagementType TEXT,
+  InfrastructureType TEXT,
+  FacilityStreetAddress TEXT,
+  FacilitySuburbLocality TEXT,
+  State TEXT,
+  Postcode REAL,
+  Latitude REAL,
+  Longitude REAL,
+  BatteriesRechargeable REAL,
+  BatteriesSingleUse REAL,
+  BatteriesLeadAcid REAL,
+  ComputersAccessories REAL,
+  MobilePhones REAL,
+  PrinterCartridges REAL,
+  Televisions REAL,
+  ElectricalAppliances REAL,
+  ElectricalAppliancesBatteryOperated REAL,
+  ChemicalDrums REAL,
+  Mercury REAL,
+  WhiteGoods REAL
+)`;
+
 function importData(filename, tableName) {
   fs.createReadStream(filename)
     .pipe(csv())
@@ -98,7 +200,8 @@ function importData(filename, tableName) {
       console.log(`CSV file ${filename} successfully processed.`);
     });
 }
-setTimeout(() => {
+
+const createTableForIter1 = function() {
   [createVlgasTableQuery, createWasteCollectionTableQuery, createClassificationTableQuery].forEach(query => {
     db.run(query, (err) => {
       if (err) {
@@ -107,6 +210,21 @@ setTimeout(() => {
       console.log('Table created successfully.');
     });
   });
+}
+
+const createTableForIter2 = function() {
+  [createEwasteTableQuery, createTransferStationTableQuery, createMetalsTableQuery,createLandfillTableQuery].forEach(query => {
+    db.run(query, (err) => {
+      if (err) {
+        return console.error(err.message);
+      }
+      console.log('Table created successfully.');
+    });
+  });
+}
+setTimeout(() => {
+  createTableForIter1()
+  createTableForIter2()
 },1000)
 
 setTimeout(() => {
@@ -114,7 +232,11 @@ setTimeout(() => {
 importData('./data/WasteCollectionMonthly_cleaned.csv', 'WasteCollectionMonthly_cleaned');
 // Import data from VLGAS.csv
 importData('./data/VLGAS.csv', 'VLGAS');
-
 // // Import data from Classification_cleaned.csv
 importData('./data/Classification_cleaned.csv', 'Classification_cleaned');
+
+importData('./data/household_hazardous_waste_new/E_waste-Table 1.csv', 'E_waste_Table_1');
+importData('./data/household_hazardous_waste_new/Transfer_Station-Table 1.csv', 'Transfer_Station_Table_1');
+importData('./data/household_hazardous_waste_new/Metals-Table 1.csv', 'Metals_Table_1');
+importData('./data/household_hazardous_waste_new/Landfill-Table 1.csv', 'Landfill_Table_1');
 },2000)
