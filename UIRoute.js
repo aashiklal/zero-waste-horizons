@@ -1,4 +1,5 @@
 const basicAuth = require('express-basic-auth');
+const path = require('path')
 module.exports = function addUIRoute(app){
   // Basic Authentication Middleware
 app.use(basicAuth({
