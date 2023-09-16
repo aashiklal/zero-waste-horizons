@@ -17,6 +17,7 @@ let db = new sqlite3.Database('./mydb.sqlite', (err) => {
   console.log('connetced to sql db');
 });
 
+addUIRoute(app)
 
 app.use(cors())
 app.use(express.static(path.join(__dirname, './frontend')));
@@ -192,9 +193,6 @@ app.get('/api/landfill', (req, res) => {
     res.json(rows);
   });
 });
-
-
-addUIRoute(app)
 
 app.listen(port, () => {
   console.log(`Listening http://localhost:${port}`);
