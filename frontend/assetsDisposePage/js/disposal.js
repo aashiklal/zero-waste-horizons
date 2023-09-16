@@ -43,36 +43,25 @@
   const metalsData = await fetchMetalsData();
 
   const landfillData = await fetchLandfillData();
-  function generatePostcodeOptions() {
+
+  const dataTypeDict = {
+    'landfill':landfillData,
+    'transfer':transferStationData,
+    'metal':metalsData,
+    'ewaste':eWasteData
+  }
+  function generatePostcodeOptions(types) {
     const dataList = document.getElementById("postcodes");
     const zipCodeSet = new Set();
-    eWasteData
-      .map((item) => item.Postcode)
+    types.forEach((type) => {
+      dataTypeDict[type].map((item) => item.Postcode)
       .forEach((code) => zipCodeSet.add(code));
-    landfillData
-      .map((item) => item.Postcode)
-      .forEach((code) => zipCodeSet.add(code));
-    metalsData
-      .map((item) => item.Postcode)
-      .forEach((code) => zipCodeSet.add(code));
-    transferStationData
-      .map((item) => item.Postcode)
-      .forEach((code) => zipCodeSet.add(code));
+    });
     console.log(zipCodeSet.values());
     Array.from(zipCodeSet).forEach((code) => {
       const option = document.createElement("option");
       option.value = code;
       dataList.appendChild(option);
-    });
-  }
-
-  function addMarker(map, items, color) {
-    // Create a new marker
-    currentMarker = new google.maps.Marker({
-      map: map,
-      position: { lat: item.Latitude, lng: item.Longitude },
-      title: item.UniqueId,
-      icon: `http://maps.google.com/mapfiles/ms/icons/${color}-dot.png`, // Set color
     });
   }
 
@@ -87,53 +76,88 @@
   function onCheckBoxChange() {
     const disposalTypeSelect = document.getElementById("checkbox-form");
     const checkboxes = disposalTypeSelect.querySelectorAll(".form-check-input"); // 获取所有具有 'form-check-input' 类的输入元素
-    const checkedLabels = [];
-
+    const checkedKeys = [];
     checkboxes.forEach((checkbox) => {
       if (checkbox.checked) {
-        // 获取与选中复选框关联的标签
-        const label = disposalTypeSelect.querySelector(
-          `label[for="${checkbox.id}"]`
-        );
-        // 将标签的文本内容添加到数组中
-        if (label) {
-          checkedLabels.push(label.textContent.trim());
+        const key = checkbox.getAttribute("data-key");
+        if (key) {
+          checkedKeys.push(key);
         }
       }
     });
+    currentSelectedTypes = checkedKeys
+    generatePostcodeOptions(checkedKeys);
+  }
 
-    console.log(checkedLabels);
+  function setItemsCenter(locations) {
+    let totalLat = 0;
+    let totalLng = 0;
+    let count = 0;
+    locations.forEach(location => {
+      totalLat += location.Latitude;
+      totalLng += location.Longitude;
+      count++;
+    });
+    
+    const centerLat = totalLat / count;
+    const centerLng = totalLng / count;
+    map.setCenter(new google.maps.LatLng(centerLat, centerLng));
   }
 
   function addMarkerToMap(selectedTypes, postCode) {
     // Remove the previous marker if it exists
-    if (currentMarker) {
-      currentMarker.setMap(null);
-    }
+    currentMarkers.forEach((marker) => marker.setMap(null));
+    currentMarkers = [];
+    const allItems = []
     selectedTypes.forEach((type) => {
+      let items = dataTypeDict[type].filter((item) => item.Postcode == postCode)
+      let color = undefined;
       switch (type) {
-        case "E-waste":
-          eWasteData.filter((item) => item.Postcode === postCode);
+        case "ewaste":
+          color = "red";
+          break;
+        case "landfill":
+          color = "blue";
+          break;
+        case "transfer":
+          color = "green";
+          break;
+        case "metal":
+          color = "black";
           break;
       }
+
+      items.forEach((locationItem) => {
+        const marker = new google.maps.Marker({
+          map: map,
+          position: { lat: locationItem.Latitude, lng: locationItem.Longitude },
+          title: locationItem.UniqueId,
+          icon: `http://maps.google.com/mapfiles/ms/icons/${color}-dot.png`, // Set color
+        });
+        currentMarkers.push(marker);
+      });
+
+      allItems.push(...items)
     });
+    if(allItems.length) {
+      setItemsCenter(allItems)
+    }
+
   }
 
   let map = initMap();
-  let markers = []
-  let currentSelectedTypes = ["E-Waste"];
-  let currentMarker = null;
+  let currentMarkers = [];
+  let currentSelectedTypes = ["ewaste","landfill","metal","transfer"];
 
   document.getElementById("search-postcode").addEventListener("click", () => {
-    const postCode = document.getElementById("postcodes").value;
-    const item = eWasteData.find((item) => item.Postcode == postCode);
-    addMarker(landfillData[0], "red");
+    const postCode = document.getElementById("post-code-field").value;
+    addMarkerToMap(currentSelectedTypes, postCode, currentMarkers);
   });
 
   Array.from(document.getElementsByClassName("form-check-input")).forEach(
     (ele) => ele.addEventListener("change", onCheckBoxChange)
   );
-  generatePostcodeOptions();
+  generatePostcodeOptions(currentSelectedTypes);
 })();
 
 // Assuming you have fetched and stored data for ewaste, landfill, metal, and transfer
