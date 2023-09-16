@@ -1,7 +1,7 @@
 (async function () {
   // Async function to fetch data from E_waste_Table_1
   async function fetchEWasteData() {
-    const dataResponse = await fetch("http://localhost:3000/api/e_waste", {
+    const dataResponse = await fetch("https://fullmoon.azurewebsites.net/api/e_waste", {
       mode: "cors",
     });
     const parsedData = await dataResponse.json();
@@ -11,7 +11,7 @@
   // Async function to fetch data from Transfer_Station_Table_1
   async function fetchTransferStationData() {
     const dataResponse = await fetch(
-      "http://localhost:3000/api/transfer_station",
+      "https://fullmoon.azurewebsites.net/api/transfer_station",
       { mode: "cors" }
     );
     const parsedData = await dataResponse.json();
@@ -20,7 +20,7 @@
 
   // Async function to fetch data from Metals_Table_1
   async function fetchMetalsData() {
-    const dataResponse = await fetch("http://localhost:3000/api/metals", {
+    const dataResponse = await fetch("https://fullmoon.azurewebsites.net/api/metals", {
       mode: "cors",
     });
     const parsedData = await dataResponse.json();
@@ -29,7 +29,7 @@
 
   // Async function to fetch data from Landfill_Table_1
   async function fetchLandfillData() {
-    const dataResponse = await fetch("http://localhost:3000/api/landfill", {
+    const dataResponse = await fetch("https://fullmoon.azurewebsites.net/api/landfill", {
       mode: "cors",
     });
     const parsedData = await dataResponse.json();
