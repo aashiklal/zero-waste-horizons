@@ -29,4 +29,9 @@ uiRouter.get('/dispose', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/dispose.html'));
 });
 
+// Catch-all middleware for 404 error page
+uiRouter.use((req, res) => {
+  res.status(404).sendFile(path.join(__dirname, '../frontend/pagenotfound.html'));
+});
+
 module.exports = uiRouter
