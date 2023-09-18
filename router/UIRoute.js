@@ -11,6 +11,7 @@ uiRouter.use(basicAuth({
   unauthorizedResponse: 'Unauthorized'
 }));
 
+uiRouter.use(express.static(path.join(__dirname, '../frontend')));
 
 uiRouter.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/index.html'));

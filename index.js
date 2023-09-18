@@ -10,11 +10,9 @@ const port = process.env.PORT || 3000;
 
 
 app.use(cors())
-app.use(express.static(path.join(__dirname, './frontend')));
 
 app.use('/api',apiRouter)
 app.use('/', uiRouter);
-
 
 app.listen(port, () => {
   console.log(`Listening http://localhost:${port}`);
