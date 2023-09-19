@@ -93,7 +93,7 @@ apiRouter.get('/wastecollection/details', (req, res) => {
   });
 });
 apiRouter.get('/geojson', (req, res) => {
-  const geojsonPath = path.join(__dirname, './data/Council.geojson');  // Replace with your actual file path
+  const geojsonPath = path.join(__dirname, '../data/Council.geojson');  // Replace with your actual file path
   fs.readFile(geojsonPath, 'utf8', (err, data) => {
     if (err) {
       return console.error(`Error reading GeoJSON file: ${err.message}`);
