@@ -11,6 +11,7 @@ uiRouter.use(basicAuth({
   unauthorizedResponse: 'Unauthorized'
 }));
 
+//Main Routes
 uiRouter.use(express.static(path.join(__dirname, '../frontend')));
 
 uiRouter.get('/', (req, res) => {
@@ -27,6 +28,23 @@ uiRouter.get('/statistic', (req, res) => {
 
 uiRouter.get('/dispose', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/dispose.html'));
+});
+
+// Iteration 1 Routes
+// Serve static assets from the iteration1 folder
+uiRouter.use('/iteration1', express.static(path.join(__dirname, '../iteration1')));
+
+// Define routes for iteration 1 frontend
+uiRouter.get('/iteration1', (req, res) => {
+  res.sendFile(path.join(__dirname, '../iteration1/index.html'));
+});
+
+uiRouter.get('/iteration1/index', (req, res) => {
+  res.sendFile(path.join(__dirname, '../iteration1/index.html'));
+});
+
+uiRouter.get('/iteration1/statistic', (req, res) => {
+  res.sendFile(path.join(__dirname, '../iteration1/statistic.html'));
 });
 
 // Catch-all middleware for 404 error page

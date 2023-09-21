@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+#map{
+    border: black 1px solid;
+    width: 80%;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar-logo img{
+    max-height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.statistics-backgroud {
+    padding: 50px;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-name {
+    margin-top: 100px;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.statistics-card {
+    font-size: large;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.statistic-one{
+    min-height: 600px;
+}
+.statistic-one-container{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+}
+.statistic-title{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color:rgb(240, 95, 64);
+
+}
+.statistic-one-column-one{
+    padding-left: 10%;
+    width: 75%;
+    height: auto;
+}
+.filter-group{
+    margin: 0px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.statistic-one-label {
+    font-weight: bold;
+}
+
+.year-select,
+.waste-service-type-select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#area {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+}
+
+#councilInput{
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.council-dropdown{
+    position: relative;
+    width: 200px;
+}
+
+.council-dropdown ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    display: none;
+}
+
+.council-dropdown li{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.council-dropdown li:hover{
+    background-color: #f2f2f2;
+}
+
+.statistic-one-select p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    max-width: 200px;
+}
+
+label[for="person-generate"],
+label[for="total-generate"] {
+    font-weight: bold;
+}
+
+.statistic-one-text {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    width: fit-content; 
+    margin-top: 10px;
+}
+
+/* Statistics Two*/
+.statistic-two{
+    margin-top: 20px;
+}
+.statistic-two-charts-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0; 
+    flex-direction: column;
+}
+
+.linechart,
+.treemap {
+    display: inline-flex; 
+    width: 65%;  
+    height: 480px;  
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.statistic-three-charts-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    flex-direction: column;
+}
+
+.donutchart,
+.barchart {
+    display: inline-flex;
+    width: 65%; 
+    height: 480px;  
+
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.tree-map, .line-chart {
+    width: 65%;
+    display: flex;
+    align-items: center; 
+}
+.tree-map img{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tree-map p {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.inserted-number {
+    font-size: 3em; /* 增大字体大小 */
+    font-weight: bold; 
+    margin-top: 10px;
+}
+.line-chart p {
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.donut-chart, .bar-chart {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.donut-chart p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.bar-chart p {
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+/* MAP */
+.statistic-one{
+    background-color:rgb(240, 95, 64);
+    padding-bottom: 25px;
+}
+
+#map{
+    background-color: #f2f2f2;
+}
+
+.statistic-one-title{
+    color: aliceblue;
+    text-align: center;
+    padding: 25px 0px 0px;
+    font-size: 40px;
+}
+
+.statistic-one-content{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Override Bootstrap styles for the checked state of .form-check-input */
+.form-check-input:checked {
+    background-color: #000; /* Black background */
+    border-color: #000; /* Black border */
+}
