@@ -137,16 +137,33 @@
     });
     return marker
   }
+  function findNearestItem(lat, lon, items) {
+    let minDistance = Number.POSITIVE_INFINITY;
+    let nearestItem = null;
+  
+    items.forEach(item => {
+      const itemLat = item.Latitude;
+      const itemLon = item.Longitude;
+      const distance = Math.sqrt(Math.pow(itemLat - lat, 2) + Math.pow(itemLon - lon, 2));
+      
+      if (distance < minDistance) {
+        minDistance = distance;
+        nearestItem = item;
+      }
+    });
+  
+    return nearestItem;
+  }
 
-  function addMarkerToMap(selectedTypes, postCode) {
+  async function addMarkerToMap(selectedTypes, postCode) {
+    const {latitude, longitude} = await getCenterOfPostcode(postCode)
+    console.log({latitude, longitude})
     // Remove the previous marker if it exists
     currentMarkers.forEach((marker) => marker.setMap(null));
     currentMarkers = [];
     const allItems = [];
     selectedTypes.forEach((type) => {
-      let items = dataTypeDict[type].filter(
-        (item) => item.Postcode == postCode
-      );
+      let item = findNearestItem(latitude,longitude,dataTypeDict[type])
       let color = undefined;
       switch (type) {
         case "ewaste":
@@ -159,16 +176,13 @@
           color = "green";
           break;
         case "metal":
-          color = "black";
+          color = "yellow";
           break;
       }
+      const marker = addSingleMarker(item,color,type)
+      currentMarkers.push(marker);
 
-      items.forEach((locationItem) => {
-        const marker = addSingleMarker(locationItem,color,type)
-        currentMarkers.push(marker);
-      });
-
-      allItems.push(...items);
+      allItems.push(item);
     });
     if (allItems.length) {
       setItemsCenter(allItems);
@@ -188,8 +202,23 @@
     (ele) => ele.addEventListener("change", onCheckBoxChange)
   );
   generatePostcodeOptions(currentSelectedTypes);
-})();
 
-// Assuming you have fetched and stored data for ewaste, landfill, metal, and transfer
+  function getCenterOfPostcode(postcode) {
+    const geocoder = new google.maps.Geocoder();
+    return new Promise((resolve) => {
+      geocoder.geocode({ 'address': `VIC ${postcode}` }, function(results, status) {
+        if (status === 'OK') {
+          const latitude = results[0].geometry.location.lat();
+          const longitude = results[0].geometry.location.lng();
+          resolve({ latitude, longitude });
+        } else {
+          alert('Geocode was not successful for the following reason: ' + status);
+        }
+      });
+    })
+
+  }
+
+})();
 
 function mapDisplayDisposal() {}

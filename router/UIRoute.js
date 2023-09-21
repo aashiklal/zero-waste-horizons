@@ -5,11 +5,18 @@ const express = require('express')
   // Basic Authentication Middleware
 const uiRouter = express.Router();
 
-uiRouter.use(basicAuth({
-  users: { 'ta12': 'ta12@fullmoontech' },
-  challenge: true,
-  unauthorizedResponse: 'Unauthorized'
-}));
+uiRouter.use((req, res, next) => {
+  const host = req.headers.host
+  if (host === 'localhost' || host === '127.0.0.1') {
+    app.use(basicAuth({
+      users: { 'ta12': 'ta12@fullmoontech' },
+      challenge: true,
+      unauthorizedResponse: 'Unauthorized'
+    }));
+  }
+  next();
+});
+
 
 //Main Routes
 uiRouter.use(express.static(path.join(__dirname, '../frontend')));
