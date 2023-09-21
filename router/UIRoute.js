@@ -7,12 +7,12 @@ const uiRouter = express.Router();
 
 uiRouter.use((req, res, next) => {
   const host = req.headers.host
-  if (host === 'localhost' || host === '127.0.0.1') {
-    app.use(basicAuth({
+  if (host === 'fullmoontech.me') {
+    return basicAuth({
       users: { 'ta12': 'ta12@fullmoontech' },
       challenge: true,
       unauthorizedResponse: 'Unauthorized'
-    }));
+    })(req, res, next);
   }
   next();
 });
