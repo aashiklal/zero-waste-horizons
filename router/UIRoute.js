@@ -54,6 +54,27 @@ uiRouter.get('/iteration1/statistic', (req, res) => {
   res.sendFile(path.join(__dirname, '../iteration1/statistic.html'));
 });
 
+// Dev Routes
+// Serve static assets from the iteration1 folder
+uiRouter.use('/dev', express.static(path.join(__dirname, '../dev')));
+
+// Define routes for iteration 1 frontend
+uiRouter.get('/dev', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dev/index.html'));
+});
+
+uiRouter.get('/dev/index', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dev/index.html'));
+});
+
+uiRouter.get('/dev/statistic', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dev/statistic.html'));
+});
+
+uiRouter.get('/dev/dispose', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dev/dispose.html'));
+});
+
 // Catch-all middleware for 404 error page
 uiRouter.use((req, res) => {
   res.status(404).sendFile(path.join(__dirname, '../frontend/pagenotfound.html'));
