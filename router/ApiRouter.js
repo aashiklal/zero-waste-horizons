@@ -1,8 +1,10 @@
 const express = require('express');
+const multer = require('multer');
 const cors = require('cors');
 const sqlite3 = require('sqlite3').verbose();
-const path = require('path')
-const fs = require('fs')
+const path = require('path');
+const fs = require('fs');
+const tf = require('@tensorflow/tfjs-node');
 
 const apiRouter = express.Router();
 // connect to sql
@@ -185,6 +187,41 @@ apiRouter.get('/landfill', (req, res) => {
       return res.status(500).json(err);
     }
     res.json(rows);
+  });
+});
+
+//CLASSIFICATION OF WASTE
+// Load model
+let model;
+(async () => {
+  model = await tf.loadLayersModel('file://tfjs_model/model.json');
+})();
+
+const storage = multer.memoryStorage(); // Store the image as buffer in memory
+const upload = multer({ storage: storage });
+
+apiRouter.post('/classify', upload.single('image'), async (req, res) => {
+  if (!req.file) {
+    return res.status(400).send('No image uploaded.');
+  }
+
+  const imageBuffer = req.file.buffer;
+  const tensor = tf.node.decodeImage(imageBuffer, 3);
+  const resized = tf.image.resizeBilinear(tensor, [150, 150]).toFloat();
+  const normalized = resized.div(tf.scalar(255.0));
+  const batched = normalized.expandDims(0);
+
+  const prediction = model.predict(batched);
+  const isRecyclable = prediction.dataSync()[0] > 0.5;
+
+  // Dispose tensors
+  tensor.dispose();
+  resized.dispose();
+  normalized.dispose();
+  batched.dispose();
+  
+  res.json({
+    prediction: isRecyclable ? 'Recyclable' : 'Organic'
   });
 });
 

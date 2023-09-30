@@ -75,6 +75,10 @@ uiRouter.get('/dev/dispose', (req, res) => {
   res.sendFile(path.join(__dirname, '../dev/dispose.html'));
 });
 
+uiRouter.get('/dev/classify', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dev/classify.html'));
+});
+
 // Catch-all middleware for 404 error page
 uiRouter.use((req, res) => {
   res.status(404).sendFile(path.join(__dirname, '../frontend/pagenotfound.html'));

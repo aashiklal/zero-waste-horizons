@@ -1,0 +1,33 @@
+@keyframes dotsAnimation {
+    0% { content: "."; }
+    33% { content: ".."; }
+    66% { content: "..."; }
+    100% { content: "."; }
+}
+
+#result.dotsAnimation:after {
+    content: ".";
+    display: inline-block;
+    animation: dotsAnimation 1.5s infinite;
+}
+
+/* Loading bar styles */
+#loading-bar-container {
+    width: 100%;
+    background: #e0e0e0;
+    padding: 3px;
+    display: none; /* Initially hidden */
+}
+
+#loading-bar {
+    width: 0;
+    height: 20px;
+    background: #3498db; /* Change this to your preferred color */
+    position: relative;
+}
+
+/* Animation */
+@keyframes loadingBarAnimation {
+    from { width: 0; }
+    to { width: 100%; }
+}
