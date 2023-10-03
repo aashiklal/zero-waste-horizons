@@ -194,7 +194,8 @@ apiRouter.get('/landfill', (req, res) => {
 // Load model
 let model;
 (async () => {
-  model = await tf.loadLayersModel('file://tfjs_model/model.json');
+  const modelPath = path.resolve(__dirname, '../tfjs_model/model.json');
+  model = await tf.loadLayersModel('file://' + modelPath);
 })();
 
 const storage = multer.memoryStorage(); // Store the image as buffer in memory
