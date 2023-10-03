@@ -4,9 +4,6 @@
 name: Build and deploy Node.js app to Azure Web App - FullMoon
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
@@ -20,10 +17,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '18.x'
-
-      - name: npm install, build, and test
-        run: |
-          npm install
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -43,6 +36,12 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: node-app
+
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm uninstall @tensorflow/tfjs-node
+          npm install @tensorflow/tfjs-node
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
