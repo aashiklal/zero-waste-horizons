@@ -1,7 +1,10 @@
 let model;
 
 async function loadModel() {
+    // add loading here
     model = await tf.loadLayersModel("https://fullmoon.azurewebsites.net/api/model/model.json")
+    // loaded
+    console.log(model,111)
 }
 
 async function predict(imageData) {
@@ -46,15 +49,6 @@ async function classifyImage() {
         return;
     }
     
-    // const formData = new FormData();
-    // formData.append('image', input.files[0]);
-
-    // const response = await fetch('/api/classify', {
-    //     method: 'POST',
-    //     body: formData
-    // });
-
-    // const result = await response.json();
     const image = new Image();
     image.src = URL.createObjectURL(input.files[0]);
     image.onload = async function() {
@@ -75,8 +69,6 @@ async function classifyImage() {
     
         // Release memory. Important to avoid memory leaks.
         URL.revokeObjectURL(image.src);
-
-
     }
     
 }
