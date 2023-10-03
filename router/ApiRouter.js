@@ -104,6 +104,21 @@ apiRouter.get('/geojson', (req, res) => {
     res.json(geojsonData);
   });
 });
+
+
+apiRouter.get('/model/:filename', (req, res) => {
+  const staticFolder = path.join(__dirname, '../tfjs_model/');
+  const filename = req.params.filename;
+  const filePath = path.join(staticFolder, filename);
+  console.log(filename, filePath)
+  // 使用stream来传送文件
+  const stream = fs.createReadStream(filePath);
+  stream.pipe(res);
+  stream.on('error', () => {
+      res.status(404).send('File not found');
+  });
+});
+
 // For linechart.js: Returns total_waste, population, residential from WasteCollectionMonthly_cleaned
 apiRouter.get('/linechart', (req, res) => {
   const sql = "SELECT date, total_waste, population, residential FROM WasteCollectionMonthly_cleaned";
