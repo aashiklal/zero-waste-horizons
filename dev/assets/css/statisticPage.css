@@ -318,6 +318,13 @@
         background-color: #000; /* Black background */
         border-color: #000; /* Black border */
     }
+
+    .map{
+        width: 70%; 
+        height: 600px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
     
 }
 
@@ -402,8 +409,8 @@
         flex-direction:column;
     }
     .statistic-title{
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         text-align: center;
         font-weight: bold;
         font-size: xx-large;
@@ -503,7 +510,7 @@
     
     /* Statistics Two*/
     .statistic-two{
-        margin-top: 20px;
+        margin-top: 5px;
     }
     .statistic-two-charts-container {
         display: flex;
@@ -634,7 +641,7 @@
     }
     
     .statistic-one-content{
-        font-size: 25px;
+        font-size: larger;
         text-align: center;
     }
     
@@ -644,4 +651,10 @@
         border-color: #000; /* Black border */
     }
 
+    .map{
+        width: 90%; 
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
 }
