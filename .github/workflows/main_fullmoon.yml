@@ -1,6 +1,10 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
 name: Build and deploy Node.js app to Azure Web App - FullMoon
 
 on:
+  push:
   workflow_dispatch:
 
 jobs:
@@ -15,21 +19,11 @@ jobs:
         with:
           node-version: '18.x'
 
-      - name: npm install, build, and test
-        run: |
-          npm install
-          npm uninstall @tensorflow/tfjs-node
-          npm install @tensorflow/tfjs-node
-
-      - name: Zip the app
-        run: |
-          zip -r myapp.zip .
-
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: myapp.zip
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
@@ -43,6 +37,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: node-app
+          
+      - name: npm install, build, and test
+        run: |
+          npm install
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -51,4 +49,4 @@ jobs:
           app-name: 'FullMoon'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AD68325C34F343ACABAA4BC345F5389B }}
-          package: myapp.zip
+          package: .
