@@ -23,21 +23,37 @@ async function classifyImage() {
     const formData = new FormData();
     formData.append('image', input.files[0]);
 
-    const response = await fetch('/api/classify', {
-        method: 'POST',
-        body: formData
-    });
+    try {
+        const response = await fetch('/api/classify', {
+            method: 'POST',
+            body: formData
+        });
 
-    const result = await response.json();
-    
-    // Wait for 3 seconds before updating the UI with the prediction result
-    setTimeout(() => {
+        if (!response.ok) {
+            throw new Error(await response.text());
+        }
+
+        const result = await response.json();
+        
+        // Wait for 3 seconds before updating the UI with the prediction result
+        setTimeout(() => {
+            resultElement.classList.remove("dotsAnimation");
+            resultElement.textContent = `Classification Result: ${result.prediction}`;
+
+            // Reset loading bar
+            loadingBarContainer.style.display = "none";
+            loadingBar.style.animation = "none";
+            loadingBar.style.width = "0";
+        }, 3000);
+
+    } catch (error) {
+        console.error("Error during image classification:", error);
         resultElement.classList.remove("dotsAnimation");
-        resultElement.textContent = `Classification Result: ${result.prediction}`;
+        resultElement.textContent = `${error.message}`;
 
         // Reset loading bar
         loadingBarContainer.style.display = "none";
         loadingBar.style.animation = "none";
         loadingBar.style.width = "0";
-    }, 3000);
+    }
 }

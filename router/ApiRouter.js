@@ -204,6 +204,7 @@ apiRouter.get('/landfill', (req, res) => {
   });
 });
 
+// Image Classification to Normal or Hazardous Wastes.
 let model;
 (async () => {
   const modelPath = path.resolve(__dirname, '../tfjs_model/model.json');
@@ -214,28 +215,35 @@ const storage = multer.memoryStorage(); // Store the image as buffer in memory
 const upload = multer({ storage: storage });
 
 apiRouter.post('/classify', upload.single('image'), async (req, res) => {
-  if (!req.file) {
-    return res.status(400).send('No image uploaded.');
+  try {
+    if (!req.file) {
+      return res.status(400).send('No image uploaded.');
+    }
+
+    const imageBuffer = req.file.buffer;
+    const tensor = tf.node.decodeImage(imageBuffer, 3);
+    const resized = tf.image.resizeBilinear(tensor, [128, 128]).toFloat();
+    const normalized = resized.div(tf.scalar(255.0));
+    const batched = normalized.expandDims(0);
+
+    const prediction = model.predict(batched);
+    const isHazardous = prediction.dataSync()[0] < 0.8;
+    console.log(prediction.dataSync()[0])
+
+    // Dispose tensors
+    tensor.dispose();
+    resized.dispose();
+    normalized.dispose();
+    batched.dispose();
+    
+    res.json({
+      prediction: isHazardous ? 'Hazardous' : 'Non-Hazardous'
+    });
+
+  } catch (error) {
+    console.error("Error classifying image:", error);
+    res.status(500).send("An error occurred while processing the image. Please ensure the image is in a supported format (BMP, JPEG, PNG, or GIF) and try again.");
   }
-
-  const imageBuffer = req.file.buffer;
-  const tensor = tf.node.decodeImage(imageBuffer, 3);
-  const resized = tf.image.resizeBilinear(tensor, [150, 150]).toFloat();
-  const normalized = resized.div(tf.scalar(255.0));
-  const batched = normalized.expandDims(0);
-
-  const prediction = model.predict(batched);
-  const isRecyclable = prediction.dataSync()[0] > 0.5;
-
-  // Dispose tensors
-  tensor.dispose();
-  resized.dispose();
-  normalized.dispose();
-  batched.dispose();
-  
-  res.json({
-    prediction: isRecyclable ? 'Recyclable' : 'Organic'
-  });
 });
 
 module.exports = apiRouter
