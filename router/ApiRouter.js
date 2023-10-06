@@ -14,7 +14,13 @@ let db = new sqlite3.Database('./mydb.sqlite', (err) => {
   console.log('connetced to sql db');
 });
 
+const corsOptions = {
+  origin: ['http://localhost:3000',"https://fullmoontech.me/"], 
+  methods: "GET,HEAD,PUT,PATCH,POST",
+  allowedHeaders: ["Content-Type", "Authorization"],
+};
 
+apiRouter.use(cors(corsOptions));
 
 
 /* GET POSTCODES*/
