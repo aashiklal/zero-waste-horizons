@@ -10,7 +10,6 @@ const port = process.env.PORT || 3000;
 
 app.disable('x-powered-by');
 app.use((req, res, next) => {
-  res.setHeader("Content-Security-Policy", "frame-ancestors 'none';default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self';");
   res.setHeader("X-Content-Type-Options", "nosniff");
   next();
 });
