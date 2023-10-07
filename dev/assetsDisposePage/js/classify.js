@@ -16,7 +16,12 @@ async function classifyImage() {
     const input = document.getElementById('imageUpload');
     if (!input.files.length) {
         // Reset text if no image is provided
-        resultElement.textContent = "Classification Result: Awaiting Image Upload";
+        resultElement.textContent = "Classification Result: No Image Uploaded. Awaiting Image Upload";
+
+        // Reset loading bar
+        loadingBarContainer.style.display = "none";
+        loadingBar.style.animation = "none";
+        loadingBar.style.width = "0";
         return;
     }
     
@@ -39,6 +44,11 @@ async function classifyImage() {
         setTimeout(() => {
             resultElement.classList.remove("dotsAnimation");
             resultElement.textContent = `Classification Result: ${result.prediction}`;
+
+            if (result.prediction.toLowerCase() === "hazardous") {
+                const disposeElement = document.getElementById('hero-section');
+                disposeElement.scrollIntoView({ behavior: 'smooth' });
+            }            
 
             // Reset loading bar
             loadingBarContainer.style.display = "none";
