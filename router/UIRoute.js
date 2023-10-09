@@ -17,7 +17,6 @@ uiRouter.use((req, res, next) => {
   next();
 });
 
-
 //Main Routes
 uiRouter.use(express.static(path.join(__dirname, '../frontend')));
 
@@ -35,6 +34,10 @@ uiRouter.get('/statistic', (req, res) => {
 
 uiRouter.get('/dispose', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/dispose.html'));
+});
+
+uiRouter.get('/classify', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/classify.html'));
 });
 
 // Iteration 1 Routes
@@ -55,10 +58,9 @@ uiRouter.get('/iteration1/statistic', (req, res) => {
 });
 
 // Dev Routes
-// Serve static assets from the iteration1 folder
 uiRouter.use('/dev', express.static(path.join(__dirname, '../dev')));
 
-// Define routes for iteration 1 frontend
+// Define routes for under development frontend
 uiRouter.get('/dev', (req, res) => {
   res.sendFile(path.join(__dirname, '../dev/index.html'));
 });
@@ -77,6 +79,27 @@ uiRouter.get('/dev/dispose', (req, res) => {
 
 uiRouter.get('/dev/classify', (req, res) => {
   res.sendFile(path.join(__dirname, '../dev/classify.html'));
+});
+
+// Iteration 2 Routes
+// Serve static assets from the iteration2 folder
+uiRouter.use('/iteration2', express.static(path.join(__dirname, '../iteration2')));
+
+// Define routes for iteration 1 frontend
+uiRouter.get('/iteration2', (req, res) => {
+  res.sendFile(path.join(__dirname, '../iteration2/index.html'));
+});
+
+uiRouter.get('/iteration2/index', (req, res) => {
+  res.sendFile(path.join(__dirname, '../iteration2/index.html'));
+});
+
+uiRouter.get('/iteration2/statistic', (req, res) => {
+  res.sendFile(path.join(__dirname, '../iteration2/statistic.html'));
+});
+
+uiRouter.get('/iteration2/dispose', (req, res) => {
+  res.sendFile(path.join(__dirname, '../iteration2/dispose.html'));
 });
 
 // Catch-all middleware for 404 error page

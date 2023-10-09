@@ -55,3 +55,7 @@
   border-radius: 50%;
 }
 
+.nav-item-active {
+  color: rgb(76, 175, 80) !important;
+  font-weight: bold !important;
+}

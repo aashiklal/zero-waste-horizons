@@ -26,27 +26,12 @@
                     <li class="nav-item"><a class="nav-link" id="home" href="index">Home</a></li>
                     <li class="nav-item"><a class="nav-link" id="dashboard" href="statistic">Dashboard</a></li>
                     <li class="nav-item"><a class="nav-link" id="dispose" href="dispose">Safe Disposal Near You</a></li>
+                    <li class="nav-item"><a class="nav-link" id="classify" href="classify">Classifier</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="py-4 py-xl-5" style="background: #f5f5f5;margin-top: 74px;">
-        <div class="container">
-            <div class="text-center p-4 p-lg-5">
-                <p class="fw-bold mb-2" style="color: #4caf50;">Find nearby locations to responsibly dispose of
-                    hazardous household waste.</p>
-                <h1 class="fw-bold mb-4" style="color: var(--bs-body-color);">Safe Disposal for a Safer Future.</h1><a
-                    class="btn btn-primary fs-5 border rounded me-2 py-2 px-4" role="button"
-                    style="background: #4caf50;" href="#nearby-disposal">Learn More</a>
-            </div>
-        </div>
-    </section>
-    <section style="padding: 15px;background: #4caf50;">
-        <h1 style="text-align: center;margin-right: 50px;margin-left: 50px;"><strong><span style="color: rgb(245, 245, 245);">What happens if you don't dispose of hazardous household waste correctly?</span></strong></h1><video width="560" height="315" controls="" poster="assetsDisposePage/img/videothumbnail.jpg" style="margin-left: 407px;margin-right: 407px;margin-top: 50px;">
-            <source src="assetsDisposePage/video/hhw.mp4" type="video/mp4">
-        </video>
-    </section>
-    <div class="container py-4 py-xl-5">
+    <div class="container py-4 py-xl-5" style="margin-top: 74px;">
         <div class="row mb-5">
             <div class="col-md-8 col-xl-6 text-center mx-auto">
                 <h2 style="color: #4caf50;"><strong>Common Hazardous Waste in Victorian Households</strong></h2>
@@ -141,36 +126,24 @@
                 <div class="mb-3"><button class="btn btn-primary ms-2" id="search-postcode"
                         type="submit">Search</button></div>
             </div>
-            <!-- <form id="disposal-type-select" class="d-flex justify-content-center flex-wrap" method="post">
-                <label class="mb-3">
-                    <input type="radio" name="options" value="ewaste" checked> E-Waste
-                </label>
-                <label class="mb-3">
-                    <input type="radio" name="options" value="landfill"> Landfill
-                </label>
-                <label class="mb-3">
-                    <input type="radio" name="options" value="metal"> Metal
-                </label>
-                <label class="mb-3">
-                    <input type="radio" name="options" value="transfer"> Transfer
-                </label>
-            </form> -->
         </div>
     </section>
-    <section id="checkboxes" class="checkboxes" style="padding-left: 250px;padding-right: 250px;background: #4caf50;">
-        <div id="checkbox-form" class="checkbox-form" method="get" action="/filter">
-            <div class="row" style="margin: 0px;">
-                <div class="col">
-                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1" data-key="ewaste" checked><label class="form-check-label" id="ewaste" for="formCheck-1"><strong>E-Waste</strong></label></div>
-                </div>
-                <div class="col">
-                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2" data-key="landfill" checked><label class="form-check-label" id="landfill" for="formCheck-2"><strong>Landfill</strong></label></div>
-                </div>
-                <div class="col">
-                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3" data-key="metal" checked><label class="form-check-label" id="metal" for="formCheck-3"><strong>Metal</strong></label></div>
-                </div>
-                <div class="col">
-                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4" data-key="transfer" checked><label class="form-check-label" id="transfer" for="formCheck-4"><strong>Transfer</strong></label></div>
+    <section id="checkboxes" class="checkboxes" style="background: #4caf50;">
+        <div class="container">
+            <div id="checkbox-form" class="checkbox-form" method="get" action="/filter">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1" data-key="ewaste" checked><label class="form-check-label" id="ewaste" for="formCheck-1"><strong>E-Waste</strong></label></div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2" data-key="landfill" checked><label class="form-check-label" id="landfill" for="formCheck-2"><strong>Landfill</strong></label></div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3" data-key="metal" checked><label class="form-check-label" id="metal" for="formCheck-3"><strong>Metal</strong></label></div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4" data-key="transfer" checked><label class="form-check-label" id="transfer" for="formCheck-4"><strong>Transfer</strong></label></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -188,6 +161,7 @@
     <script src="assetsDisposePage/js/aos.min.js"></script>
     <script src="assetsDisposePage/js/bs-init.js"></script>
     <script src="assetsDisposePage/js/disposal.js"></script>
+    <script src="assetsDisposePage/js/navbar.js"></script>
 </body>
 
 </html>

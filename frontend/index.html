@@ -25,6 +25,7 @@
                     <li class="nav-item"><a class="nav-link" id="home" href="index">Home</a></li>
                     <li class="nav-item"><a class="nav-link" id="dashboard" href="statistic">Dashboard</a></li>
                     <li class="nav-item"><a class="nav-link" id="dispose" href="dispose">Safe Disposal Near You</a></li>
+                    <li class="nav-item"><a class="nav-link" id="classify" href="classify">Classifier</a></li>
                 </ul>
             </div>
         </div>
@@ -41,6 +42,39 @@
             </div>
         </div>
     </section>
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2500">
+                <img class="w-100 d-block" src="assetsDisposePage/img/img1.jpg" alt="Slide Image">
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img class="w-100 d-block" src="assetsDisposePage/img/img2.jpg" alt="Slide Image">
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img class="w-100 d-block" src="assetsDisposePage/img/img3.jpg" alt="Slide Image">
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img class="w-100 d-block" src="assetsDisposePage/img/img4.jpg" alt="Slide Image">
+            </div>
+        </div>
+        <div>
+            <a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></button> 
+            <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1"></button> 
+            <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2"></button> 
+            <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="3"></button>
+        </div>
+    </div>
+    
     <section id="features" style="background: #4caf50;">
         <div class="container py-4 py-xl-5">
             <div class="row mb-5">
@@ -49,20 +83,20 @@
                 </div>
             </div>
             <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-                <div class="col-xl-6">
+                <div class="col-xl-4">
                     <div class="text-center d-flex flex-column align-items-center align-items-xl-center" data-aos="fade-up" data-aos-once="true" style="padding: 25px;background: #f5f5f5;border-radius: 7px;">
                         <div class="bs-icon-xl bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg" style="margin-top: 16px;background: #4caf50;"><a href="statistic" style="color: var(--bs-body-bg);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-graph-up-arrow">
                                     <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"></path>
                                 </svg></a></div>
                         <div class="px-3">
                             <h4>Waste Trends Dashboard</h4>
-                            <p>Dive into the latest trends in Victorian waste generation. Understand, adapt, and evolve.</p><a href="statistic" style="color: #4caf50;">Explore Waste Trends&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                            <p>Dive into the latest trends in Victorian waste generation. Understand, adapt, and evolve.<br><br></p><a href="statistic" style="color: #4caf50;">Explore Waste Trends&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                                 </svg></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-4">
                     <div class="text-center d-flex flex-column align-items-center align-items-xl-center" data-aos="fade-up" data-aos-once="true" style="padding: 25px;background: #f5f5f5;border-radius: 7px;">
                         <div class="bs-icon-xl bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg" style="margin-top: 16px;background: #4caf50;"><a href="dispose" style="color: var(--bs-body-bg);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-map">
                                     <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"></path>
@@ -70,6 +104,19 @@
                         <div class="px-3">
                             <h4>Hazardous Waste Drop-Off</h4>
                             <p>Never second-guess where to dispose of household hazardous wastes. Find nearby disposal sites effortlessly.</p><a href="dispose" style="color: #4caf50;">Locate Disposal Sites&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="text-center d-flex flex-column align-items-center align-items-xl-center" data-aos="fade-up" data-aos-once="true" style="padding: 25px;background: #f5f5f5;border-radius: 7px;">
+                        <div class="bs-icon-xl bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg" style="margin-top: 16px;background: #4caf50;"><a href="dispose" style="color: var(--bs-body-bg);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                                </svg></a></div>
+                        <div class="px-3">
+                            <h4>Is the Material Hazardous?</h4>
+                            <p>Ensure safe and environmentally-friendly disposal. Quickly differentiate between waste types and act responsibly.</p><a href="classify" style="color: #4caf50;">Identify and Dispose Right&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                                 </svg></a>
                         </div>
@@ -87,6 +134,7 @@
     <script src="assetsDisposePage/bootstrap/js/bootstrap.min.js"></script>
     <script src="assetsDisposePage/js/aos.min.js"></script>
     <script src="assetsDisposePage/js/bs-init.js"></script>
+    <script src="assetsDisposePage/js/navbar.js"></script>
 </body>
 
 </html>
