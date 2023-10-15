@@ -73,11 +73,11 @@ async function proceedWithClassification() {
         // Wait for 3 seconds before updating the UI with the prediction result
         setTimeout(() => {
             if (result.prediction.toLowerCase() === "hazardous") {
-                resultElement.innerHTML = 'The image is likely <span class="hazardous-text" style="color:#FF1E00;">hazardous</span>. However, always use personal judgment when interpreting results.';
+                resultElement.innerHTML = 'The image is likely of a <span class="hazardous-text" style="color:#FF1E00;">hazardous</span> material.';
                 const disposeElement = document.getElementById('hero-section');
                 disposeElement.scrollIntoView({ behavior: 'smooth' });
             } else if (result.prediction.toLowerCase() === "non-hazardous") {
-                resultElement.innerHTML = 'The image is likely <span class="non-hazardous-text" style="color:#f5f5f5;">non-hazardous</span>. However, always use personal judgment when interpreting results.';
+                resultElement.innerHTML = 'The image is likely of a <span class="non-hazardous-text" style="color:#f5f5f5;">non-hazardous</span> material.';
             }            
 
             // Reset loading bar
