@@ -24,7 +24,7 @@
                     <li class="nav-item"><a class="nav-link" id="home" href="index">Home</a></li>
                     <li class="nav-item"><a class="nav-link" id="dashboard" href="statistic">Dashboard</a></li>
                     <li class="nav-item"><a class="nav-link" id="dispose" href="dispose">Safe Disposal Near You</a></li>
-                    <li class="nav-item"><a class="nav-link" id="classify" href="classify">Classifier</a></li>
+                    <li class="nav-item"><a class="nav-link" id="classify" href="classify">Identify Hazardous Wastes</a></li>
                 </ul>
             </div>
         </div>
@@ -75,13 +75,68 @@
             <div class="row h-100">
                 <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
                     <div>
-                        <h2 class="text-uppercase fw-bold mb-3"><span style="color: rgb(76, 175, 80);">Got a tricky item? Don't risk it! Click below to access our map tool and find the safest disposal spots near you.</span></h2>
+                        <h2 class="text-uppercase fw-bold mb-3"><span style="color: rgb(76, 175, 80);">Got a hazardous item? Don't risk it! Click below to access our map tool and find the safest disposal spots near you.</span></h2>
                         <a class="btn btn-outline-primary fs-5 py-2 px-4" role="button" style="--bs-btn-color: #4caf50;--bs-btn-border-color: #4caf50;--bs-btn-hover-color: #fff;--bs-btn-hover-bg: #4caf50;--bs-btn-hover-border-color: #4caf50;--bs-btn-focus-shadow-rgb: 13,110,253;--bs-btn-active-color: #fff;--bs-btn-active-bg: #4caf50;--bs-btn-active-border-color: #4caf50;--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);--bs-btn-disabled-color: #4caf50;--bs-btn-disabled-bg: transparent;--bs-btn-disabled-border-color: #0d6efd;--bs-gradient: none;margin-right: 10px;" href="dispose#nearby-disposal">Dispose Safely</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Disclaimer Modal -->
+    <div class="modal fade" id="disclaimerModal" tabindex="-1" role="dialog" aria-labelledby="disclaimerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="disclaimerModalLabel">Terms and Conditions</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="max-height: 400px; overflow-y: auto;">
+                    <ol>
+                        <li><strong>Acceptance of Terms</strong>
+                            <p>By using the Image Classification Tool ("Tool"), you agree to the terms and conditions stated in this agreement.</p>
+                        </li>
+                        <li><strong>Description of Service</strong>
+                            <p>This Tool provides users with an automated image classification service. The Tool takes an image as input and provides a classification prediction as output.</p>
+                        </li>
+                        <li><strong>Disclaimer of Accuracy</strong>
+                            <p>The Tool is provided as a research project and is part of a master's study. While we strive for accuracy, the predictions provided by the Tool may not always be correct. Users are strongly advised not to rely solely on the Tool for critical decisions and to always use their own judgment and/or seek expert advice when in doubt.</p>
+                        </li>
+                        <li><strong>Data Usage and Privacy</strong>
+                            <ul>
+                                <li>Images uploaded are sent to our servers for classification.</li>
+                                <li>Uploaded images are temporarily stored and will be deleted after processing.</li>
+                                <li>We do not use your images for any other purposes without your explicit consent.</li>
+                                <li>We do not store, share, or misuse any personal data of users.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Limitation of Liability</strong>
+                            <p>Under no circumstances shall we be liable for any direct, indirect, incidental, special, consequential, or exemplary damages resulting from your use or inability to use the Tool or for the unauthorised access to or use of our servers and/or any personal information stored therein.</p>
+                        </li>
+                        <li><strong>Modifications to Terms</strong>
+                            <p>We may modify these terms at any time without notice. Users are encouraged to review these terms periodically.</p>
+                        </li>
+                        <li><strong>Termination</strong>
+                            <p>We reserve the right to discontinue the Tool or restrict access to it without notice.</p>
+                        </li>
+                        <li><strong>Governing Law</strong>
+                            <p>This agreement is governed by the laws of Victoria, Australia, without regard to its conflict of laws principles.</p>
+                        </li>
+                        <li><strong>Acknowledgment</strong>
+                            <p>By using the Tool, you acknowledge that you understand these terms and conditions and accept all risks associated with the use of the Tool.</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="acceptDisclaimer" disabled>Accept & Classify</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <footer class="text-center bg-dark">
         <div class="container text-white py-4 py-lg-5">
             <p class="text-muted mb-0"><span style="color: rgba(255, 255, 255, 0.75);">Thank you for visiting Zero Waste Horizons. Together, let's create a cleaner, greener future for our planet.</span></p>
